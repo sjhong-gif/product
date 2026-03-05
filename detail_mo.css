@@ -1779,9 +1779,9 @@ button{outline:none !important}
   font-size: 0.875rem;
   align-content: center;
 }
-/*.prd-detail-page #prd-spec-popup .prd-spec-list > li.type2 > div:first-of-type {
-  min-width: 7.5625rem;
-}*/
+.prd-detail-page #prd-spec-popup .prd-spec-list > li.type2 > div:first-of-type {
+  min-width: 9.625rem;
+}
 .prd-detail-page #prd-spec-popup .prd-spec-list > li.type3 {
   display: flex;
   flex-flow: column;
@@ -2000,3 +2000,4 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
