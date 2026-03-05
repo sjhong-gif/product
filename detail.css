@@ -23,6 +23,10 @@
 .prd-detail-page .top-sec .prd-img-swiper {
   position: relative;
   overflow: hidden;
+  cursor: grab;
+}
+.prd-detail-page .top-sec .prd-img-swiper:active {
+  cursor: grabbing;
 }
 .prd-detail-page .top-sec .prd-img-swiper .swiper-slide {
   width: -moz-fit-content;
