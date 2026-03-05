@@ -215,6 +215,7 @@
   line-height: normal;
   letter-spacing: -0.14px;
   text-transform: uppercase;
+  align-items: center;
 }
 .prd-detail-page .top-sec .buy-area .prd-color-btn-wrap {
   display: flex;
@@ -265,7 +266,8 @@
 .prd-detail-page .top-sec .buy-area .size-btn-wrap {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
+  column-gap: 10px;
+  row-gap: 3px;
 }
 .prd-detail-page .top-sec .buy-area .size-btn-wrap button {
   position: relative;
