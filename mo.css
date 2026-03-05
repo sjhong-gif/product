@@ -183,7 +183,7 @@ body.show-aside aside .category-menus>li.toggle>a i:after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 1.3px;
+    height: 1px;
     background: #000;
     top: 50%;
     transform: translateY(-50%);
