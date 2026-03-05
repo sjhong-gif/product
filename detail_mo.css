@@ -539,7 +539,7 @@ button{outline:none !important}
   background: #000 !important;
 }
 .prd-detail-page .top-sec .buy-area {
-  padding: 1rem 1rem 5rem;
+  padding: 1rem 1rem 3rem;
 }
 .prd-detail-page .top-sec .buy-area .prd-color-btn-wrap {
   display: flex;
@@ -568,12 +568,13 @@ button{outline:none !important}
   margin-top: 2rem;
   padding-right: 3.5rem;
   color: #1d1d1d;
-  font-size: 2.125rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.0213rem;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .prd-detail-page .top-sec .buy-area .price-area {
   margin: 1.125rem 0;
@@ -1019,11 +1020,12 @@ button{outline:none !important}
   z-index: 9;
 }
 .prd-detail-page .size-guide-sec {
-  padding-top: 0;
+  padding-top: 5rem;
   padding-right: 0;
   overflow: hidden;
 }
 .prd-detail-page .size-guide-sec .sec-title {
+  padding-bottom: 4px;
   color: #1d1d1d;
   font-size: 1.5rem;
   font-style: normal;
@@ -1383,6 +1385,7 @@ button{outline:none !important}
 .prd-detail-page .rec-list-sec {
   position: relative;
   padding-top: 5rem;
+  padding-bottom: 5rem;
   overflow: hidden;
 }
 .prd-detail-page .rec-list-sec .title-area {
@@ -1773,10 +1776,12 @@ button{outline:none !important}
 }
 .prd-detail-page #prd-spec-popup .prd-spec-list > li.type2 {
   display: flex;
+  font-size: 0.875rem;
+  align-content: center;
 }
-.prd-detail-page #prd-spec-popup .prd-spec-list > li.type2 > div:first-of-type {
+/*.prd-detail-page #prd-spec-popup .prd-spec-list > li.type2 > div:first-of-type {
   min-width: 7.5625rem;
-}
+}*/
 .prd-detail-page #prd-spec-popup .prd-spec-list > li.type3 {
   display: flex;
   flex-flow: column;
@@ -1993,4 +1998,5 @@ button{outline:none !important}
   line-height: 150%;
   letter-spacing: -0.01rem;
   text-transform: uppercase;
+
 }/*# sourceMappingURL=detail.css.map */
