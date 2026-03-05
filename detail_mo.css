@@ -1088,7 +1088,7 @@ button{outline:none !important}
   width: 7.25rem;
 }
 .prd-detail-page .size-guide-sec .table-wrapper table th:first-of-type {
-  min-width: 10rem;
+  min-width: 8rem;
   width: 6.25rem;
   background-color: #fafafa;
 }
@@ -2000,4 +2000,5 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
 
