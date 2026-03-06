@@ -1919,7 +1919,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     display: inline-block;
     font-size: 0;
     text-indent: -999em;
-    background: url(../images/ps-new/ico_filter_closebtn.svg) center no-repeat;
+    background: url(https://image.prospecs.com/front/images/common/icon/close.svg) center no-repeat;
     background-size: 24px auto;
 }
 
@@ -2038,7 +2038,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     width: 20px;
     height: 20px;
     transition: all 0.3s;
-    background: url(../images/ps-new/filter_btn_reset.svg);
+    background: url(https://image.prospecs.com/front/ux/css/images/ps-new/filter_btn_reset.svg);
 }
 
 .ps-new .sortPopup .filter-footer button.filter-btn-reset.active span {
