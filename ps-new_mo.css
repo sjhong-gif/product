@@ -2204,8 +2204,8 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     overflow: unset;
     padding-top: 36px;
     text-indent: 0;
-    font-size: 14px;
-    color: rgb(133, 133, 133);
+    font-size: 13px;
+    color: var(--color-90);
     width: inherit;
     height: inherit;
     text-align: center;
