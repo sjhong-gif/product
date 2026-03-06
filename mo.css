@@ -475,12 +475,14 @@ header .gnb-area .left-menus .menu-btn .menu-effect {
 
 header .gnb-area .left-menus .menu-btn .menu-effect .menu-effect-line {
     width: 100%;
-    height: 1.3px;
+    height: 1px;
     display: inline-block;
     background-color: #000;
     position: absolute;
-    transition: all 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
     left: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 header .gnb-area .left-menus .menu-btn .menu-effect .menu-effect-line.fst {
