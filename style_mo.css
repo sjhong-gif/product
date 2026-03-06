@@ -5534,8 +5534,8 @@ body {
 }
 
 .ps-post-item .desc .name {
-  font-size: 1rem;
-  line-height: 1.3125rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 .ps-post-item .desc .d-txt {
@@ -5545,9 +5545,9 @@ body {
 }
 
 .ps-post-item .desc .end-date{
-  font-size:0.875rem;
-  color:#999;
-  padding-bottom: 0.625rem;
+  font-size: 0.875rem;
+  color: #999;
+  padding-bottom: 0.25rem;
 }
 /* smartfit */
 .ps-smart-fit-title {
@@ -12245,5 +12245,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .ps-buy--option--naver .npay_button_box .npay_event{display:none !important}
 .ps-buy--option--naver .npay_button_box .npay_button .npay_btn_link.npay_btn_pay .npay_logo{display:none !important;background:none !important;}
 .ps-buy--option--naver .npay_button_box .npay_button .npay_btn_link.btn_green{background:#fff !important;border-radius:5px !important;height:44px !important;position:relative !important;border-color:#222 !important;background: url(https://image.prospecs.com/mobile/images/ps-new/logo_npaybk_small.svg) no-repeat center/60px auto !important;text-indent:0 !important;text-indent:-999em !important}
+
 
 
