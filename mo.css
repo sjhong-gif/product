@@ -657,7 +657,7 @@ body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line {
 }
 
 body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line.fst {
-    animation: menu-line-fst-to-x 0.2s ease-in-out forwards;
+    animation: menu-line-fst-to-x 0.3s ease-in-out forwards;
     transition: none;
 }
 
@@ -666,12 +666,12 @@ body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line.snd {
 }
 
 body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line.trd {
-    animation: menu-line-trd-to-x 0.2s ease-in-out forwards;
+    animation: menu-line-trd-to-x 0.3s ease-in-out forwards;
     transition: none;
 }
 
 body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.fst {
-    animation: menu-line-fst-to-menu 0.2s ease-in-out forwards;
+    animation: menu-line-fst-to-menu 0.3s ease-in-out forwards;
     transition: none;
 }
 
@@ -680,7 +680,7 @@ body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.s
 }
 
 body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.trd {
-    animation: menu-line-trd-to-menu 0.2s ease-in-out forwards;
+    animation: menu-line-trd-to-menu 0.3s ease-in-out forwards;
     transition: none;
 }
 
