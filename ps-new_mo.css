@@ -35,7 +35,7 @@ button {
 }
 
 .ps-new .ps-chkbox>label>input[type="checkbox"]+.text {
-    color: var(--color-70)
+    color: var(--color-90)
 }
 
 .ps-new .ps-chkbox>label>input[type="checkbox"]+.text::before {
