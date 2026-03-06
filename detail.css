@@ -208,7 +208,7 @@
   -webkit-box-orient: vertical;
 }
 .prd-detail-page .top-sec .buy-area .opt-title {
-  margin: 40px 0 8px;
+  margin: 40px 0 0;
   display: flex;
   justify-content: space-between;
   color: #1d1d1d;
