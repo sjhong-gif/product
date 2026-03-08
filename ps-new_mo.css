@@ -2056,9 +2056,9 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 .ps-new .ps-prd-list--wrap {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px 8px;
+    gap: 24px 8px; */
 }
 
 .ps-new .ps-prd-list--util {
