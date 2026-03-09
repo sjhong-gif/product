@@ -3184,11 +3184,12 @@ main.index + .ps-footer {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+	
 }
 
 .ps-inner--large {
   width:100%;
-  max-width: 1760px;
+  max-width: 1920px; /*실제 보여지는 넓이는 1760*/
   margin: 0 auto;
   padding: 0 80px;
 }
@@ -13379,6 +13380,7 @@ html.msie [data-aos="ps-paint-in"].aos-init .img-wrap {
 .memberShip .ps-btn-wrap{margin-top:40px;}
 
 .memberShip .ps-btn.type3{width:100%;height:54px;}
+
 
 
 
