@@ -1553,7 +1553,7 @@ button{outline:none !important}
 }
 .prd-detail-page #size-select-popup .popup-body .tab-content > div .size-guide-wrap table th:first-child,
 .prd-detail-page #size-select-popup .popup-body .tab-content > div .size-guide-wrap table td:first-child {
-  width: 10rem;
+  min-width: 5rem;
   position: sticky;
   left: 0;
   z-index: 1;
@@ -2004,6 +2004,7 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
 
 
 
