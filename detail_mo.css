@@ -944,6 +944,7 @@ button{outline:none !important}
   line-height: 150%;
   letter-spacing: -0.01rem;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .prd-detail-page .feature-sec .feature-swiper .swiper-slide .desc span {
   color: #1d1d1d;
@@ -952,6 +953,7 @@ button{outline:none !important}
   line-height: 150%;
   letter-spacing: -0.0112rem;
   text-transform: uppercase;
+  display:block;
 }
 .prd-detail-page .feature-sec .feature-swiper .swiper-pagination {
   position: absolute;
@@ -1464,6 +1466,7 @@ button{outline:none !important}
   line-height: 150%;
   letter-spacing: -0.0075rem;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .prd-detail-page .rec-list-sec .rec-list-swiper .swiper-pagination {
   position: absolute;
@@ -2000,6 +2003,7 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
 
 
 
