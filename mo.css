@@ -582,6 +582,7 @@ header .gnb-area .right-menus {
     margin-left: auto;
     min-width: 64px;
     height: 20px;
+    align-items: center;
 }
 
 header .gnb-area .right-menus>li {
