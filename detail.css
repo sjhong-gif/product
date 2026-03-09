@@ -655,6 +655,7 @@
   letter-spacing: -0.18px;
   text-transform: uppercase;
   display:block;
+  padding-bottom: 4px;
 }
 .prd-detail-page .struct-design-sec {
   margin-top: 180px;
@@ -1190,6 +1191,7 @@
   letter-spacing: -0.18px;
   text-transform: uppercase;
   display:block;
+  padding-bottom: 4px;
 }
 .prd-detail-page #size-guide-popup .popup-body {
   width: 100%;
