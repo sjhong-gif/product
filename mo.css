@@ -688,6 +688,11 @@ body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.t
 
 body:not(.show-aside) header.transparent {
     background-color: transparent;
+    position: absolute; /* 문서 흐름에서 제외시켜 위에 띄움 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* 이미지보다 위에 오도록 설정 */
 }
 
 body:not(.show-aside) header.transparent .gnb-area .logo-img {
