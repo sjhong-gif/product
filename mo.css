@@ -479,7 +479,7 @@ header .gnb-area .left-menus .menu-btn .menu-effect .menu-effect-line {
     display: inline-block;
     background-color: #000;
     position: absolute;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
     left: 0;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -657,7 +657,7 @@ body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line {
 }
 
 body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line.fst {
-    animation: menu-line-fst-to-x 0.3s ease-in-out forwards;
+    animation: menu-line-fst-to-x 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
     transition: none;
 }
 
@@ -666,12 +666,12 @@ body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line.snd {
 }
 
 body.show-aside header .gnb-area .left-menus .menu-btn .menu-effect-line.trd {
-    animation: menu-line-trd-to-x 0.3s ease-in-out forwards;
+    animation: menu-line-trd-to-x 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
     transition: none;
 }
 
 body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.fst {
-    animation: menu-line-fst-to-menu 0.3s ease-in-out forwards;
+    animation: menu-line-fst-to-menu 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
     transition: none;
 }
 
@@ -680,7 +680,7 @@ body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.s
 }
 
 body:not(.show-aside) header .gnb-area .left-menus .menu-btn .menu-effect-line.trd {
-    animation: menu-line-trd-to-menu 0.3s ease-in-out forwards;
+    animation: menu-line-trd-to-menu 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
     transition: none;
 }
 
