@@ -1373,8 +1373,9 @@
 }
 .prd-detail-page #prd-spec-popup .popup-body .img-wrap {
   margin: 20px auto;
-  width: 300px;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
 }
 .prd-detail-page #prd-spec-popup .popup-body .subtitle {
   color: #1d1d1d;
