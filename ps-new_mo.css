@@ -2281,6 +2281,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 
 .ps-new.black .sponsorship--wrap {
     background: #000
+	padding-top: 2.5rem;
 }
 
 .ps-new.black .ps-section--title {
@@ -2542,7 +2543,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 
 /* our story */
 .pr-about .about-sub {
-    margin-top: 54px
+    /* margin-top: 54px */
 }
 
 .pr-about .about-sub .img-tiles ul {
