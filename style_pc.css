@@ -2146,7 +2146,7 @@ button.swiper-pagination-bullet {
 
 .ps-tab--wrap.type1 .ps-tab--item:hover, .ps-tab--wrap.type1 .ps-tab--item.active {
   color: #222 !important; /* 202409_마이 */
-  font-family:'Pretendard-bold' !important; /* 202409_마이 */
+  font-family:'Pretendard' !important; /* 202409_마이 */
 }
 
 .ps-tab--wrap.type1 .ps-tab--item:hover::after, .ps-tab--wrap.type1 .ps-tab--item.active::after {
@@ -14220,3 +14220,4 @@ html.msie [data-aos="ps-paint-in"].aos-init .img-wrap {
 .memberShip .ps-btn-wrap{margin-top:40px;}
 
 .memberShip .ps-btn.type3{width:100%;height:54px;}
+
