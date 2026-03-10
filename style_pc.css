@@ -1923,7 +1923,7 @@ button.swiper-pagination-bullet {
 }
 .ps-tab--wrap.default .ps-tab--item + .ps-tab--item{margin-left:47px !important}
 .ps-tab--wrap.default .ps-tab--item.active{
-  font-family:'Pretendard-bold';
+  font-family:'Pretendard';
   color:#222;
 }
 .ps-tab--wrap.default .ps-tab--item::after{height:2px !important}
@@ -14220,4 +14220,5 @@ html.msie [data-aos="ps-paint-in"].aos-init .img-wrap {
 .memberShip .ps-btn-wrap{margin-top:40px;}
 
 .memberShip .ps-btn.type3{width:100%;height:54px;}
+
 
