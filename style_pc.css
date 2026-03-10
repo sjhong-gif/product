@@ -1937,7 +1937,7 @@ button.swiper-pagination-bullet {
   height: 51px;
   font-size: 26px;
   color: #999999 !important;
-  font-family:'Pretendard-Semibold' !important;
+  font-family:'Pretendard' !important;
 }
 
 .ps-tab--wrap.type1 .ps-tab--item::after {
@@ -14220,5 +14220,6 @@ html.msie [data-aos="ps-paint-in"].aos-init .img-wrap {
 .memberShip .ps-btn-wrap{margin-top:40px;}
 
 .memberShip .ps-btn.type3{width:100%;height:54px;}
+
 
 
