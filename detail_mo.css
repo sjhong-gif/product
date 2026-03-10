@@ -1762,11 +1762,10 @@ button{outline:none !important}
 }
 .prd-detail-page #prd-spec-popup .subtitle {
   color: #1d1d1d;
-  margin: 0 16px;
   text-align: center;
   font-size: 0.9375rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.01rem;
   text-transform: uppercase;
@@ -2006,6 +2005,7 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
 
 
 
