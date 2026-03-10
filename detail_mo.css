@@ -1757,8 +1757,8 @@ button{outline:none !important}
 }
 .prd-detail-page #prd-spec-popup .img-wrap {
   margin: 1.25rem auto;
-  width: 11.25rem;
-  height: 11.25rem;
+  padding: 0 80px;
+  background-color: #f7f7f7;
 }
 .prd-detail-page #prd-spec-popup .subtitle {
   color: #1d1d1d;
@@ -2004,6 +2004,7 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
 
 
 
