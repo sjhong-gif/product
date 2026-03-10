@@ -1372,7 +1372,7 @@
   padding-right: 40px;
 }
 .prd-detail-page #prd-spec-popup .popup-body .img-wrap {
-  margin: 20px auto;
+  margin: 20px auto 12px;
   display: flex;
   justify-content: center;
   background-color: #f7f7f7;
@@ -1381,11 +1381,13 @@
   color: #1d1d1d;
   text-align: center;
   font-size: 16px;
+  margin: 0 64px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.2px;
   text-transform: uppercase;
+  word-break: keep-all;
 }
 .prd-detail-page #prd-spec-popup .popup-body .prd-spec-list {
   margin-top: 24px;
