@@ -603,8 +603,8 @@ header .gnb-area .right-menus>li button span {
 
 header .gnb-area .right-menus>li button.cart-btn span {
     border-radius: 50%;
-    width: 19px;
-    height: 19px;
+    width: 18px;
+    height: 18px;
     box-shadow: inset 0 0 0 1.3px #1e1e1e;
     font-size: 0.75rem;
     font-weight: 500;
