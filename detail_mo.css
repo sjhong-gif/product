@@ -1087,12 +1087,13 @@ button{outline:none !important}
   background-color: #fafafa;
   font-weight: bold;
   min-width: 7.25rem;
-  width: 7.25rem;
+  width: 100%;
 }
 .prd-detail-page .size-guide-sec .table-wrapper table th:first-of-type {
   min-width: 7rem;
   width: 6.25rem;
   background-color: #fafafa;
+  width: 100%;
 }
 .prd-detail-page .size-guide-sec .table-wrapper table td {
   border-top: 0.0625rem solid #d6d6d6;
@@ -2004,6 +2005,7 @@ button{outline:none !important}
   text-transform: uppercase;
 
 }/*# sourceMappingURL=detail.css.map */
+
 
 
 
