@@ -50,11 +50,15 @@ body {
 
 #wrap.sub.ps-new,
 #psWrap.sub.ps-new {
-  padding-top: 150px;
+	padding-top: 0 !important;
 }
 
 .pt-34 {
   padding-top: 34px !important;
+}
+
+.ps-inner {
+		overflow: visible;
 }
 
 .ps-new .ps-inner {
@@ -2598,8 +2602,7 @@ body {
 .ps-new .ps-breadcrumb {}
 
 .ps-new .ps-tab--wrap.type1 {
-  margin-top: 33px;
-  position: relative;
+	padding-top: 0 !important;
 }
 
 .ps-new .ps-breadcrumb+.ps-subtitle {
@@ -2672,7 +2675,7 @@ body {
 }
 
 .up:not(.top) .ps-tab--wrap-sticky {
-  transform: translateY(-100%);
+		transform: none !important;
 }
 
 .ps-new .ps-tab--wrap.type1 {
