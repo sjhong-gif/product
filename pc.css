@@ -443,6 +443,7 @@ header.show-sub-menus .gnb-area .logo-img {
     position: absolute;
     bottom: 40px;
     left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     color: #f9f9f9;
     text-align: center;
