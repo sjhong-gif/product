@@ -2664,8 +2664,8 @@ body {
 }
 
 .ps-new .ps-tab--wrap-sticky {
-  position: sticky;
-  top: 140px;
+  /* position: sticky; */
+  top: 0px;
   z-index: 1;
   background: #fff;
   transition: all 0.3s ease;
@@ -2729,7 +2729,7 @@ body {
   height: 36px;
   position: relative;
   margin-top: 8px;
-  margin-bottom: 140x;
+  margin-bottom: 14px;
 }
 
 .ps-new .ps-tab-bottom-wrap .ps-tab--2depth {
