@@ -131,7 +131,6 @@
   background-size: 36px;
 }
 .prd-detail-page .top-sec .buy-area .price-area {
-  margin: 18px 0;
   display: flex;
   flex-flow: column;
   gap: 4px;
