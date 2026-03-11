@@ -50,15 +50,11 @@ body {
 
 #wrap.sub.ps-new,
 #psWrap.sub.ps-new {
-	padding-top: 0 !important;
+  padding-top: 150px;
 }
 
 .pt-34 {
   padding-top: 34px !important;
-}
-
-.ps-inner {
-		overflow: visible;
 }
 
 .ps-new .ps-inner {
@@ -2602,7 +2598,8 @@ body {
 .ps-new .ps-breadcrumb {}
 
 .ps-new .ps-tab--wrap.type1 {
-	padding-top: 0 !important;
+  margin-top: 33px;
+  position: relative;
 }
 
 .ps-new .ps-breadcrumb+.ps-subtitle {
@@ -2668,14 +2665,14 @@ body {
 
 .ps-new .ps-tab--wrap-sticky {
   position: sticky;
-  top: 0;
+  top: 140px;
   z-index: 1;
   background: #fff;
   transition: all 0.3s ease;
 }
 
 .up:not(.top) .ps-tab--wrap-sticky {
-		transform: none !important;
+  transform: translateY(-100%);
 }
 
 .ps-new .ps-tab--wrap.type1 {
@@ -2732,7 +2729,7 @@ body {
   height: 36px;
   position: relative;
   margin-top: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 140x;
 }
 
 .ps-new .ps-tab-bottom-wrap .ps-tab--2depth {
