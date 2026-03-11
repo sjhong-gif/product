@@ -454,7 +454,7 @@ header.show-sub-menus .gnb-area .logo-img {
     line-height: normal;
     letter-spacing: -0.24px;
     text-transform: uppercase;
-    text-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
 }
 
 .main-page .sec1 .banners li a span::after {
