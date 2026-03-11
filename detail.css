@@ -35,7 +35,7 @@
 }
 .prd-detail-page .top-sec .prd-img-swiper img {
   max-width: none;
-  height: 755px;
+  height: 720px;
 }
 .prd-detail-page .top-sec .prd-img-swiper .control-area {
   position: absolute;
@@ -74,7 +74,7 @@
 }
 .prd-detail-page .top-sec .buy-area {
   min-width: 507px;
-  min-height: 721px;
+  min-height: 720px;
   background-color: white;
   z-index: 9;
   display: grid;
@@ -147,7 +147,7 @@
   text-transform: uppercase;
 }
 .prd-detail-page .top-sec .buy-area .price-area .sale-percent {
-  margin-right: 8px;
+  margin-right: 4px;
   color: #d0122b;
   font-feature-settings: "ss01" on;
   font-size: 18px;
