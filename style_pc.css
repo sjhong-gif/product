@@ -3365,7 +3365,7 @@ button.swiper-pagination-bullet {
 }
 
 #wrap.sub, #psWrap.sub {
-  /*padding-top: 200px;*/
+	padding-top: 0 !important;
 }
 
 /* top btn */
