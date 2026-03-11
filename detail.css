@@ -192,13 +192,13 @@
 }
 .prd-detail-page .top-sec .buy-area .prd-summary-info {
   color: #1d1d1d;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.18px;
   text-transform: uppercase;
-  word-break: break-all;
+  word-break: keep-all;
   max-height: 70px;
   overflow: hidden;
   text-overflow: ellipsis;
