@@ -255,9 +255,13 @@ header.transparent .gnb-area .search-area input {
     color: white;
 }
 
+header.show-sub-menus {
+	position: fixed;
+	bottom: 0;
+}
+
 header.show-sub-menus .gnb-area {
-    background-color: white;
-    padding-bottom: 60px;
+	padding-bottom: 0 !important;
 }
 
 header.show-sub-menus .gnb-area .menus>li>a {
@@ -1102,9 +1106,7 @@ header.transparent .gnb-area .gnb-right-area .cart-btn span {
 }
 
 header .sub-menus-area {
-    width: 100%;
-    z-index: 999;
-    position: relative;
+	height: 100%;
 }
 
 header .sub-menus-area .sub-menus-blurDim {
