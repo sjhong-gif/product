@@ -63,6 +63,7 @@ body {
     max-width: 2400px;
     margin: 0 auto;
     padding: 0 80px;
+    overflow: inherit;
 }
 
 @media (min-width: 1921px) {
@@ -2664,8 +2665,8 @@ body {
 }
 
 .ps-new .ps-tab--wrap-sticky {
-  /* position: sticky; */
-  top: 0px;
+  position: sticky;
+  top: 0px !important;
   z-index: 1;
   background: #fff;
   transition: all 0.3s ease;
@@ -2966,6 +2967,7 @@ body {
 
 .ps-new .ps--opt-wrap .ps-prd--box {
   flex: 1;
+  min-height:60vh;
 }
 
 .ps-new .ps--opt-wrap .ps-prd--box .ps-prd-list--wrap .ps-col {
