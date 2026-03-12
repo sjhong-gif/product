@@ -32,10 +32,13 @@
   width: -moz-fit-content;
   width: fit-content;
   padding-bottom: 48px;
+  background: #f7f7f7;
+  background-clip: content-box;
 }
 .prd-detail-page .top-sec .prd-img-swiper img {
   max-width: none;
   height: 720px;
+  mix-blend-mode: darken;
 }
 .prd-detail-page .top-sec .prd-img-swiper .control-area {
   position: absolute;
@@ -226,6 +229,7 @@
   display: flex;
   gap: 10px;
 }
+
 .prd-detail-page .top-sec .buy-area .prd-color-btn-wrap button {
   cursor: pointer;
   width: 64px;
@@ -233,6 +237,11 @@
 }
 .prd-detail-page .top-sec .buy-area .prd-color-btn-wrap button.selected {
   border: 1px solid #1d1d1d;
+  background: #f7f7f7;
+}
+
+.prd-detail-page .top-sec .buy-area .prd-color-btn-wrap button.selected img{
+  mix-blend-mode: darken;
 }
 .prd-detail-page .top-sec .buy-area .size-guide-tip {
   padding-left: 20px;
