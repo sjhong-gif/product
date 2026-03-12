@@ -2598,7 +2598,7 @@ body {
 .ps-new .ps-breadcrumb {}
 
 .ps-new .ps-tab--wrap.type1 {
-  margin-top: 33px;
+  margin-top: 0px;
   position: relative;
 }
 
@@ -2729,7 +2729,7 @@ body {
   height: 36px;
   position: relative;
   margin-top: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 0px;
 }
 
 .ps-new .ps-tab-bottom-wrap .ps-tab--2depth {
