@@ -62,7 +62,7 @@ body {
     min-width: 1280px;
     max-width: 2400px;
     margin: 0 auto;
-    padding: 0 80px;
+    padding: 40px 80px 0 80px;
     overflow: inherit;
 }
 
