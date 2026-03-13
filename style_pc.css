@@ -12410,20 +12410,24 @@ div[class*="orange-info"] > .tit {
   padding: 30px 0 40px 0;
   background: #fff;
   -webkit-transition: 0.3s;
-  transition: 0.3s;
+  transition: 0s;
 }
 
 .category-sticky .category-sticky--inner.on {
   position: fixed;
   width: 100%;
   top: 0;
-  left: 0;
-  padding: 30px calc((100% - 1640px)/2) 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 80px 40px;
   z-index: 10;
+  min-width: 1024px;
+  max-width: 1920px;
 }
 
+
 .up .category-sticky .category-sticky--inner.on {
-  top: 120px;
+  top: 0px;
 }
 
 .btn-select {
