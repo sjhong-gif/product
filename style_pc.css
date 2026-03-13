@@ -4036,10 +4036,21 @@ main.index + .ps-footer {
 }
 
 .ps-inner--large {
-  max-width: 1760px;
-  margin: 0 auto;
+    width: 100%;
+    min-width: 1760px;
+    max-width: 2400px;
+    margin: 0 auto;
+    padding: 40px 80px 0 80px; /* 좌우 80px 패딩 유지 */
+    overflow: inherit;
+    box-sizing: border-box; /* 전체 너비에 패딩을 포함시키기 위해 권장 */
 }
 
+@media (min-width: 1921px) {
+  .ps-new .ps-inner,
+  .ps-inner--large { /* 이 부분을 추가해 주세요 */
+      max-width: 3840px; 
+  }
+}
 .ps-inner--full-width {
   width: 100%;
   min-width: 1640px;
