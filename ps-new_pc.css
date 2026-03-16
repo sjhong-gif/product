@@ -4146,14 +4146,21 @@ body {
 
 .ps-btn.type3 {
   display: inline-block;
-  width: 260px;
-  height: 48px;
+  width: 260px!important;
+  height: 48px!important;
   margin: 0 auto;
-  font-size: 16px;
-  line-height: 45px;
+  font-size: 16px!important;
+  line-height: 48px!important;
   text-align: center;
   border: 1px solid #1d1d1d;
   font-weight: 600;
+}
+
+.ps-btn.type2.w260 {
+  width: 260px;
+  height: 48px!important;
+   line-height: 48px!important;
+  font-weight: 400!important;
 }
 
 .verification .sign_up-box h3.tit {
