@@ -2484,7 +2484,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     display: inline-block;
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 9px;
     background: #999;
 }
 
