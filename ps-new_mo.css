@@ -2388,37 +2388,70 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 .popup-component.open .sponsor {
-    top: 0;
-    opacity: 1;
+ bottom: 0; 
+ /* 스폰서 팝업변경 */
 }
 
 .popup-component .sponsor {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 50px;
-    background: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 99999;
-    transition: all 0.3s;
-    opacity: 0;
+    /* 스폰서 팝업변경 */  
+  height: calc(100vh - 100px);
+  position: fixed;
+  overflow-y: auto;
+  bottom: -100%;
+  background: #fff;
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 99999;
+  transition: all 0.3s;
+}
+
+
+.popup-component .sponsor .popup-head-title {
+  /* 스폰서 팝업변경 */
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1.875rem 1rem;
+  z-index: 10;
+  border-radius: 30px 30px 0 0;
+}
+.popup-component .sponsor .popup-head-title:before {
+  /* 스폰서 팝업변경 */
+  content: "TEAM PRO-SPECS";
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .popup-component .sponsor .pop-img {
-    width: 100%
+  /* 스폰서 팝업변경 */
+  width: calc(100vw - 36px);
+  height: calc(100vw - 36px);
+  margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .popup-component .sponsor .pop-img img {
-    width: 100%;
+  /* 스폰서 팝업변경 */
+  width: 100%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .popup-component .sponsor .pop-conts {
-    padding: 50px 35px 42px 32px;
-    flex: 1;
-    position: absolute;
-    bottom: 0;
-    background: #fff
+  /* 스폰서 팝업변경 */
+  padding: 24px 0;
+  margin: 24px 18px;
+  border-top: 1px solid #d8d8d8;
+  flex: 1;
+  background: #fff;
 }
 
 .popup-component .sponsor .pop-conts>p {
@@ -2456,10 +2489,9 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 .popup-component .sponsor .pop-conts .player-info {
-    margin-top: 24px;
-    max-height: 153px;
-    overflow-y: auto;
-    position: relative;
+  /* 스폰서 팝업변경 */
+  margin-top: 24px;
+  position: relative;
 }
 
 .popup-component .sponsor .pop-conts .player-info::-webkit-scrollbar {
@@ -2476,10 +2508,10 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 .popup-component .btn-close-popup {
     width: 24px;
     height: 24px;
-    background: url(../images/ps-new/prsp_layer_closeBtn.svg) center no-repeat;
+    background: url(https://image.prospecs.com/front/images/common/icon/close.svg) center no-repeat;
     background-size: 24px auto;
     position: absolute;
-    top: 20px;
+    top: 32px;
     right: 20px;
     z-index: 2
 }
