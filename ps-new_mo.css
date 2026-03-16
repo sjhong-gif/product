@@ -2480,12 +2480,12 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 .popup-component .sponsor .pop-conts .player .p-team:before {
     content: '';
     width: 1px;
-    height: 35px;
+    height: 25px;
     display: inline-block;
     position: absolute;
     left: 0;
-    top: 5px;
-    background: var(--color-90);
+    top: 7px;
+    background: #999;
 }
 
 .popup-component .sponsor .pop-conts .player-info {
