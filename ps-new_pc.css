@@ -2744,7 +2744,7 @@ body {
 .ps-new .ps-tab-bottom-wrap .ps-tab--2depth {
   transform: translateY(0);
   opacity: 1;
-  transition: transform 0.15s ease, opacity 0.15s ease;
+  transition: transform 0.4s ease, opacity 0.2s ease;
   will-change: transform, opacity;
 }
 
@@ -2755,6 +2755,7 @@ body {
   /* ?? 사라질 때 더 빠르게 */
   transition: transform 0.03s ease-in, opacity 0.03s ease-in;
 }
+
 
 .ps-new .ps-tab-bottom-wrap .ps-tab--2depth a {
   font-size: 16px;
