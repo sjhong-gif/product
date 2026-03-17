@@ -4058,9 +4058,12 @@ main.index + .ps-footer {
 }
 
 .ps-inner--small {
-  max-width: 1364px;
+  min-width: 1280px;
+  max-width: 2400px;
   margin: 0 auto;
+  padding: 40px 320px 0 320px; /* 좌우 320px 패딩 유지 */
 }
+
 
 
 /*250401*/
@@ -12764,7 +12767,7 @@ div[class*="orange-info"] > .tit {
 
 .ps-gift-card > .ps-gift-card--list {
   display: block;
-  width: 1640px;
+  width: 1760px;
   margin: 0 auto;
   margin-top: 96px;
 }
