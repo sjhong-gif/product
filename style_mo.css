@@ -8231,6 +8231,12 @@ body {
 /* 250418_마이페이지 정렬 */
 
 
+/* 예시: Swiper 라이브러리를 사용할 경우 */
+.swiper-pagination-progressbar {
+    display: none !important;
+}
+
+
 .mypage-action > ul > li {
   border-left: 0.063rem solid #eee;
   border-top: 0.063rem solid #eee;
