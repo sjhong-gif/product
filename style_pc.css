@@ -2705,7 +2705,7 @@ button.swiper-pagination-bullet {
 .ps-chkbox > label > input[type="checkbox"] + .text::before {
   content: '';
   position: absolute;
-  top: 0px;
+  top: 1px;
   left: 0;
   width: 20px;
   height: 20px;
@@ -2850,8 +2850,8 @@ button.swiper-pagination-bullet {
 }
 
 .ps-chkbox.big > label > input[type="checkbox"] + .text::before {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 .ps-chkbox.big > label > input[type="checkbox"]:not(.etc-color):checked + .text::before {
