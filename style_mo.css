@@ -961,7 +961,7 @@ button.swiper-pagination-bullet {
 }
 
 .color-bk {
-  color: #222 !important;
+  color: #000 !important;
 }
 
 .pd-0 {
@@ -1487,7 +1487,7 @@ button.swiper-pagination-bullet {
 .ps-btn.search-white {
   width: 3rem;
   height: 3rem;
-  background: #222 url(/mobile/images/renewal/icon_search_white.svg) no-repeat center center;
+  background: #000 url(/mobile/images/renewal/icon_search_white.svg) no-repeat center center;
 }
 
 .ps-btn.view-text {
@@ -1671,7 +1671,7 @@ button.swiper-pagination-bullet {
 .ps-chkbox > label > input[type="checkbox"].etc-color.white:checked + .text::before,
 .ps-chkbox > label > input[type="checkbox"].etc-color.no.color:checked + .text::before,
 .ps-chkbox > label > input[type="checkbox"]:not(.etc-color):checked + .text::before {
-  background-color: #222 !important;
+  background-color: #000 !important;
   background-image: url(/mobile/images/renewal/icon_chkbox.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -2480,7 +2480,7 @@ button.swiper-pagination-bullet {
 }
 
 .ui-datepicker.ui-widget.ui-widget-content .ui-datepicker-calendar td .ui-state-active.ui-state-hover {
-  color: #222 !important;
+  color: #1d1d1d !important;
   background: #f5f5f5;
 }
 
@@ -5547,7 +5547,7 @@ body {
 .ps-smart-fit--guide--list > li .thumbs {
   position: relative;
   height: 18.3125rem;
-  background: #222 url(/mobile/images/renewal/smartfit/img_smartfit_guide_frame.png) no-repeat center bottom/17.375rem auto;
+  background: #000 url(/mobile/images/renewal/smartfit/img_smartfit_guide_frame.png) no-repeat center bottom/17.375rem auto;
 }
 
 .ps-smart-fit--guide--list > li .thumbs > img {
@@ -8342,7 +8342,7 @@ body {
 }
 
 .flex-box.bor-t-2 {
-  border-top: 0.125rem solid #222 !important;
+  border-top: 0.125rem solid #1d1d1d !important;
 }
 
 .flex-box.order-tit {
@@ -8803,13 +8803,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .table-ty02 tr.t-top {
-  border-top: 0.125rem solid #222 !important;
+  border-top: 0.125rem solid #1d1d1d !important;
   margin-top: 3.125rem;
 }
 
 .table-ty02 tr.tfooter {
   border-top: 1px solid #eee;
-  border-bottom: 0.1875rem solid #222 !important;
+  border-bottom: 0.1875rem solid #1d1d1d !important;
 }
 
 .table-ty03 {
@@ -8857,7 +8857,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .color-ty02 {
-  color: #222 !important;
+  color: #1d1d1d !important;
 }
 
 .color-ty03 {
@@ -8865,7 +8865,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .color-ty04 {
-  color: #222 !important;
+  color: 1d1d1d !important;
 }
 
 .font-big {
@@ -9720,7 +9720,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .all-check-area > .a-btn-area > a.on {
-  color: #222 !important;
+  color: #1d1d1d !important;
 }
 
 .list-box {
@@ -9985,7 +9985,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .noti-txt > .txt1 > .ty-b {
-  color: #222 !important;
+  color: #1d1d1d !important;
   font-weight: normal;
 }
 
@@ -12184,7 +12184,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .ps-buy--option--naver .npay_button_box .npay_button .npay_btn_list .btn_width{display:none !important}
 .ps-buy--option--naver .npay_button_box .npay_event{display:none !important}
 .ps-buy--option--naver .npay_button_box .npay_button .npay_btn_link.npay_btn_pay .npay_logo{display:none !important;background:none !important;}
-.ps-buy--option--naver .npay_button_box .npay_button .npay_btn_link.btn_green{background:#fff !important;border-radius:5px !important;height:44px !important;position:relative !important;border-color:#222 !important;background: url(https://image.prospecs.com/mobile/images/ps-new/logo_npaybk_small.svg) no-repeat center/60px auto !important;text-indent:0 !important;text-indent:-999em !important}
+.ps-buy--option--naver .npay_button_box .npay_button .npay_btn_link.btn_green{background:#fff !important;border-radius:5px !important;height:44px !important;position:relative !important;border-color:#1d1d1d !important;background: url(https://image.prospecs.com/mobile/images/ps-new/logo_npaybk_small.svg) no-repeat center/60px auto !important;text-indent:0 !important;text-indent:-999em !important}
 
 
 
