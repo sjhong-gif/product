@@ -2856,7 +2856,7 @@ button.swiper-pagination-bullet {
 
 .ps-chkbox.big > label > input[type="checkbox"]:not(.etc-color):checked + .text::before {
   background-image: url(/front/images/renewal/icon_chkbox_big.svg);
-  background-size: 14px auto;
+  background-size: 11px auto;
 }
 
 /* checkbox */
