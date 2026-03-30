@@ -122,6 +122,15 @@ body {
   transition-property: transform, height, -webkit-transform;
 }
 
+
+/* 20260330 탑배너 텍스트 컬러변경 */
+.top-txt-banner .swiper-slide a, 
+.top-txt-banner .swiper-slide p {
+    color: inherit !important;
+}
+
+
+
 /* 3D Effects */
 .swiper-container-3d {
   -webkit-perspective: 1200px;
