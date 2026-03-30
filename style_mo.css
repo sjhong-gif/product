@@ -153,6 +153,14 @@ html, body {
   transition-property: transform, height, -webkit-transform;
 }
 
+/* 20260330 탑배너 텍스트 컬러변경 */
+.top-txt-banner .swiper-slide a, 
+.top-txt-banner .swiper-slide p {
+    color: inherit !important;
+}
+
+
+
 /* 3D Effects */
 .swiper-3d,
 .swiper-3d.swiper-css-mode .swiper-wrapper {
@@ -5288,6 +5296,8 @@ body {
   padding-bottom: 2.75rem;
   overflow: hidden;
 }
+
+
 
 .sub-best-review .swiper-container .swiper-pagination {
   left: 1.25rem;
