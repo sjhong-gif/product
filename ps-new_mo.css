@@ -35,6 +35,11 @@ button {
     display: flex;
     align-items: center;
 }
+.ps-new .terms-wrap .ps-chkbox>label  {
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
 
 .ps-new .ps-chkbox>label>input[type="checkbox"]+.text {
     color: var(--color-90);
@@ -81,7 +86,7 @@ html {
     margin-top: 3rem !important
 }
 
-/* 20240520 Feautured �곷떒 */
+/* 20240520 Feautured ?곷떒 */
 .mt-60 {
     margin-top: 60px !important
 }
@@ -109,7 +114,7 @@ body:not(.topSlideY) .ps-new main {
   /* 배너숨김 시 여백 변경 20260226 */
 }
 
-/* �묐같�� �④린�� �щ갚癒쇱� �앷린�뷀쁽�� �섏젙 */
+/* ?묐같?? ?④린?? ?щ갚癒쇱? ?앷린?뷀쁽?? ?섏젙 */
 body.topSlideY .ps-new .onespec-inner:before,
 body.topSlideY .ps-new .sponsorship--wrap:before {
     height: 86px !important;
@@ -197,7 +202,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     background: transparent !important
 }
 
-/* �묐같�� */
+/* ?묐같?? */
 .ps-new .topArea-slide {
     padding-top: 3px;
 }
@@ -342,7 +347,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     font-weight: 600 !important
 }
 
-/* 20240516 gnb�고듃援듦린�섏젙 */
+/* 20240516 gnb?고듃援듦린?섏젙 */
 
 /* 20240514 */
 .ps-new .key-visual--wrap .swiper-slide a {
@@ -447,7 +452,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     font-size: 22px;
 }
 
-/* �곹뭹吏꾩뿴 */
+/* ?곹뭹吏꾩뿴 */
 .ps-new .ps-prd-item .desc .badge {
     display: none;
 }
@@ -836,7 +841,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     background: var(--color-90);
 }
 
-/* 硫붿씤�대깽�� 諛곕꼫 */
+/* 硫붿씤?대깽?? 諛곕꼫 */
 .ps-new .main-event-banner {
     margin-top: 64px;
     padding-left: 20px
@@ -870,7 +875,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 
-/* �댁뒋諛곕꼫 */
+/* ?댁뒋諛곕꼫 */
 .ps-new .main--banner-issue {
     margin-top: 80px
 }
@@ -1421,7 +1426,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     margin-top: 15px;
 }
 
-/* UI異붽� 2024 留덉쭊媛믪닔��*/
+/* UI異붽? 2024 留덉쭊媛믪닔??*/
 .ps-new .ps-gnb__wrap .ft-custom {
     font-size: 14px;
     color: #999;
@@ -2054,6 +2059,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 
 .ps-new .ps-prd-list--wrap .ps-prd-item {
     margin-bottom: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .ps-new .ps-prd-list--wrap {
@@ -2061,6 +2067,46 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px 8px; 
 }
+
+.ps-new .ps-prd-list--wrap .thumbs {
+    position: relative;
+}
+
+.ps-new .ps-prd-list--wrap .thumbs .badge {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.1875rem;
+    background: #FFF;
+    color: #1D1D1D;
+    font-feature-settings: 'case' on;
+    font-family: "General Sans";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.00625rem;
+    text-transform: uppercase;
+    background-color: white;
+    z-index: 9;
+}
+
+.ps-new .ps-prd-list--wrap .thumbs .toggle-wish-btn {
+    top: 0.5rem;
+    position: absolute;
+    right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../img/wishlist.svg) center no-repeat;
+    outline: none;
+    z-index: 9;
+}
+
+.ps-new .ps-prd-list--wrap .thumbs .toggle-wish-btn.on {
+    background: url(../img/wishlist_on.svg) center no-repeat;
+}
+
 .ps-new .ps-prd-list--util {
     border: 1px solid#eee;
 }
@@ -2079,7 +2125,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     background-size: 18px auto
 }
 
-/* �꾪꽣 */
+/* ?꾪꽣 */
 .ps-new .ps-bottom-layer-content>.inner::-webkit-scrollbar {
     display: none
 }
@@ -2522,7 +2568,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     display: inline-block;
 }
 
-/* 釉뚮옖�쒖냼媛� */
+/* 釉뚮옖?쒖냼媛? */
 .pr-about .about--main-wrap {
     width: 100vw;
     height: 100vh;
@@ -2885,7 +2931,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     bottom: -40px
 }
 
-/* 釉뚮옖�쒖븘�대뜶�고떚 */
+/* 釉뚮옖?쒖븘?대뜶?고떚 */
 .pr-about .ps-ci {
     padding: 0 20px;
 }
@@ -3039,7 +3085,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     background: #989897
 }
 
-/* 寃��됲뙘�� */
+/* 寃??됲뙘?? */
 .ps-new .ps-layer-full.search {
     padding-top: 0;
     bottom: 0px;
@@ -3122,7 +3168,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     margin-top: 0;
 }
 
-/* UI異붽� 2024 */
+/* UI異붽? 2024 */
 .ps-new .main-ui-box {
     padding: 0px 20px 0px 20px;
     margin-top: 80px;
@@ -3157,7 +3203,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 
-/* �듯빀硫ㅻ쾭�� */
+/* ?듯빀硫ㅻ쾭?? */
 .ps-membership-unite {
     padding: 42px 20px 0 !important;
 }
@@ -3383,7 +3429,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 .ps-membership-unite .notice-box-imt li:before {
-    content: '��';
+    content: '??';
     position: absolute;
     left: 0;
     top: 0;
@@ -3454,7 +3500,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     margin-top: 15px
 }
 
-/* �듯빀硫ㅻ쾭�� �앹뾽 */
+/* ?듯빀硫ㅻ쾭?? ?앹뾽 */
 .unitePop .ps-btn.close {
     top: 23px;
     right: 23px;
@@ -3561,7 +3607,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 .unitePop .inner .notice-box-imt li:before {
-    content: '��';
+    content: '??';
     position: absolute;
     left: 0;
     top: 0;
@@ -3657,7 +3703,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     }
 }
 
-/* 硫붿씪�몄쬆 20241219 */
+/* 硫붿씪?몄쬆 20241219 */
 .unitePop .inp,
 .unitePop .inp::placeholder {
     font-weight: 200;
@@ -3740,7 +3786,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     font-weight: normal;
 }
 
-/* �깅떎�대줈�� */
+/* ?깅떎?대줈?? */
 .unitePop .ps-bottom-layer-content .app-inner {
     padding: 40px !important
 }
@@ -3776,19 +3822,19 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     color: rgb(112, 112, 114);
 }
 
-/* �ㅻ━吏��먯뒪�ъ툩 20250120 */
+/* ?ㅻ━吏??먯뒪?ъ툩 20250120 */
 .ps-new .ps-gnb-sub__header .ps-btn--back img {
     width: 60px;
 }
 
 
-/* Payco 寃곗젣 �꾩씠肄� 媛뺤젣 �띿뒪�� 泥섎━ */
+/* Payco 寃곗젣 ?꾩씠肄? 媛뺤젣 ?띿뒪?? 泥섎━ */
 #paycoText>img {
     display: none;
 }
 
 #paycoText:after {
-    /* content: "�섏씠肄� 媛꾪렪寃곗젣"; */
+    /* content: "?섏씠肄? 媛꾪렪寃곗젣"; */
     display: block;
     content: '';
     padding-bottom: 19px;
@@ -3818,9 +3864,9 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
 }
 
 
-/* �뚯썝媛��낆닔�� 20250714 */
+/* ?뚯썝媛??낆닔?? 20250714 */
 .verification .terms-wrap .ps-list.type3 li+li {
-    margin-top: 14px;
+    margin-top: 8px;
 }
 
 .verification.membership-root {
@@ -3914,7 +3960,7 @@ body:not(.topSlideY) .ps-new .sponsorship--wrap:before {
     }
 }
 
-/* �덉젅�곹깭 異붽� 20251105[s] */
+/* ?덉젅?곹깭 異붽? 20251105[s] */
 .goods-soldout {
     position: absolute;
     top: 0;
