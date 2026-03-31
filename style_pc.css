@@ -9915,14 +9915,15 @@ main.index + .ps-footer {
   display: inline-block;
   margin-left: 20px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   color: #1d1d1d;
 }
 
 .orange-card-area > .orange-card--cf {
   display: inline-block;
   color: #ec771c;
-  font-size: 16px;
+  font-size: 14px;
+  text-align: right;
 }
 
 .orange-card-area > .orange-card--cf:after {
@@ -11369,7 +11370,7 @@ div[class*="orange-info"] > .tit {
   display: inline-block;
   vertical-align: middle;
   border-right: 1px solid #eee;
-  width: 33.3%;
+  width: 100%;
   padding: 30px;
 }
 
@@ -11406,7 +11407,7 @@ div[class*="orange-info"] > .tit {
 
 .sns-list--box > li > .ps-btn {
   position: relative;
-  top: 13px;
+  top: 0px;
   right: 0;
   float: right;
 }
