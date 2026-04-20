@@ -4157,9 +4157,18 @@ body {
   text-decoration: underline;
 }
 
+.ps-btn-wrap {
+  font-size: 0;
+  text-align: center;
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+}
+
+
 .ps-btn.type3 {
   display: inline-block;
-  width: 260px!important;
+  width:100%!important;
   height: 56px!important;
   margin: 0 auto;
   font-size: 16px!important;
@@ -4177,9 +4186,9 @@ body {
 
 
 .ps-btn.type2.w260 {
-  width: 260px;
-  height: 48px!important;
-   line-height: 48px!important;
+  width: 100%;
+  height: 56px!important;
+   line-height: 56px!important;
   font-weight: 400!important;
 }
 
