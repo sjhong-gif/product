@@ -4158,12 +4158,14 @@ body {
 }
 
 .ps-btn-wrap {
-  font-size: 0;
-  text-align: center;
-    display: flex;
-    width: 640px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  width: 640px;
+  max-width: 100%;         
+  margin: 0 auto;     
 }
+
 
 
 .ps-btn.type3 {
