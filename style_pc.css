@@ -1218,6 +1218,7 @@ button.swiper-pagination-bullet {
   width: 20px;
   height: 20px;
   background: url(/front/images/renewal/icon_tooltip.png) no-repeat center center;
+  margin-top: 2px;
 }
 
 .ps-btn.word.tooltip {
@@ -2823,7 +2824,7 @@ button.swiper-pagination-bullet {
 .ps-chkbox > label > input[type="radio"] + .text {
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 28px;
   color: #1d1d1d;
   line-height: 20px;
@@ -3045,7 +3046,6 @@ button.swiper-pagination-bullet {
   padding-left: 14px;
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Pretendard-Regular';
 }
 
 .ps-list.type1 > li::before {
@@ -3334,7 +3334,7 @@ button.swiper-pagination-bullet {
 
 .ps-no-service {
   padding-top: 50px;
-  width: 540px;
+  width: 1280px;
   margin: 0 auto;
 }
 
@@ -3363,8 +3363,8 @@ button.swiper-pagination-bullet {
 }
 
 .ps-no-service .ps-cont .ps-btn-wrap a {
-  font-size: 18px;
-  line-height: 60px;
+  font-size: 16px;
+  line-height: 56px;
 }
 
 #wrap, #psWrap {
@@ -4075,6 +4075,22 @@ main.index + .ps-footer {
 
 
 
+/* 해당 페이지에서만 동작하도록 부모 클래스를 활용하거나 스타일 시트 하단에 배치 */
+.staff_end .ps-inner--small {
+    min-width: auto !important; /* 최소 너비 제한 해제 */
+    max-width: 100% !important; /* 화면 너비에 맞춤 */
+    padding-left: 0 !important;  /* 문제의 왼쪽 패딩 제거 */
+    padding-right: 0 !important; /* 문제의 오른쪽 패딩 제거 */
+    text-align: center;         /* 텍스트 중앙 정렬 */
+}
+
+/* 버튼 영역 강제 중앙 정렬 */
+.staff_end .ps-btn-wrap {
+    justify-content: center !important;
+}
+
+
+
 /*250401*/
 .ps-sub-content {
   width: 1364px;
@@ -4194,6 +4210,7 @@ main.index + .ps-footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 20px;
+  padding-top: 40px;
   border-bottom: 1px solid #1d1d1d; /* 202409_마이 */
   /* background: blue; */
 }
@@ -4201,7 +4218,7 @@ main.index + .ps-footer {
   font-size: 14px;
 }
 .ps-cont-head > h4 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .ps-cont-head .small-desc {
@@ -9957,6 +9974,7 @@ main.index + .ps-footer {
 .singn_up--terms-ck > h5 {
   font-size: 16px;
   margin-top: 40px;
+  font-weight: 600;
 }
 
 .singn_up--terms-ck > .ps-chkbox + h5 {
