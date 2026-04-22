@@ -4161,7 +4161,7 @@ body {
   display: flex;
   justify-content: center; 
   align-items: center;     
-  width: 640px;
+  width: 560px;
   max-width: 100%;         
   margin: 0 auto;     
 }
