@@ -276,10 +276,10 @@
   <nav class="tabbar">
     <div class="tabbar__inner">
       <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">Product</a>
-      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">혜성여고 밴드부</a>
-      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">남고생 밴드</a>
-      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
-      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">김비키</a>
+      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">신촌문화관 부부</a>
+      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">김비키</a>
+      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">혜성여고 밴드부</a>
+      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">남고생 밴드</a>
     </div>
   </nav>
     <div class="hero__body">
@@ -343,6 +343,83 @@
   <!-- CHAPTER 1 - 마라톤110 (인트로 챕터 - 자리 placeholder) -->
   <article class="chapter" id="chapter-marathon">
     <!-- 추후 마라톤110 인트로 콘텐츠 -->
+  </article>
+
+  <!-- CHAPTER 2 - 신촌문화관 부부 -->
+  <article class="chapter" id="chapter-senior">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">신촌문화관 부부</h2>
+        <p class="chapter__title-en">Senior Model's interview</p>
+      </div>
+    </div>
+
+    <div class="chapter__intro reveal">
+      <p class="chapter__intro-text">"명확한 기원과 절제,<br> 우리가 클래식을 대하는 태도"</p>
+      <div class="chapter__intro-author">
+        <span class="chapter__intro-author-name">신촌문화관 부부</span>
+        <span class="chapter__intro-author-handle">김수연, 임상완</span>
+      </div>
+    </div>
+
+    <div class="chapter__stack reveal">
+      <div class="chapter__stack-imgs">
+        <div></div>
+        <div></div>
+      <div class="chapter__qa-text">
+        <div class="qa-item">
+          <p class="qa-item__q">자기소개 부탁드립니다.</p>
+          <p class="qa-item__a">김수연: 안녕하세요. 리빙 브랜드 ‘행잉스터프’와 복합문화공간 ‘신촌문화관’을 남편 상완과 함께 운영하며, 패브릭 레이블 ‘림서울’을 이끌고 있는 김수연입니다.</p>
+          <p class="qa-item__a">임상완: ‘행잉스터프’와 ‘신촌문화관’을 운영함과 동시에, 크래프트 막걸리 브랜드 ‘레이지댄싱서클’을 만드는 림보이양조의 임상완입니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">신촌문화관에 대해 설명해주세요.</p>
+          <p class="qa-item__a">이곳은 저희가 운영하는 브랜드들의 베이스캠프이자, 다양한 창작자들이 모여 사는 작은 마을 같은 곳입니다. 
+                                림보이양조의 양조장부터 행잉스터프의 오피스, 림서울의 작업실이 자리 잡고 있죠. 
+                                그 외에도 갤러리, 잡지사, 건축 및 디자인 사무소, 작가의 작업실 등 여덟 개의 유닛에 저마다의 색을 가진 크리에이터들이 입주해 있습니다.
+                                일반적인 공유 오피스보다 훨씬 독립적이고 밀도 있는 공간이지만, 테라스나 계단에서 마주치면 자연스럽게 안부를 묻고 대화를 나눠요. 
+                                그 모습이 꼭 정겨운 마을 같아서 저희끼리는 스스로를 ‘촌장’이라 부르기도 합니다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="chapter__qa chapter__qa--reverse reveal">
+    <div class="chapter__qa-img"></div>
+      <div class="chapter__qa-text">
+        <div class="qa-item">
+          <p class="qa-item__q">클래식한 운동화의 조건이 있을까요?</p>
+          <p class="qa-item__a">클래식의 본질은 ‘명확한 기원’과 ‘절제’에 있다고 믿습니다. 
+                                1980년대 로컬 헤리티지를 품은 ‘마라톤 110’에는 다른 브랜드가 흉내 낼 수 없는 고유한 시간과 정서가 담겨 있잖아요. 
+                                유행을 좆는 대신 브랜드의 아카이브에서 스스로의 뿌리를 찾아냈다는 점이 진정한 클래식의 면모를 보여준다고 생각해요. 
+                                여기에 곁들여진 절제된 실루엣과 소재의 조화로운 혼합이야말로 클래식 운동화가 지향해야 할 미학 아닐까요.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">마라톤110에 대해서</p>
+          <p class="qa-item__a">어떤 차림에도 이질감 없이 스며드는 범용성 덕분에 일상에서 가장 먼저 손이 가는 신발이 될 것 같습니다. 
+                                셔츠나 슬랙스 같은 포멀한 착장부터 여유로운 캐주얼까지 두루 어울리는 정돈된 실루엣을 갖추고 있으니까요.
+                                특히 짐을 최소화해야 하는 출장이나 여행지에서 그 진가가 발휘될 것 같아요. 
+                                격식을 갖춰야 하는 비즈니스 미팅과 활동량이 많은 이동 시간 사이에서, 스타일을 유지하면서도 발의 피로를 줄여주는 완벽한 균형점을 찾아주기 때문입니다.
+                                다만 한 가지 유쾌한 걱정이 있다면 저희 둘의 취향이 너무 닮아있다는 점인데, 자칫 너무 의도한 ‘커플 운동화’처럼 보이지 않도록 서로 신는 날짜를 영리하게 조율하며 즐겨봐야겠습니다.</p>
+        </div>
+      </div>
+      <div class="chapter__stack-imgs">
+        <div></div>
+      </div>
+    </div>
+
+    <div class="chapter__quote reveal">
+      <p>먼저 우산이 우리에게 어떤 의미인지를 고민했어요.<br>우산을 '움직이는 나만의 공간'으로 정의했고, 우리가 그 공간을 어떻게 대하는지 관찰했죠.</p>
+    </div>
+
+    <div class="chapter__solo-img reveal">
+      <div class="swiper" data-solo-swiper>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
   </article>
 
   <!-- CHAPTER 2 - 혜성여고 밴드부 -->
@@ -437,79 +514,7 @@
       </div>
     </div>
 
-  <!-- CHAPTER 4 - 신촌문화관 부부 -->
-  <article class="chapter" id="chapter-senior">
-    <div class="chapter__hero reveal">
-      <div class="chapter__title-block">
-        <h2 class="chapter__title">신촌문화관 부부</h2>
-        <p class="chapter__title-en">Senior Model's interview</p>
-      </div>
-    </div>
 
-    <div class="chapter__intro reveal">
-      <p class="chapter__intro-text">"명확한 기원과 절제,<br> 우리가 클래식을 대하는 태도"</p>
-      <div class="chapter__intro-author">
-        <span class="chapter__intro-author-name">신촌문화관 부부</span>
-        <span class="chapter__intro-author-handle">김수연, 임상완</span>
-      </div>
-    </div>
-
-    <div class="chapter__qa chapter__qa--reverse reveal">
-      <div class="chapter__qa-img"></div>
-      <div class="chapter__qa-text">
-        <div class="qa-item">
-          <p class="qa-item__q">자기소개 부탁드립니다.</p>
-          <p class="qa-item__a">김수연: 안녕하세요. 리빙 브랜드 ‘행잉스터프’와 복합문화공간 ‘신촌문화관’을 남편 상완과 함께 운영하며, 패브릭 레이블 ‘림서울’을 이끌고 있는 김수연입니다.</p>
-          <p class="qa-item__a">임상완: ‘행잉스터프’와 ‘신촌문화관’을 운영함과 동시에, 크래프트 막걸리 브랜드 ‘레이지댄싱서클’을 만드는 림보이양조의 임상완입니다.</p>
-        </div>
-        <div class="qa-item">
-          <p class="qa-item__q">신촌문화관에 대해 설명해주세요.</p>
-          <p class="qa-item__a">이곳은 저희가 운영하는 브랜드들의 베이스캠프이자, 다양한 창작자들이 모여 사는 작은 마을 같은 곳입니다. 
-                                림보이양조의 양조장부터 행잉스터프의 오피스, 림서울의 작업실이 자리 잡고 있죠. 
-                                그 외에도 갤러리, 잡지사, 건축 및 디자인 사무소, 작가의 작업실 등 여덟 개의 유닛에 저마다의 색을 가진 크리에이터들이 입주해 있습니다.
-                                일반적인 공유 오피스보다 훨씬 독립적이고 밀도 있는 공간이지만, 테라스나 계단에서 마주치면 자연스럽게 안부를 묻고 대화를 나눠요. 
-                                그 모습이 꼭 정겨운 마을 같아서 저희끼리는 스스로를 ‘촌장’이라 부르기도 합니다.</p>
-        </div>
-      </div>
-    </div>
-    <div class="chapter__stack reveal">
-      <div class="chapter__qa-text">
-        <div class="qa-item">
-          <p class="qa-item__q">클래식한 운동화의 조건이 있을까요?</p>
-          <p class="qa-item__a">클래식의 본질은 ‘명확한 기원’과 ‘절제’에 있다고 믿습니다. 
-                                1980년대 로컬 헤리티지를 품은 ‘마라톤 110’에는 다른 브랜드가 흉내 낼 수 없는 고유한 시간과 정서가 담겨 있잖아요. 
-                                유행을 좆는 대신 브랜드의 아카이브에서 스스로의 뿌리를 찾아냈다는 점이 진정한 클래식의 면모를 보여준다고 생각해요. 
-                                여기에 곁들여진 절제된 실루엣과 소재의 조화로운 혼합이야말로 클래식 운동화가 지향해야 할 미학 아닐까요.</p>
-        </div>
-        <div class="qa-item">
-          <p class="qa-item__q">마라톤110에 대해서</p>
-          <p class="qa-item__a">어떤 차림에도 이질감 없이 스며드는 범용성 덕분에 일상에서 가장 먼저 손이 가는 신발이 될 것 같습니다. 
-                                셔츠나 슬랙스 같은 포멀한 착장부터 여유로운 캐주얼까지 두루 어울리는 정돈된 실루엣을 갖추고 있으니까요.
-                                특히 짐을 최소화해야 하는 출장이나 여행지에서 그 진가가 발휘될 것 같아요. 
-                                격식을 갖춰야 하는 비즈니스 미팅과 활동량이 많은 이동 시간 사이에서, 스타일을 유지하면서도 발의 피로를 줄여주는 완벽한 균형점을 찾아주기 때문입니다.
-                                다만 한 가지 유쾌한 걱정이 있다면 저희 둘의 취향이 너무 닮아있다는 점인데, 자칫 너무 의도한 ‘커플 운동화’처럼 보이지 않도록 서로 신는 날짜를 영리하게 조율하며 즐겨봐야겠습니다.</p>
-        </div>
-      </div>
-      <div class="chapter__stack-imgs">
-        <div></div>
-      </div>
-    </div>
-
-    <div class="chapter__quote reveal">
-      <p>먼저 우산이 우리에게 어떤 의미인지를 고민했어요.<br>우산을 '움직이는 나만의 공간'으로 정의했고, 우리가 그 공간을 어떻게 대하는지 관찰했죠.</p>
-    </div>
-
-    <div class="chapter__solo-img reveal">
-      <div class="swiper" data-solo-swiper>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </article>
 
   <!-- CHAPTER 4-8 - 동일 구조 반복 (콘텐츠 채울 때 챕터 2-3 복사해서 사용) -->
   
