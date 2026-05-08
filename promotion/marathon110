@@ -100,7 +100,7 @@
 .magazine-page .chapter__intro { max-width: 1600px; margin: 0 auto; display: flex; align-items: flex-start; justify-content: space-between; gap: 60px; margin-bottom: 160px; }
 .magazine-page .chapter__intro-text { flex: 1; max-width: 1120px; font-weight: 600; font-size: 32px; letter-spacing: -0.26px; line-height: 1.5; }
 .magazine-page .chapter__intro-author { display: flex; flex-direction: column; gap: 0; flex-shrink: 0; }
-.magazine-page .chapter__intro-author-name { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; text-transform: uppercase; }
+.magazine-page .chapter__intro-author-name { font-weight: 600; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; text-transform: uppercase; }
 .magazine-page .chapter__intro-author-handle { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; }
 
 /* CHAPTER QA — 좌이미지 + 우텍스트 */
