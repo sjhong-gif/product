@@ -98,7 +98,7 @@
 .magazine-page .chapter__hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,.35) 100%); pointer-events: none; z-index: 1; }
 
 .magazine-page .chapter__intro { max-width: 1600px; margin: 0 auto; display: flex; align-items: flex-start; justify-content: space-between; gap: 60px; margin-bottom: 160px; }
-.magazine-page .chapter__intro-text { flex: 1; max-width: 1120px; font-weight: 600; font-size: 26px; letter-spacing: -0.26px; line-height: 1.5; }
+.magazine-page .chapter__intro-text { flex: 1; max-width: 1120px; font-weight: 600; font-size: 32px; letter-spacing: -0.26px; line-height: 1.5; }
 .magazine-page .chapter__intro-author { display: flex; flex-direction: column; gap: 0; flex-shrink: 0; }
 .magazine-page .chapter__intro-author-name { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; text-transform: uppercase; }
 .magazine-page .chapter__intro-author-handle { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; }
@@ -355,7 +355,7 @@
     </div>
 
     <div class="chapter__intro reveal">
-      <p class="chapter__intro-text">"서로 눈을 맞추고 합을 맞추듯, 발끝에서 시작되는 팀워크"<br>남고생 밴드 [미완성품]을 만나봤습니다.</p>
+      <p class="chapter__intro-text">"서로 눈을 맞추고 합을 맞추듯, 발끝에서 시작되는 팀워크"</p>
       <div class="chapter__intro-author">
         <span class="chapter__intro-author-name">미완성품</span>
         <span class="chapter__intro-author-handle">권은율, 백준호, 박준영, 신민재</span>
