@@ -276,8 +276,8 @@
   <nav class="tabbar">
     <div class="tabbar__inner">
       <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">Product</a>
-      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">남고생 밴드</a>
-      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">혜성여고 밴드부</a>
+      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">혜성여고 밴드부</a>
+      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">남고생 밴드</a>
       <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
       <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">김비키</a>
     </div>
@@ -349,16 +349,16 @@
   <article class="chapter" id="chapter-hiro">
     <div class="chapter__hero reveal">
       <div class="chapter__title-block">
-        <h2 class="chapter__title">남고생 밴드의 인터뷰</h2>
-        <p class="chapter__title-en">Interview with a high school boy band, 'Unfinished Product'</p>
+        <h2 class="chapter__title">혜성여고 밴드부 [런치세트]</h2>
+        <p class="chapter__title-en">interview with Hyesung Girls' High School Band's "Lunch Set."</p>
       </div>
     </div>
 
     <div class="chapter__intro reveal">
-      <p class="chapter__intro-text">"서로 눈을 맞추고 합을 맞추듯, 발끝에서 시작되는 팀워크"</p>
+      <p class="chapter__intro-text">"지루한 교복 위로 터지는 에너지, 우리들의 15년 헤리티지"</p>
       <div class="chapter__intro-author">
-        <span class="chapter__intro-author-name">미완성품</span>
-        <span class="chapter__intro-author-handle">권은율, 백준호, 박준영, 신민재</span>
+        <span class="chapter__intro-author-name">런치세트</span>
+        <span class="chapter__intro-author-handle">정민하 교사 외 학생 20명</span>
       </div>
     </div>
 
@@ -367,14 +367,16 @@
       <div class="chapter__qa-img"></div>
       <div class="chapter__qa-text">
         <div class="qa-item">
-          <p class="qa-item__q">자기 소개 부탁드립니다.</p>
-          <p class="qa-item__a">저희는 중학교에서 친구로 만나서 밴드 활동하고 있는 미완성품(권은율, 백준호, 박준영, 신민재)이라고 합니다.</p>
+          <p class="qa-item__q">밴드 소개 부탁드립니다.</p>
+          <p class="qa-item__a">2012년부터 15년째 이어오고 있는 혜성여고 밴드부 런치세트입니다. 현재 20명의 학생이 함께하고 있습니다.</p>
         </div>
         <div class="qa-item">
-          <p class="qa-item__q">팀워크를 다지기 위한 팁이 있나요?</p>
-          <p class="qa-item__a">권은율(드럼) 학생 : 서로 눈을 마주치며 합주를 하면 안 맞는 부분도 맞게 되고 팀워크도 생기는 것 같아요.</p>
-          <p class="qa-item__a">백준호(보컬) 학생 : 밴드 팀이기 전에 친구라서 팀워크는 항상 문제가 없었던 것 같습니다.</p>
-          <p class="qa-item__a">신민재(드럼) 학생 : 합주가 아니더라도 자주 만나고 멤버끼리의 교류가 많은 것이 가장 중요하다 생각합니다.</p>
+          <p class="qa-item__q">밴드 음악은 어떤점이 매력이라고 생각하나요?</p>
+          <p class="qa-item__a">정민하 선생님: 밴드 음악의 매력은 어떤 식으로든 그 사람의 내면에 숨겨진 솔직한 모습을 드러나게 해 준다는 점인 것 같습니다. 
+                                문명화된 사회에서 살아야 하므로 평소 일상에서는 쉽게 드러낼 수 없는 인간 본연의 야수성, 미친 듯이 마구 날뛰고 싶은 마음 같은 것을 무대 위에서는 합법적으로 건강하게 터트릴 수 있기 때문에 
+                                퍼포머 본인도, 관객들도 마음 속의 응어리를 터트리며 하나가 될 수 있는 것 아닐까요?</p>
+          <p class="qa-item__a">김서영(키보드): 밴드 음악의 매력은 각 멤버들이 서로 다른 역할로 함께 음악을 만들어가는 것이라고 생각합니다.
+                                아이돌이나 솔로 가수처럼 음악을 만들고 프로듀싱하는 사람이 따로 있는 것과는 달리 밴드는 각자가 솔로로 돋보일 수 있는 기회가 많고 그게 모여서 하나의 음악을 만든다는 것이 특별하다고 생각합니다.</p>
         </div>
       </div>
     </div>
