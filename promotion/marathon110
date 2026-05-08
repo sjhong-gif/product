@@ -271,6 +271,19 @@
     <div class="hero__visual">
       <!-- <img src="" alt="Marathon 110"> -->
     </div>
+  <!-- STICKY TAB BAR -->
+  <nav class="tabbar">
+    <div class="tabbar__inner">
+      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">마라톤110</a>
+      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">히로</a>
+      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">시니어 모델</a>
+      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
+      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">하울과 나우</a>
+      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">비키</a>
+      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
+      <a href="#chapter-girlband" class="tabbar__item" data-target="chapter-girlband">여중생 밴드</a>
+    </div>
+  </nav>
     <div class="hero__body">
       <div class="hero__inner">
         <div class="hero__title-block">
@@ -328,20 +341,6 @@
       </a>
     </div>
   </section>
-
-  <!-- STICKY TAB BAR -->
-  <nav class="tabbar">
-    <div class="tabbar__inner">
-      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">마라톤110</a>
-      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">히로</a>
-      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">시니어 모델</a>
-      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
-      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">하울과 나우</a>
-      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">비키</a>
-      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
-      <a href="#chapter-girlband" class="tabbar__item" data-target="chapter-girlband">여중생 밴드</a>
-    </div>
-  </nav>
 
   <!-- CHAPTER 1 - 마라톤110 (인트로 챕터 - 자리 placeholder) -->
   <article class="chapter" id="chapter-marathon">
