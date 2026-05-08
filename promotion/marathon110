@@ -70,7 +70,7 @@
 /* STICKY TAB BAR */
 .magazine-page .tabbar { position: sticky; top: var(--gnb-offset); z-index: 100; background: var(--c-title); height: 74px; width: 100%; }
 .magazine-page .tabbar__inner { max-width: 1920px; margin: 0 auto; height: 100%; padding: 0 320px; display: flex; align-items: center; justify-content: space-between; }
-.magazine-page .tabbar__item { height: 100%; display: flex; align-items: center; justify-content: center; font-weight: 400; font-size: 18px; letter-spacing: -0.18px; color: var(--c-bg5); transition: color .25s; }
+.magazine-page .tabbar__item { height: 100%; display: flex; align-items: center; justify-content: center; font-weight: 400; font-size: 16px; letter-spacing: -0.18px; color: var(--c-bg5); transition: color .25s; }
 .magazine-page .tabbar__item.is-active { font-weight: 600; color: var(--c-red); border-bottom: 2px solid var(--c-red); }
 
 .magazine-page .chapter { scroll-margin-top: calc(var(--gnb-offset) + 74px); }
@@ -96,14 +96,14 @@
 /* 이미지 가독성 위해 살짝 dim */
 .magazine-page .chapter__hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,.35) 100%); pointer-events: none; z-index: 1; }
 
-.magazine-page .chapter__intro { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; align-items: flex-start; justify-content: space-between; gap: 60px; margin-bottom: 120px; }
+.magazine-page .chapter__intro { max-width: 1600px; margin: 0 auto; display: flex; align-items: flex-start; justify-content: space-between; gap: 60px; margin-bottom: 120px; }
 .magazine-page .chapter__intro-text { flex: 1; max-width: 1120px; font-weight: 600; font-size: 26px; letter-spacing: -0.26px; line-height: 1.5; }
 .magazine-page .chapter__intro-author { display: flex; flex-direction: column; gap: 0; flex-shrink: 0; }
 .magazine-page .chapter__intro-author-name { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; text-transform: uppercase; }
 .magazine-page .chapter__intro-author-handle { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; }
 
 /* CHAPTER QA — 좌이미지 + 우텍스트 */
-.magazine-page .chapter__qa { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; gap: 160px; margin-bottom: 120px; align-items: flex-start; }
+.magazine-page .chapter__qa { max-width: 1600px; margin: 0 auto; display: flex; gap: 160px; margin-bottom: 120px; align-items: flex-start; }
 .magazine-page .chapter__qa--reverse { flex-direction: row-reverse; }
 .magazine-page .chapter__qa-img { flex-shrink: 0; width: 800px; height: 1200px; background: var(--c-placeholder); }
 .magazine-page .chapter__qa-img img { width: 100%; height: 100%; object-fit: cover; }
@@ -113,10 +113,10 @@
 .magazine-page .qa-item__a { font-weight: 400; }
 
 /* PULL QUOTE */
-.magazine-page .chapter__quote { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); margin-bottom: 60px; }
+.magazine-page .chapter__quote { max-width: 1600px; margin: 0 auto;  margin-bottom: 60px; }
 .magazine-page .chapter__quote p { font-weight: 600; font-size: 26px; letter-spacing: -0.26px; line-height: 1.5; }
 
-.magazine-page .chapter__solo-img { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); margin-bottom: 120px; }
+.magazine-page .chapter__solo-img { max-width: 1600px; margin: 0 auto;  margin-bottom: 120px; }
 .magazine-page .chapter__solo-img-inner { width: 100%; height: 790px; background: var(--c-placeholder); }
 .magazine-page .chapter__solo-img-inner img { width: 100%; height: 100%; object-fit: cover; }
 
@@ -149,7 +149,7 @@
 }
 
 /* CHAPTER STACK — 좌이미지스택 + 우Q&A (sticky sidebar) */
-.magazine-page .chapter__stack { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; gap: 160px; margin-bottom: 120px; align-items: flex-start; }
+.magazine-page .chapter__stack { max-width: 1600px; margin: 0 auto;  display: flex; gap: 160px; margin-bottom: 120px; align-items: flex-start; }
 .magazine-page .chapter__stack-imgs { flex-shrink: 0; width: 800px; display: flex; flex-direction: column; gap: 40px; }
 .magazine-page .chapter__stack-imgs > div { width: 100%; height: 1200px; background: var(--c-placeholder); }
 .magazine-page .chapter__stack-imgs img { width: 100%; height: 100%; object-fit: cover; }
