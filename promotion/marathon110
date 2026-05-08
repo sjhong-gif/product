@@ -42,7 +42,7 @@
 .magazine-page .hero { width: 100%; }
 .magazine-page .hero__visual { width: 100%; height: 760px; background: var(--c-placeholder); }
 .magazine-page .hero__visual img { width: 100%; height: 100%; object-fit: cover; }
-.magazine-page .hero__body { width: 100%; padding: 234px 0 80px; }
+.magazine-page .hero__body { width: 100%; padding: 120px 0 120px; }
 .magazine-page .hero__inner { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter-pc); display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch; }
 .magazine-page .hero__title-block { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-height: 100%; }
 .magazine-page .hero__title-row { display: flex; flex-direction: column; gap: 18px; }
@@ -76,8 +76,8 @@
 .magazine-page .chapter { scroll-margin-top: calc(var(--gnb-offset) + 74px); }
 
 /* PRODUCT GRID */
-.magazine-page .products { padding: 145px 0 110px; }
-.magazine-page .products__inner { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; align-items: center; justify-content: space-between; gap: 0; }
+.magazine-page .products { padding: 0 0 120px; }
+.magazine-page .products__inner { max-width: 1280px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 0; }
 .magazine-page .product-card { display: flex; flex-direction: column; align-items: center; flex: 1; }
 .magazine-page .product-card__img { width: 240px; height: 240px; background: var(--c-placeholder); margin-bottom: 16px; overflow: hidden; }
 .magazine-page .product-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
@@ -298,20 +298,6 @@
     </div>
   </section>
 
-  <!-- STICKY TAB BAR -->
-  <nav class="tabbar">
-    <div class="tabbar__inner">
-      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">마라톤110</a>
-      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">히로</a>
-      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">시니어 모델</a>
-      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
-      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">하울과 나우</a>
-      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">비키</a>
-      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
-      <a href="#chapter-girlband" class="tabbar__item" data-target="chapter-girlband">여중생 밴드</a>
-    </div>
-  </nav>
-
   <!-- PRODUCTS - 5개 컬러웨이 -->
   <section class="products">
     <div class="products__inner">
@@ -342,6 +328,20 @@
       </a>
     </div>
   </section>
+
+  <!-- STICKY TAB BAR -->
+  <nav class="tabbar">
+    <div class="tabbar__inner">
+      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">마라톤110</a>
+      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">히로</a>
+      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">시니어 모델</a>
+      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
+      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">하울과 나우</a>
+      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">비키</a>
+      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
+      <a href="#chapter-girlband" class="tabbar__item" data-target="chapter-girlband">여중생 밴드</a>
+    </div>
+  </nav>
 
   <!-- CHAPTER 1 - 마라톤110 (인트로 챕터 - 자리 placeholder) -->
   <article class="chapter" id="chapter-marathon">
