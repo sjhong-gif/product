@@ -1,0 +1,617 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<style>
+.magazine-page,
+.magazine-page *,
+.magazine-page *::before,
+.magazine-page *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.magazine-page {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, sans-serif;
+  text-align: left;
+  color: #1d1d1d; background: #fff; line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+  width: 100vw; position: relative;
+  left: 50%; right: 50%;
+  margin-left: -50vw; margin-right: -50vw;
+  --max: 1600px;
+  --gutter-pc: 160px;
+  --gutter-tablet: 60px;
+  --gutter-mo: 20px;
+  --c-title: #1d1d1d;
+  --c-bg5: #f8f8f8;
+  --c-red: #D0122B;
+  --c-placeholder: #d9d9d9;
+  --gnb-offset: 0px;
+}
+
+/* 자식 컨테이너에서 가로 스크롤만 막아 sticky 동작 보장 */
+.magazine-page > section,
+.magazine-page > nav,
+.magazine-page > article { max-width: 100vw; overflow-x: clip; }
+
+.magazine-page img,
+.magazine-page video { display: block; max-width: 100%; }
+.magazine-page a { color: inherit; text-decoration: none; }
+.magazine-page button { background: none; border: 0; cursor: pointer; font-family: inherit; }
+.magazine-page ul, .magazine-page ol { list-style: none; }
+
+/* HERO - 마라톤110 */
+.magazine-page .hero { width: 100%; }
+.magazine-page .hero__visual { width: 100%; height: 760px; background: var(--c-placeholder); }
+.magazine-page .hero__visual img { width: 100%; height: 100%; object-fit: cover; }
+.magazine-page .hero__body { width: 100%; padding: 234px 0 80px; }
+.magazine-page .hero__inner { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter-pc); display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch; }
+.magazine-page .hero__title-block { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-height: 100%; }
+.magazine-page .hero__title-row { display: flex; flex-direction: column; gap: 18px; }
+.magazine-page .hero__title { display: flex; align-items: flex-end; gap: 5px; text-transform: uppercase; }
+.magazine-page .hero__title-main { font-family: 'General Sans', 'Pretendard Variable', sans-serif; font-weight: 700; font-size: 46px; letter-spacing: -0.46px; line-height: 1; }
+.magazine-page .hero__title-num { font-family: 'General Sans', 'Pretendard Variable', sans-serif; font-weight: 700; font-size: 48px; letter-spacing: -0.48px; line-height: 1; }
+.magazine-page .hero__subtitle { font-family: 'General Sans', 'Pretendard Variable', sans-serif; font-weight: 400; font-size: 22px; letter-spacing: -0.22px; line-height: 1; }
+.magazine-page .hero__tags { display: flex; flex-direction: column; gap: 4px; font-weight: 600; font-size: 14px; letter-spacing: -0.14px; line-height: 1.5; }
+.magazine-page .hero__desc {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.18px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  /* 좌측 컬럼 높이에 맞춰 단락이 위/중간/아래로 균등 분배 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+  min-height: 100%;
+}
+.magazine-page .hero__desc p { margin: 0; }
+
+/* STICKY TAB BAR */
+.magazine-page .tabbar { position: sticky; top: var(--gnb-offset); z-index: 100; background: var(--c-title); height: 74px; width: 100%; }
+.magazine-page .tabbar__inner { max-width: 1920px; margin: 0 auto; height: 100%; padding: 0 320px; display: flex; align-items: center; justify-content: space-between; }
+.magazine-page .tabbar__item { height: 100%; display: flex; align-items: center; justify-content: center; font-weight: 400; font-size: 18px; letter-spacing: -0.18px; color: var(--c-bg5); transition: color .25s; }
+.magazine-page .tabbar__item.is-active { font-weight: 600; color: var(--c-red); border-bottom: 2px solid var(--c-red); }
+
+.magazine-page .chapter { scroll-margin-top: calc(var(--gnb-offset) + 74px); }
+
+/* PRODUCT GRID */
+.magazine-page .products { padding: 145px 0 110px; }
+.magazine-page .products__inner { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; align-items: center; justify-content: space-between; gap: 0; }
+.magazine-page .product-card { display: flex; flex-direction: column; align-items: center; flex: 1; }
+.magazine-page .product-card__img { width: 240px; height: 240px; background: var(--c-placeholder); margin-bottom: 16px; overflow: hidden; }
+.magazine-page .product-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.magazine-page .product-card:hover .product-card__img img { transform: scale(1.03); }
+.magazine-page .product-card__name { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; text-transform: uppercase; margin-bottom: 8px; }
+.magazine-page .product-card__link { font-weight: 600; font-size: 16px; letter-spacing: -0.16px; text-decoration: underline; text-align: center; }
+
+/* CHAPTER COMMON */
+.magazine-page .chapter__hero { position: relative; width: 100%; height: 760px; background: var(--c-placeholder); margin-bottom: 120px; overflow: hidden; }
+.magazine-page .chapter__hero img { width: 100%; height: 100%; object-fit: cover; }
+
+/* 챕터 타이틀 — hero 이미지 위에 오버레이 */
+.magazine-page .chapter__title-block { position: absolute; left: var(--gutter-pc); bottom: 80px; z-index: 2; color: #fff; }
+.magazine-page .chapter__title { font-weight: 700; font-size: 42px; letter-spacing: -0.42px; line-height: 1; text-transform: uppercase; margin-bottom: 16px; color: inherit; }
+.magazine-page .chapter__title-en { font-family: 'General Sans', 'Pretendard Variable', sans-serif; font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1; color: inherit; }
+/* 이미지 가독성 위해 살짝 dim */
+.magazine-page .chapter__hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,.35) 100%); pointer-events: none; z-index: 1; }
+
+.magazine-page .chapter__intro { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; align-items: flex-start; justify-content: space-between; gap: 60px; margin-bottom: 120px; }
+.magazine-page .chapter__intro-text { flex: 1; max-width: 1120px; font-weight: 600; font-size: 26px; letter-spacing: -0.26px; line-height: 1.5; }
+.magazine-page .chapter__intro-author { display: flex; flex-direction: column; gap: 0; flex-shrink: 0; }
+.magazine-page .chapter__intro-author-name { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; text-transform: uppercase; }
+.magazine-page .chapter__intro-author-handle { font-weight: 400; font-size: 16px; letter-spacing: -0.16px; line-height: 1.5; }
+
+/* CHAPTER QA — 좌이미지 + 우텍스트 */
+.magazine-page .chapter__qa { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; gap: 160px; margin-bottom: 120px; align-items: flex-start; }
+.magazine-page .chapter__qa--reverse { flex-direction: row-reverse; }
+.magazine-page .chapter__qa-img { flex-shrink: 0; width: 800px; height: 1200px; background: var(--c-placeholder); }
+.magazine-page .chapter__qa-img img { width: 100%; height: 100%; object-fit: cover; }
+.magazine-page .chapter__qa-text { flex: 1; max-width: 640px; display: flex; flex-direction: column; gap: 40px; }
+.magazine-page .qa-item { display: flex; flex-direction: column; gap: 0; font-size: 18px; letter-spacing: -0.18px; line-height: 1.5; }
+.magazine-page .qa-item__q { font-weight: 600; }
+.magazine-page .qa-item__a { font-weight: 400; }
+
+/* PULL QUOTE */
+.magazine-page .chapter__quote { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); margin-bottom: 60px; }
+.magazine-page .chapter__quote p { font-weight: 600; font-size: 26px; letter-spacing: -0.26px; line-height: 1.5; }
+
+.magazine-page .chapter__solo-img { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); margin-bottom: 120px; }
+.magazine-page .chapter__solo-img-inner { width: 100%; height: 790px; background: var(--c-placeholder); }
+.magazine-page .chapter__solo-img-inner img { width: 100%; height: 100%; object-fit: cover; }
+
+/* solo-img 가로 스와이프 슬라이더 */
+.magazine-page .chapter__solo-img .swiper { position: relative; width: 100%; overflow: hidden; }
+.magazine-page .chapter__solo-img .swiper-slide { width: 100%; height: 790px; background: var(--c-placeholder); }
+.magazine-page .chapter__solo-img .swiper-slide img { width: 100%; height: 100%; object-fit: cover; }
+
+/* 페이지네이션 — 이미지 하단 안쪽에 오버레이 */
+.magazine-page .chapter__solo-img .swiper-pagination {
+  position: absolute;
+  left: 0; right: 0; bottom: 24px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  pointer-events: auto;
+}
+.magazine-page .chapter__solo-img .swiper-pagination-bullet {
+  width: 8px; height: 8px;
+  background: rgba(255,255,255,.5);
+  opacity: 1;
+  transition: background .25s, width .25s;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.magazine-page .chapter__solo-img .swiper-pagination-bullet-active {
+  background: #fff;
+  width: 24px;
+}
+
+/* CHAPTER STACK — 좌이미지스택 + 우Q&A (sticky sidebar) */
+.magazine-page .chapter__stack { max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter-pc); display: flex; gap: 160px; margin-bottom: 120px; align-items: flex-start; }
+.magazine-page .chapter__stack-imgs { flex-shrink: 0; width: 800px; display: flex; flex-direction: column; gap: 40px; }
+.magazine-page .chapter__stack-imgs > div { width: 100%; height: 1200px; background: var(--c-placeholder); }
+.magazine-page .chapter__stack-imgs img { width: 100%; height: 100%; object-fit: cover; }
+/* 우측 텍스트는 화면에 sticky로 고정 — 이미지만 스크롤 */
+.magazine-page .chapter__stack .chapter__qa-text {
+  position: sticky;
+  top: calc(var(--gnb-offset) + 74px + 80px);
+  align-self: flex-start;
+  max-height: calc(100vh - var(--gnb-offset) - 74px - 100px);
+  overflow-y: auto;
+}
+.magazine-page .chapter__stack .chapter__qa-text::-webkit-scrollbar { width: 0; }
+
+/* 이미지 페이드인 — 29CM Framer Motion spring 패턴 재현 */
+.magazine-page .img-fade {
+  will-change: transform, opacity;
+  opacity: 0;
+  transform: perspective(1200px) translateY(50px);
+  /* spring(stiffness 200, damping 30, mass 1) ≈ 살짝 통통 튀는 ease-out */
+  transition: opacity 0.85s cubic-bezier(0.34, 1.32, 0.45, 1) 0.2s,
+              transform 0.85s cubic-bezier(0.34, 1.32, 0.45, 1) 0.2s;
+}
+.magazine-page .img-fade.is-in {
+  opacity: 1;
+  transform: perspective(1200px) translateY(0);
+}
+
+/* TABLET 768~1279 */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .magazine-page { --gutter-pc: 60px; }
+  .magazine-page .hero__visual { height: auto; aspect-ratio: 16/9; }
+  .magazine-page .hero__body { padding: 80px 0 60px; }
+  .magazine-page .hero__inner { padding: 0 var(--gutter-tablet); gap: 40px; }
+  .magazine-page .hero__title-block { justify-content: flex-start; min-height: 0; gap: 32px; }
+  .magazine-page .hero__desc { justify-content: flex-start; min-height: 0; gap: 24px; }
+  .magazine-page .hero__title-main { font-size: 36px; }
+  .magazine-page .hero__title-num { font-size: 38px; }
+  .magazine-page .hero__subtitle { font-size: 18px; }
+  .magazine-page .hero__desc { font-size: 16px; }
+  .magazine-page .tabbar { height: 60px; }
+  .magazine-page .tabbar__inner { padding: 0 var(--gutter-tablet); gap: 24px; overflow-x: auto; justify-content: flex-start; }
+  .magazine-page .tabbar__item { font-size: 14px; flex-shrink: 0; }
+  .magazine-page .products { padding: 80px 0 60px; }
+  .magazine-page .products__inner { padding: 0 var(--gutter-tablet); flex-wrap: wrap; gap: 24px; justify-content: center; }
+  .magazine-page .product-card { flex: 0 0 calc(33.33% - 16px); }
+  .magazine-page .product-card__img { width: 180px; height: 180px; }
+  .magazine-page .chapter__hero { height: auto; aspect-ratio: 16/9; margin-bottom: 60px; }
+  .magazine-page .chapter__title-block { left: var(--gutter-tablet); bottom: 40px; }
+  .magazine-page .chapter__intro { padding: 0 var(--gutter-tablet); gap: 32px; margin-bottom: 60px; flex-direction: column; }
+  .magazine-page .chapter__intro-text { font-size: 20px; }
+  .magazine-page .chapter__title-block { padding: 0; margin-bottom: 0; }
+  .magazine-page .chapter__title { font-size: 32px; }
+  .magazine-page .chapter__qa, .magazine-page .chapter__stack { padding: 0 var(--gutter-tablet); gap: 40px; margin-bottom: 60px; flex-direction: column; }
+  .magazine-page .chapter__qa-img { width: 100%; height: auto; aspect-ratio: 2/3; }
+  .magazine-page .chapter__qa-text { max-width: 100%; gap: 24px; }
+  .magazine-page .qa-item { font-size: 16px; }
+  .magazine-page .chapter__quote { padding: 0 var(--gutter-tablet); }
+  .magazine-page .chapter__quote p { font-size: 20px; }
+  .magazine-page .chapter__solo-img { padding: 0 var(--gutter-tablet); margin-bottom: 60px; }
+  .magazine-page .chapter__solo-img-inner { height: auto; aspect-ratio: 2/1; }
+  .magazine-page .chapter__solo-img .swiper-slide { height: auto; aspect-ratio: 2/1; }
+  .magazine-page .chapter__stack-imgs { width: 100%; gap: 24px; }
+  .magazine-page .chapter__stack-imgs > div { height: auto; aspect-ratio: 2/3; }
+  /* 태블릿에선 1단이라 sticky 해제 */
+  .magazine-page .chapter__stack .chapter__qa-text { position: static; max-height: none; overflow: visible; }
+}
+
+/* MOBILE ~767 */
+@media (max-width: 767px) {
+  .magazine-page .hero__visual { height: auto; aspect-ratio: 4/5; }
+  .magazine-page .hero__body { padding: 40px 0; }
+  .magazine-page .hero__inner { padding: 0 var(--gutter-mo); grid-template-columns: 1fr; gap: 24px; }
+  .magazine-page .hero__title-block { justify-content: flex-start; min-height: 0; gap: 24px; }
+  .magazine-page .hero__desc { justify-content: flex-start; min-height: 0; gap: 16px; }
+  .magazine-page .hero__title-main { font-size: 32px; }
+  .magazine-page .hero__title-num { font-size: 34px; }
+  .magazine-page .hero__subtitle { font-size: 16px; }
+  .magazine-page .hero__desc { font-size: 14px; }
+  .magazine-page .tabbar { height: 50px; }
+  .magazine-page .tabbar__inner { padding: 0 var(--gutter-mo); gap: 20px; overflow-x: auto; justify-content: flex-start; -webkit-overflow-scrolling: touch; }
+  .magazine-page .tabbar__inner::-webkit-scrollbar { display: none; }
+  .magazine-page .tabbar__item { font-size: 13px; flex-shrink: 0; white-space: nowrap; }
+  .magazine-page .products { padding: 60px 0 40px; }
+  .magazine-page .products__inner { padding: 0 var(--gutter-mo); flex-wrap: wrap; gap: 20px; justify-content: center; }
+  .magazine-page .product-card { flex: 0 0 calc(50% - 10px); }
+  .magazine-page .product-card__img { width: 100%; height: auto; aspect-ratio: 1/1; max-width: 160px; }
+  .magazine-page .chapter__hero { height: auto; aspect-ratio: 4/3; margin-bottom: 40px; }
+  .magazine-page .chapter__title-block { left: var(--gutter-mo); bottom: 24px; padding: 0; margin-bottom: 0; }
+  .magazine-page .chapter__intro { padding: 0 var(--gutter-mo); gap: 16px; margin-bottom: 40px; flex-direction: column; }
+  .magazine-page .chapter__intro-text { font-size: 16px; }
+  .magazine-page .chapter__intro-author-name, .magazine-page .chapter__intro-author-handle { font-size: 14px; }
+  .magazine-page .chapter__title { font-size: 24px; }
+  .magazine-page .chapter__title-en { font-size: 13px; }
+  .magazine-page .chapter__qa, .magazine-page .chapter__stack { padding: 0 var(--gutter-mo); gap: 20px; margin-bottom: 40px; flex-direction: column; }
+  .magazine-page .chapter__qa-img { width: 100%; height: auto; aspect-ratio: 3/4; }
+  .magazine-page .chapter__qa-text { max-width: 100%; gap: 20px; }
+  .magazine-page .qa-item { font-size: 14px; }
+  .magazine-page .chapter__quote { padding: 0 var(--gutter-mo); }
+  .magazine-page .chapter__quote p { font-size: 16px; }
+  .magazine-page .chapter__solo-img { padding: 0 var(--gutter-mo); margin-bottom: 40px; }
+  .magazine-page .chapter__solo-img-inner { height: auto; aspect-ratio: 4/3; }
+  .magazine-page .chapter__solo-img .swiper-slide { height: auto; aspect-ratio: 4/3; }
+  .magazine-page .chapter__solo-img .swiper-pagination { bottom: 16px; }
+  .magazine-page .chapter__stack-imgs { width: 100%; gap: 16px; }
+  .magazine-page .chapter__stack-imgs > div { height: auto; aspect-ratio: 3/4; }
+  /* 모바일에선 1단이라 sticky 해제 */
+  .magazine-page .chapter__stack .chapter__qa-text { position: static; max-height: none; overflow: visible; }
+}
+
+/* ANIMATION */
+.magazine-page .reveal { opacity: 0; transform: translateY(40px); transition: opacity .8s ease, transform .8s ease; }
+.magazine-page .reveal.is-in { opacity: 1; transform: translateY(0); }
+</style>
+
+<div class="magazine-page">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__visual">
+      <!-- <img src="" alt="Marathon 110"> -->
+    </div>
+    <div class="hero__body">
+      <div class="hero__inner">
+        <div class="hero__title-block">
+          <div class="hero__title-row">
+            <div class="hero__title">
+              <span class="hero__title-main">Marathon</span>
+              <span class="hero__title-num">110</span>
+            </div>
+            <p class="hero__subtitle">Interview : Classic For All</p>
+          </div>
+          <div class="hero__tags">
+            <span>#40년</span>
+            <span>#클래식</span>
+            <span>#지속성</span>
+            <span>#과거와 미래</span>
+            <span>#사랑과 연대</span>
+          </div>
+        </div>
+        <div class="hero__desc">
+          <p>여름 날씨는 해가 지날수록 변덕스러워집니다. 예측에 실패한 날씨의 수만큼 집 현관에, 사무실에 얄팍한 일회용 우산들이 쌓입니다. 비가 오면 우산 없이는 하루를 보낼 수 없는데 왜 우리는 그렇게 자주 우산을 잃어버리고 사는 것을 반복할까요. 어쩌면 좋아하지 않는 날씨 때문에 별수 없이 찾는 물건이란 생각이 커서일지도 모르겠습니다.</p>
+          <p>별수 없는 물건들, 이를테면 사무실의 키보드나 거실의 청소도구 같은 것들은 어떤 화려한 물건보다 더 자주 우리의 손에 닿습니다. 그런 것들이야말로 좋은 것이어야 하지 않을까요? 좋음의 기준은 각자 다르겠지만 '내 것', '내 물건'이라고 부르고 싶어지는 것들이 많아질수록 반복되는 날들이 조금 더 '나의 일상'처럼 느껴질 테니 말이에요.</p>
+          <p>올여름은 비닐우산 대신 나만의 우산을 준비해 길을 나서 봅시다. 우산이 내리는 비를 멈추게 할 수는 없겠지만, 펼칠 때마다 구겨진 마음까지 펼쳐지길 바라는 마음으로 좋은 우산을 골라 보는 거죠.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STICKY TAB BAR -->
+  <nav class="tabbar">
+    <div class="tabbar__inner">
+      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">마라톤110</a>
+      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">히로</a>
+      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">시니어 모델</a>
+      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
+      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">하울과 나우</a>
+      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">비키</a>
+      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
+      <a href="#chapter-girlband" class="tabbar__item" data-target="chapter-girlband">여중생 밴드</a>
+    </div>
+  </nav>
+
+  <!-- PRODUCTS - 5개 컬러웨이 -->
+  <section class="products">
+    <div class="products__inner">
+      <a href="#" class="product-card">
+        <div class="product-card__img"><img src="" alt=""></div>
+        <p class="product-card__name">Black</p>
+        <p class="product-card__link">제품 보기 →</p>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__img"><img src="" alt=""></div>
+        <p class="product-card__name">Black</p>
+        <p class="product-card__link">제품 보기 →</p>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__img"><img src="" alt=""></div>
+        <p class="product-card__name">Black</p>
+        <p class="product-card__link">제품 보기 →</p>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__img"><img src="" alt=""></div>
+        <p class="product-card__name">Black</p>
+        <p class="product-card__link">제품 보기 →</p>
+      </a>
+      <a href="#" class="product-card">
+        <div class="product-card__img"><img src="" alt=""></div>
+        <p class="product-card__name">Black</p>
+        <p class="product-card__link">제품 보기 →</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- CHAPTER 1 - 마라톤110 (인트로 챕터 - 자리 placeholder) -->
+  <article class="chapter" id="chapter-marathon">
+    <!-- 추후 마라톤110 인트로 콘텐츠 -->
+  </article>
+
+  <!-- CHAPTER 2 - 히로 -->
+  <article class="chapter" id="chapter-hiro">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">히로의 인터뷰</h2>
+        <p class="chapter__title-en">Hiro's interview</p>
+      </div>
+    </div>
+
+    <div class="chapter__intro reveal">
+      <p class="chapter__intro-text">매일의 우산은 오유경 디렉터가 운영하는 스튜디오 오유경과의 협업으로 탄생했습니다. 삶과 태도를 디자인에 담아내는 오유경 디렉터의 시선으로 바라본 29'는 어떤 브랜드일까요? 그 해석으로 탄생한 매일의 우산의 디자인과 콘셉트에 대해 이야기 나눴습니다.</p>
+      <div class="chapter__intro-author">
+        <span class="chapter__intro-author-name">오유경</span>
+        <span class="chapter__intro-author-handle">@yukyoung_oh_</span>
+      </div>
+    </div>
+
+    <!-- Q&A 좌이미지 + 우텍스트 -->
+    <div class="chapter__qa reveal">
+      <div class="chapter__qa-img"></div>
+      <div class="chapter__qa-text">
+        <div class="qa-item">
+          <p class="qa-item__q">자기 소개 부탁드립니다.</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">평소에 하루를 어떻게 보내시는지 궁금합니다. 하루 일과를 알려주세요.</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">가장 좋아하는 산책 코스가 어떻게 되나요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">함께 뛰고 싶지 않나요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 좌 이미지 스택 + 우 Q&A -->
+    <div class="chapter__stack reveal">
+      <div class="chapter__stack-imgs">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="chapter__qa-text">
+        <div class="qa-item">
+          <p class="qa-item__q">신발 처음 신으셨는데 느낌이 어떠셨나요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">본인이 가장 사랑하는 존재는 무엇인가요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pull Quote -->
+    <div class="chapter__quote reveal">
+      <p>먼저 우산이 우리에게 어떤 의미인지를 고민했어요.<br>우산을 '움직이는 나만의 공간'으로 정의했고, 우리가 그 공간을 어떻게 대하는지 관찰했죠.</p>
+    </div>
+
+    <!-- 풀폭 가로 스와이프 슬라이더 -->
+    <div class="chapter__solo-img reveal">
+      <div class="swiper" data-solo-swiper>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- CHAPTER 3 - 시니어 모델 (히로 챕터 구조 그대로 반복, 좌우 반전 변형) -->
+  <article class="chapter" id="chapter-senior">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">시니어 모델 인터뷰</h2>
+        <p class="chapter__title-en">Senior Model's interview</p>
+      </div>
+    </div>
+
+    <div class="chapter__intro reveal">
+      <p class="chapter__intro-text">매일의 우산은 오유경 디렉터가 운영하는 스튜디오 오유경과의 협업으로 탄생했습니다. 삶과 태도를 디자인에 담아내는 오유경 디렉터의 시선으로 바라본 29'는 어떤 브랜드일까요? 그 해석으로 탄생한 매일의 우산의 디자인과 콘셉트에 대해 이야기 나눴습니다.</p>
+      <div class="chapter__intro-author">
+        <span class="chapter__intro-author-name">오유경</span>
+        <span class="chapter__intro-author-handle">@yukyoung_oh_</span>
+      </div>
+    </div>
+
+    <div class="chapter__qa chapter__qa--reverse reveal">
+      <div class="chapter__qa-img"></div>
+      <div class="chapter__qa-text">
+        <div class="qa-item">
+          <p class="qa-item__q">자기 소개 부탁드립니다.</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">평소에 하루를 어떻게 보내시는지 궁금합니다. 하루 일과를 알려주세요.</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">가장 좋아하는 산책 코스가 어떻게 되나요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">함께 뛰고 싶지 않나요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="chapter__stack reveal">
+      <div class="chapter__qa-text">
+        <div class="qa-item">
+          <p class="qa-item__q">신발 처음 신으셨는데 느낌이 어떠셨나요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+        <div class="qa-item">
+          <p class="qa-item__q">본인이 가장 사랑하는 존재는 무엇인가요?</p>
+          <p class="qa-item__a">자기 소개 부탁드립니다.</p>
+        </div>
+      </div>
+      <div class="chapter__stack-imgs">
+        <div></div>
+      </div>
+    </div>
+
+    <div class="chapter__quote reveal">
+      <p>먼저 우산이 우리에게 어떤 의미인지를 고민했어요.<br>우산을 '움직이는 나만의 공간'으로 정의했고, 우리가 그 공간을 어떻게 대하는지 관찰했죠.</p>
+    </div>
+
+    <div class="chapter__solo-img reveal">
+      <div class="swiper" data-solo-swiper>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- CHAPTER 4-8 - 동일 구조 반복 (콘텐츠 채울 때 챕터 2-3 복사해서 사용) -->
+  <article class="chapter" id="chapter-couple">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">신촌문화관 부부 인터뷰</h2>
+        <p class="chapter__title-en">Couple's interview</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="chapter" id="chapter-howl">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">하울과 나우 인터뷰</h2>
+        <p class="chapter__title-en">Howl & Now's interview</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="chapter" id="chapter-vicky">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">비키 인터뷰</h2>
+        <p class="chapter__title-en">Vicky's interview</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="chapter" id="chapter-boyband">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">남고생 밴드 인터뷰</h2>
+        <p class="chapter__title-en">Boy Band's interview</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="chapter" id="chapter-girlband">
+    <div class="chapter__hero reveal">
+      <div class="chapter__title-block">
+        <h2 class="chapter__title">여중생 밴드 인터뷰</h2>
+        <p class="chapter__title-en">Girl Band's interview</p>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+(function () {
+  var root = document.querySelector('.magazine-page');
+  if (!root) return;
+
+  /* 1. 기존 reveal 효과 (텍스트, 인트로 등) */
+  var revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-in');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  root.querySelectorAll('.reveal').forEach(function (el) { revealObserver.observe(el); });
+
+  /* 2. 이미지 영역 자동 페이드인 (29CM 패턴) */
+  var imgSelectors = [
+    '.hero__inner',
+    '.chapter__hero',
+    '.chapter__qa-img',
+    '.chapter__solo-img',
+    '.chapter__stack-imgs > div'
+  ];
+  var imgEls = root.querySelectorAll(imgSelectors.join(','));
+  imgEls.forEach(function (el) { el.classList.add('img-fade'); });
+
+  var imgObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-in');
+        imgObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -10% 0px' });
+  imgEls.forEach(function (el) { imgObserver.observe(el); });
+
+  /* 3. Sticky Tab — 스크롤 위치에 따라 active 챕터 표시 */
+  var tabItems = root.querySelectorAll('.tabbar__item');
+  var sectionIds = ['chapter-marathon','chapter-hiro','chapter-senior','chapter-couple','chapter-howl','chapter-vicky','chapter-boyband','chapter-girlband'];
+  var sections = sectionIds.map(function (id) { return root.querySelector('#' + id); }).filter(Boolean);
+
+  var tabObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        var id = entry.target.id;
+        tabItems.forEach(function (t) { t.classList.toggle('is-active', t.dataset.target === id); });
+      }
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  sections.forEach(function (s) { tabObserver.observe(s); });
+
+  /* 4. solo-img 가로 스와이프 슬라이더 초기화 */
+  if (window.Swiper) {
+    root.querySelectorAll('[data-solo-swiper]').forEach(function (el) {
+      new Swiper(el, {
+        loop: true,
+        speed: 600,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true
+        },
+        pagination: {
+          el: el.querySelector('.swiper-pagination'),
+          clickable: true
+        }
+      });
+    });
+  }
+})();
+</script>
