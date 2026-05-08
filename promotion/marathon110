@@ -42,7 +42,7 @@
 .magazine-page .hero { width: 100%; }
 .magazine-page .hero__visual { width: 100%; height: 760px; background: var(--c-placeholder); }
 .magazine-page .hero__visual img { width: 100%; height: 100%; object-fit: cover; }
-.magazine-page .hero__body { width: 100%; padding: 120px 0 120px; }
+.magazine-page .hero__body { width: 100%; padding: 160px 0 120px; }
 .magazine-page .hero__inner { max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter-pc); display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch; }
 .magazine-page .hero__title-block { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; min-height: 100%; }
 .magazine-page .hero__title-row { display: flex; flex-direction: column; gap: 18px; }
@@ -76,7 +76,7 @@
 .magazine-page .chapter { scroll-margin-top: calc(var(--gnb-offset) + 74px); }
 
 /* PRODUCT GRID */
-.magazine-page .products { padding: 0 0 120px; }
+.magazine-page .products { padding: 0 0 160px; }
 .magazine-page .products__inner { max-width: 1280px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 0; }
 .magazine-page .product-card { display: flex; flex-direction: column; align-items: center; flex: 1; }
 .magazine-page .product-card__img { width: 240px; height: 240px; background: var(--c-placeholder); margin-bottom: 16px; overflow: hidden; }
@@ -274,14 +274,11 @@
   <!-- STICKY TAB BAR -->
   <nav class="tabbar">
     <div class="tabbar__inner">
-      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">마라톤110</a>
-      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">히로</a>
-      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">시니어 모델</a>
+      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">Product</a>
+      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">남고생 밴드</a>
+      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">혜성여고 밴드부</a>
       <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">신촌문화관 부부</a>
-      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">하울과 나우</a>
-      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">비키</a>
-      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
-      <a href="#chapter-girlband" class="tabbar__item" data-target="chapter-girlband">여중생 밴드</a>
+      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">김비키</a>
     </div>
   </nav>
     <div class="hero__body">
@@ -303,9 +300,9 @@
           </div>
         </div>
         <div class="hero__desc">
-          <p>여름 날씨는 해가 지날수록 변덕스러워집니다. 예측에 실패한 날씨의 수만큼 집 현관에, 사무실에 얄팍한 일회용 우산들이 쌓입니다. 비가 오면 우산 없이는 하루를 보낼 수 없는데 왜 우리는 그렇게 자주 우산을 잃어버리고 사는 것을 반복할까요. 어쩌면 좋아하지 않는 날씨 때문에 별수 없이 찾는 물건이란 생각이 커서일지도 모르겠습니다.</p>
-          <p>별수 없는 물건들, 이를테면 사무실의 키보드나 거실의 청소도구 같은 것들은 어떤 화려한 물건보다 더 자주 우리의 손에 닿습니다. 그런 것들이야말로 좋은 것이어야 하지 않을까요? 좋음의 기준은 각자 다르겠지만 '내 것', '내 물건'이라고 부르고 싶어지는 것들이 많아질수록 반복되는 날들이 조금 더 '나의 일상'처럼 느껴질 테니 말이에요.</p>
-          <p>올여름은 비닐우산 대신 나만의 우산을 준비해 길을 나서 봅시다. 우산이 내리는 비를 멈추게 할 수는 없겠지만, 펼칠 때마다 구겨진 마음까지 펼쳐지길 바라는 마음으로 좋은 우산을 골라 보는 거죠.</p>
+          <p>유행이 너무 빨라 무엇을 신어야 할지 고민인 시대. "누구에게나 어울리는 단 한 켤레의 신발은 무엇일까?“</p>
+          <p>70년대 초 미국 'SPECS'에서 처음 출시된 이 모델은 220 모델보다 더 낮고 얇은 형태가 특징입니다. 특히 아웃솔에는 미끄럼 방지 헤링본 패턴이 적용된 하드 루버 윈도우와 부드러운 쿠셔닝의 EVA 스폰지 솔이 사용되어, 220 모델보다 더 단단한 착화감을 제공합니다.</p>
+          <p>70년대 당시 미국 '러너스 월드(Runner’s World)' 신발 조사에서 유연성과 중창 마모도 부문 상위권에 올랐으며, 러닝화로서 좋은 평가를 받았습니다. 장거리 운동에 특화된 마라톤 220 모델과 달리, 110 모델은 단단하고 평평한 미드솔을 갖추고 있습니다.</p>
         </div>
       </div>
     </div>
@@ -495,51 +492,7 @@
   </article>
 
   <!-- CHAPTER 4-8 - 동일 구조 반복 (콘텐츠 채울 때 챕터 2-3 복사해서 사용) -->
-  <article class="chapter" id="chapter-couple">
-    <div class="chapter__hero reveal">
-      <div class="chapter__title-block">
-        <h2 class="chapter__title">신촌문화관 부부 인터뷰</h2>
-        <p class="chapter__title-en">Couple's interview</p>
-      </div>
-    </div>
-  </article>
-
-  <article class="chapter" id="chapter-howl">
-    <div class="chapter__hero reveal">
-      <div class="chapter__title-block">
-        <h2 class="chapter__title">하울과 나우 인터뷰</h2>
-        <p class="chapter__title-en">Howl & Now's interview</p>
-      </div>
-    </div>
-  </article>
-
-  <article class="chapter" id="chapter-vicky">
-    <div class="chapter__hero reveal">
-      <div class="chapter__title-block">
-        <h2 class="chapter__title">비키 인터뷰</h2>
-        <p class="chapter__title-en">Vicky's interview</p>
-      </div>
-    </div>
-  </article>
-
-  <article class="chapter" id="chapter-boyband">
-    <div class="chapter__hero reveal">
-      <div class="chapter__title-block">
-        <h2 class="chapter__title">남고생 밴드 인터뷰</h2>
-        <p class="chapter__title-en">Boy Band's interview</p>
-      </div>
-    </div>
-  </article>
-
-  <article class="chapter" id="chapter-girlband">
-    <div class="chapter__hero reveal">
-      <div class="chapter__title-block">
-        <h2 class="chapter__title">여중생 밴드 인터뷰</h2>
-        <p class="chapter__title-en">Girl Band's interview</p>
-      </div>
-    </div>
-  </article>
-
+  
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
