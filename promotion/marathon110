@@ -114,7 +114,7 @@
 .magazine-page .qa-item__a { font-weight: 400; }
 
 /* PULL QUOTE */
-.magazine-page .chapter__quote { max-width: 1600px; margin: 0 auto;  margin-bottom: 60px; }
+.magazine-page .chapter__quote { max-width: 1600px; margin: 0 auto;  margin-bottom: 120px; }
 .magazine-page .chapter__quote p { font-weight: 600; font-size: 26px; letter-spacing: -0.26px; line-height: 1.5; }
 
 .magazine-page .chapter__solo-img { max-width: 1600px; margin: 0 auto;  margin-bottom: 120px; }
