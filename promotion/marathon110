@@ -272,6 +272,7 @@
     <div class="hero__visual">
       <img src="https://image.prospecs.com/front/images/planning/10061/hero_02.jpg" alt="Marathon 110">
     </div>
+
   <!-- STICKY TAB BAR -->
   <nav class="tabbar">
     <div class="tabbar__inner">
@@ -418,7 +419,6 @@
       </div>
     </div>
 
-    <!-- 좌 이미지 스택 + 우 Q&A -->
     <div class="chapter__stack reveal">
       <div class="chapter__stack-imgs">
         <div><img src="https://image.prospecs.com/front/images/planning/10061/vicky_img01.jpg" alt=""></div>
@@ -444,14 +444,12 @@
       </div>
     </div>
 
-    <!-- Pull Quote -->
     <div class="chapter__quote reveal">
       <p>마라톤110은 마치,<br>
           Pouchkine - Bleu Fuchsia 같아요.
 </p>
     </div>
 
-    <!-- 풀폭 가로 스와이프 슬라이더 -->
     <div class="chapter__solo-img reveal">
       <div class="swiper" data-solo-swiper>
         <div class="swiper-wrapper">
@@ -501,7 +499,7 @@
         </div>
       </div>
     </div>
-    <!-- 좌 이미지 스택 + 우 Q&A -->
+
     <div class="chapter__qa chapter__qa--reverse reveal">
       <div class="chapter__stack-imgs">
         <div><img src="https://image.prospecs.com/front/images/planning/10061/hyesung_img04.jpg" alt=""></div>
@@ -512,11 +510,6 @@
       </p>
     </div>
     </div>
-
-    <!-- Pull Quote -->
-
-
-
   </article>
 
   <!-- CHAPTER 3 - 남고생 밴드 -->
@@ -556,7 +549,7 @@
           <p class="qa-item__a">신민재(드럼): 합주가 아니더라도 자주 만나고 멤버끼리의 교류가 많은 것이 가장 중요하다 생각합니다.</p>
         </div>
       </div>
-<!-- 풀폭 가로 스와이프 슬라이더 -->
+
     <div class="chapter__solo-img reveal">
       <div class="swiper" data-solo-swiper>
         <div class="swiper-wrapper">
@@ -565,10 +558,6 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-
-
-  <!-- CHAPTER 4-8 - 동일 구조 반복 (콘텐츠 채울 때 챕터 2-3 복사해서 사용) -->
-  
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -611,7 +600,7 @@
 
   /* 3. Sticky Tab — 스크롤 위치에 따라 active 챕터 표시 */
   var tabItems = root.querySelectorAll('.tabbar__item');
-  var sectionIds = ['chapter-marathon','chapter-hiro','chapter-senior','chapter-couple','chapter-howl','chapter-vicky','chapter-boyband','chapter-girlband'];
+  var sectionIds = ['chapter-product', 'chapter-shinchon', 'chapter-vicky', 'chapter-hyesung', 'chapter-boyband'];
   var sections = sectionIds.map(function (id) { return root.querySelector('#' + id); }).filter(Boolean);
 
   var tabObserver = new IntersectionObserver(function (entries) {
