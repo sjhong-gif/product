@@ -275,11 +275,11 @@
   <!-- STICKY TAB BAR -->
   <nav class="tabbar">
     <div class="tabbar__inner">
-      <a href="#chapter-marathon" class="tabbar__item is-active" data-target="chapter-marathon">Product</a>
-      <a href="#chapter-hiro" class="tabbar__item" data-target="chapter-hiro">신촌문화관 부부</a>
-      <a href="#chapter-senior" class="tabbar__item" data-target="chapter-senior">김비키</a>
-      <a href="#chapter-couple" class="tabbar__item" data-target="chapter-couple">혜성여고 밴드부</a>
-      <a href="#chapter-howl" class="tabbar__item" data-target="chapter-howl">남고생 밴드</a>
+      <a href="#chapter-product" class="tabbar__item is-active" data-target="chapter-product">Product</a>
+      <a href="#chapter-shinchon" class="tabbar__item" data-target="chapter-shinchon">신촌문화관 부부</a>
+      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vick">김비키</a>
+      <a href="#chapter-hyesung" class="tabbar__item" data-target="chapter-hyesung">혜성여고 밴드부</a>
+      <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
     </div>
   </nav>
     <div class="hero__body">
@@ -341,12 +341,12 @@
   </section>
 
   <!-- CHAPTER 1 - 마라톤110 (인트로 챕터 - 자리 placeholder) -->
-  <article class="chapter" id="chapter-marathon">
+  <article class="chapter" id="chapter-product">
     <!-- 추후 마라톤110 인트로 콘텐츠 -->
   </article>
 
   <!-- CHAPTER 2 - 신촌문화관 부부 -->
-  <article class="chapter" id="chapter-senior">
+  <article class="chapter" id="chapter-shinchon">
     <div class="chapter__hero reveal">
       <div class="chapter__title-block">
         <h2 class="chapter__title">신촌문화관 부부</h2>
@@ -405,7 +405,7 @@
   </article>
 
  <!-- CHAPTER 3 - 김비키 -->
-  <article class="chapter" id="chapter-hiro">
+  <article class="chapter" id="chapter-vicky">
     <div class="chapter__hero reveal">
       <div class="chapter__title-block">
         <h2 class="chapter__title">김비키</h2>
@@ -468,7 +468,7 @@
   </article>
 
   <!-- CHAPTER 2 - 혜성여고 밴드부 -->
-  <article class="chapter" id="chapter-hiro">
+  <article class="chapter" id="chapter-hyesung">
     <div class="chapter__hero reveal">
       <div class="chapter__title-block">
         <h2 class="chapter__title">혜성여고 밴드부 [런치세트]</h2>
@@ -484,13 +484,18 @@
       </div>
     </div>
 
-    <!-- 좌 이미지 스택 + 우 Q&A -->
-    <div class="chapter__stack reveal">
-      <div class="chapter__stack-imgs">
-        <div></div>
-        <div></div>
+        <!-- 풀폭 가로 스와이프 슬라이더 -->
+    <div class="chapter__solo-img reveal">
+      <div class="swiper" data-solo-swiper>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="chapter__qa-text">
+    </div>
+    <div class="chapter__qa-text">
         <div class="qa-item">
           <p class="qa-item__q">밴드 소개 부탁드립니다.</p>
           <p class="qa-item__a">2012년부터 15년째 이어오고 있는 혜성여고 밴드부 런치세트입니다. 현재 20명의 학생이 함께하고 있습니다.</p>
@@ -504,7 +509,14 @@
                                 아이돌이나 솔로 가수처럼 음악을 만들고 프로듀싱하는 사람이 따로 있는 것과는 달리 밴드는 각자가 솔로로 돋보일 수 있는 기회가 많고 그게 모여서 하나의 음악을 만든다는 것이 특별하다고 생각합니다.
           </p>
         </div>
+    </div>
+    <!-- 좌 이미지 스택 + 우 Q&A -->
+    <div class="chapter__stack reveal">
+      <div class="chapter__stack-imgs">
+        <div></div>
+        <div></div>
       </div>
+      
     </div>
 
     <!-- Pull Quote -->
@@ -514,21 +526,11 @@
 </p>
     </div>
 
-    <!-- 풀폭 가로 스와이프 슬라이더 -->
-    <div class="chapter__solo-img reveal">
-      <div class="swiper" data-solo-swiper>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-          <div class="swiper-slide"></div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
+
   </article>
 
   <!-- CHAPTER 3 - 남고생 밴드 -->
-  <article class="chapter" id="chapter-senior">
+  <article class="chapter" id="chapter-boyband">
     <div class="chapter__hero reveal">
       <div class="chapter__title-block">
         <h2 class="chapter__title">남고생 밴드 [미완성품]</h2>
