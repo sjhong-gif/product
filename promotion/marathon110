@@ -278,7 +278,7 @@
     <div class="tabbar__inner">
       <a href="#chapter-product" class="tabbar__item is-active" data-target="chapter-product">Product</a>
       <a href="#chapter-shinchon" class="tabbar__item" data-target="chapter-shinchon">신촌문화관 부부</a>
-      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vick">김비키</a>
+      <a href="#chapter-vicky" class="tabbar__item" data-target="chapter-vicky">김비키</a>
       <a href="#chapter-hyesung" class="tabbar__item" data-target="chapter-hyesung">혜성여고 밴드부</a>
       <a href="#chapter-boyband" class="tabbar__item" data-target="chapter-boyband">남고생 밴드</a>
     </div>
@@ -315,27 +315,27 @@
   <section class="products">
     <div class="products__inner">
       <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PH0US26S101" class="product-card">
-        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S101.jpg" alt=""></div>
+        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S101.png" alt=""></div>
         <p class="product-card__name">BLACK</p>
         <p class="product-card__link">제품 보기 →</p>
       </a>
       <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PH0US26S102" class="product-card">
-        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S102.jpg" alt=""></div>
+        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S102.png" alt=""></div>
         <p class="product-card__name">WHITE</p>
         <p class="product-card__link">제품 보기 →</p>
       </a>
       <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PH0US26S103" class="product-card">
-        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S103.jpg" alt=""></div>
+        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S103.png" alt=""></div>
         <p class="product-card__name">GRAY</p>
         <p class="product-card__link">제품 보기 →</p>
       </a>
       <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PH0US26S104" class="product-card">
-        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S104.jpg" alt=""></div>
+        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S104.png" alt=""></div>
         <p class="product-card__name">BLUE</p>
         <p class="product-card__link">제품 보기 →</p>
       </a>
       <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PH0US26S105" class="product-card">
-        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S105.jpg" alt=""></div>
+        <div class="product-card__img"><img src="https://image.prospecs.com/front/images/planning/10061/PH0US26S105.png" alt=""></div>
         <p class="product-card__name">RED</p>
         <p class="product-card__link">제품 보기 →</p>
       </a>
