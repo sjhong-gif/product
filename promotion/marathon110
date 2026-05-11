@@ -502,11 +502,11 @@
       </div>
     </div>
     <!-- 좌 이미지 스택 + 우 Q&A -->
-    <div class="chapter__stack reveal">
+    <div class="chapter__qa chapter__qa--reverse reveal">
       <div class="chapter__stack-imgs">
         <div><img src="https://image.prospecs.com/front/images/planning/10061/hyesung_img04.jpg" alt=""></div>
       </div>
-          <div class="chapter__qa chapter__qa--reverse reveal is-in" style="max-width: 1600px; margin: 0 auto; margin-top: 600px;">
+          <div class="chapter__qa-text" style="max-width: 1600px; margin: 0 auto; margin-top: 600px;">
       <p>인간 본연의 야수성, 미친 듯이 마구 날뛰고 싶은 마음 같은 것을<br>
           무대 위에서는 합법적으로 건강하게 터트릴 수 있어요.
       </p>
