@@ -492,7 +492,7 @@
         <div class="swiper-pagination"></div>
       </div>
     </div>
-    <div class="chapter__qa-text" style="max-width: 1600px; margin: 0 auto; margin-bottom: 120px;">
+    <div class="chapter__qa-text" style="max-width: 1600px; margin: 0 auto; margin-top: 600px;">
         <div class="qa-item">
           <p class="qa-item__q">밴드 소개 부탁드립니다.</p>
           <p class="qa-item__a">2012년부터 15년째 이어오고 있는 혜성여고 밴드부 런치세트입니다. 현재 20명의 학생이 함께하고 있습니다.</p>
@@ -542,8 +542,10 @@
       </div>
     </div>
 
-    <div class="chapter__stack reveal is-in">
-      <div class="chapter__stack-imgs"></div>
+    <div class="chapter__stack reveal">
+      <div class="chapter__stack-imgs">
+        <div></div>
+      </div>
       <div class="chapter__qa-text">
         <div class="qa-item">
           <p class="qa-item__q">밴드 소개 부탁드립니다.</p>
