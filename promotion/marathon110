@@ -69,12 +69,12 @@
 .magazine-page .hero__desc p + p { margin-top: 40px; }
 
 /* STICKY TAB BAR */
-.magazine-page .tabbar { position: sticky; top: var(--gnb-offset); z-index: 100; background: var(--c-title); height: 74px; width: 100%; }
+.magazine-page .tabbar { position: sticky; top: var(--gnb-offset); z-index: 100; background: var(--c-title); height: 60px; width: 100%; }
 .magazine-page .tabbar__inner { max-width: 1920px; margin: 0 auto; height: 100%; padding: 0 320px; display: flex; align-items: center; justify-content: space-between; }
 .magazine-page .tabbar__item { height: 100%; display: flex; align-items: center; justify-content: center; font-weight: 400; font-size: 16px; letter-spacing: -0.18px; color: var(--c-bg5); transition: color .25s; }
 .magazine-page .tabbar__item.is-active { font-weight: 600; color: var(--c-red); border-bottom: 2px solid var(--c-red); }
 
-.magazine-page .chapter { scroll-margin-top: calc(var(--gnb-offset) + 74px); }
+.magazine-page .chapter { scroll-margin-top: calc(var(--gnb-offset) + 60px); }
 
 /* PRODUCT GRID */
 .magazine-page .products { padding: 0 0 160px; }
@@ -157,9 +157,9 @@
 /* 우측 텍스트는 화면에 sticky로 고정 — 이미지만 스크롤 */
 .magazine-page .chapter__stack .chapter__qa-text {
   position: sticky;
-  top: calc(var(--gnb-offset) + 74px + 80px);
+  top: calc(var(--gnb-offset) + 60px + 80px);
   align-self: flex-start;
-  max-height: calc(100vh - var(--gnb-offset) - 74px - 100px);
+  max-height: calc(100vh - var(--gnb-offset) - 60px - 100px);
   overflow-y: auto;
 }
 .magazine-page .chapter__stack .chapter__qa-text::-webkit-scrollbar { width: 0; }
