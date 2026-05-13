@@ -1503,11 +1503,7 @@ button.swiper-pagination-bullet {
 .ps-btn-wrap {
   font-size: 0;
   text-align: center;
-    display: flex;
-    width: 640px;
-    margin: 0 auto;
 }
-
 
 .ps-btn-wrap .ps-btn + .ps-btn {
   margin-left: 20px;
@@ -4030,7 +4026,7 @@ main.index + .ps-footer {
 }
 
 .ps-detail-content > .thumbs {
-  text-align: center;
+  /* text-align: left; */
 }
 /* 뉴스/기획전 상세 임의로 중앙정렬 */
 .ps-detail-content img {
@@ -4097,8 +4093,8 @@ main.index + .ps-footer {
 
 /*250401*/
 .ps-sub-content {
-  width: 1364px;
-  margin: 0 auto;
+  /* width: 1364px;
+  margin: 0 auto; */
 }	
 
 
