@@ -8,7 +8,11 @@ body {
 }
 
 html::-webkit-scrollbar {
-    display: none;
+    display:;
+}
+
+html {
+  scrollbar-gutter: stable;
 }
 
 header {
