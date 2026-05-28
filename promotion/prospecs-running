@@ -282,9 +282,16 @@
       
           if (isBack && saved !== null) {
             var y = parseInt(saved, 10) || 0;
-            requestAnimationFrame(function () { window.scrollTo(0, y); });
-            // 이미지 로딩으로 높이가 늦게 확정되는 경우 한 번 보정
-            setTimeout(function () { window.scrollTo(0, y); }, 300);
+            var tries = 0;
+            var maxTries = 50; // 약 5초 (100ms 간격) — 모바일 느린 로딩 대비
+            var restore = function () {
+              window.scrollTo(0, y);
+              tries++;
+              // 목표에 도달(오차 2px)했거나 최대 시도 초과 시 종료
+              if (Math.abs(window.scrollY - y) <= 2 || tries >= maxTries) return;
+              setTimeout(restore, 100);
+            };
+            requestAnimationFrame(restore);
           }
         })();
       </script>
