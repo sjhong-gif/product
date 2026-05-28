@@ -116,113 +116,159 @@
         <p>러닝 스타일에 맞는 대표 제품을 제안합니다. </br> 추천 거리와 페이스를 기준으로 제품을 비교해보세요.</p>
       </div>
 
-      <table class="silo-chart-table">
-        <thead>
-          <tr>
-            <th class="silo-th silo-th-label">구분</th>
-            <th class="silo-th">입문/데일리</th>
-            <th class="silo-th">성장/데일리</th>
-            <th class="silo-th">스피드/퍼포먼스</th>
-            <th class="silo-th">장거리/레이스</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- 대표 상품 (이미지 + 제품명) -->
-          <tr>
-            <td class="silo-td silo-td-label">대표 상품</td>
-            <td class="silo-td silo-td-product">
-              <div class="product-img">
-                <img src="https://image.prospecs.com/front/images/planning/running/duplex_gf.png" alt="DUPLEX GF" />
-              </div>
-              <div class="product-name">DUPLEX GF</div>
-            </td>
-            <td class="silo-td silo-td-product">
-              <div class="product-img">
-                <img src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" alt="SPEED RUSH 3" />
-              </div>
-              <div class="product-name">SPEED RUSH 3</div>
-            </td>
-            <td class="silo-td silo-td-product">
-              <div class="product-img">
-                <img src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" />
-              </div>
-              <div class="product-name">HYPER RUSH 2 템포</div>
-            </td>
-            <td class="silo-td silo-td-product">
-              <div class="product-img">
-                <img src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" alt="INFINITE RUSH" />
-              </div>
-              <div class="product-name">INFINITE RUSH</div>
-            </td>
-          </tr>
-          <!-- 제품 특징 -->
-          <tr>
-            <td class="silo-td silo-td-label">제품 특징</td>
-            <td class="silo-td silo-td-features">
-              <ul>
-                <li>프로-스펙스 오리지널 기술력 G-FRAME 구조의 안정화</li>
-                <li>우수한 아치 지지</li>
-                <li>이중 물성 미드솔의 안정적 쿠셔닝</li>
-              </ul>
-            </td>
-            <td class="silo-td silo-td-features">
-              <ul>
-                <li>경량성과 안정성 완벽 밸런스</li>
-                <li>전작 피드백을 반영한 업그레이드</li>
-                <li>속도와 거리 높여가는 성장 과정에 적합</li>
-              </ul>
-            </td>
-            <td class="silo-td silo-td-features">
-              <ul>
-                <li>카본 플레이트와 슈퍼폼의 조합</li>
-                <li>러너들 스피드 훈련에 최적화</li>
-                <li>통기성 좋은 초극세사 메쉬어퍼</li>
-                <li>아웃솔의 우수한 내마모 &amp; 그립력</li>
-              </ul>
-            </td>
-            <td class="silo-td silo-td-features">
-              <ul>
-                <li>최상급 레이싱화</li>
-                <li>세계육상연맹 공식 마라톤화</li>
-                <li>카본 플레이트의 폭발적 탄성</li>
-                <li>PEBAX 슈퍼폼의 뛰어난 에너지 리턴</li>
-              </ul>
-            </td>
-          </tr>
-          <!-- 추천 거리 -->
-          <tr>
-            <td class="silo-td silo-td-label">추천 거리</td>
-            <td class="silo-td silo-td-stat">3K ~ 21K</td>
-            <td class="silo-td silo-td-stat">3K ~ 21K</td>
-            <td class="silo-td silo-td-stat">10K ~ 21K</td>
-            <td class="silo-td silo-td-stat">10K ~ 42K</td>
-          </tr>
-          <!-- 페이스 -->
-          <tr>
-            <td class="silo-td silo-td-label">페이스</td>
-            <td class="silo-td silo-td-stat">8:00 ~ 6:00</td>
-            <td class="silo-td silo-td-stat">7:30 ~ 5:00</td>
-            <td class="silo-td silo-td-stat">7:00 ~ 4:00</td>
-            <td class="silo-td silo-td-stat">5:00 ~ 3:30</td>
-          </tr>
-          <!-- CTA -->
-          <tr>
-            <td class="silo-td silo-td-label silo-td-label-empty"></td>
-            <td class="silo-td silo-td-cta">
-              <a href="#" class="silo-btn-outline">더 알아보기</a>
-            </td>
-            <td class="silo-td silo-td-cta">
-              <a href="#" class="silo-btn-outline">더 알아보기</a>
-            </td>
-            <td class="silo-td silo-td-cta">
-              <a href="#" class="silo-btn-outline">더 알아보기</a>
-            </td>
-            <td class="silo-td silo-td-cta">
-              <a href="#" class="silo-btn-outline">더 알아보기</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="featured_grid">
+
+        <!-- 입문/데일리 -->
+        <article class="featured_card">
+          <div class="featured_badge">입문/데일리</div>
+          <div class="featured_image">
+            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/duplex_gf.png" alt="DUPLEX GF" />
+            <div class="color_chips">
+              <button type="button" class="chip is-active" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/duplex_gf.png" aria-label="화이트"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/duplex_gf_black.png" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#1e3a5f;" data-src="https://image.prospecs.com/front/images/planning/running/duplex_gf_navy.png" aria-label="네이비"></button>
+              <button type="button" class="chip" style="background:#d4b896;" data-src="https://image.prospecs.com/front/images/planning/running/duplex_gf_beige.png" aria-label="베이지"></button>
+            </div>
+          </div>
+          <a href="#" class="featured_product_link">
+            <span class="featured_product_name">DUPLEX GF</span>
+            <span class="featured_product_arrow">→</span>
+          </a>
+          <ol class="featured_features">
+            <li><span class="feature_num">01</span><span class="feature_text">G-FRAME 구조의 안정화</span></li>
+            <li><span class="feature_num">02</span><span class="feature_text">이중 물성 미드솔 쿠셔닝</span></li>
+            <li><span class="feature_num">03</span><span class="feature_text">우수한 아치 지지력</span></li>
+          </ol>
+          <div class="featured_specs">
+            <div class="spec_card">
+              <div class="spec_label">추천 거리</div>
+              <div class="spec_value">3K~21K</div>
+            </div>
+            <div class="spec_card">
+              <div class="spec_label">페이스</div>
+              <div class="spec_value spec_value_small">8:00~6:00</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 성장/데일리 -->
+        <article class="featured_card">
+          <div class="featured_badge">성장/데일리</div>
+          <div class="featured_image">
+            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" alt="SPEED RUSH 3" />
+            <div class="color_chips">
+              <button type="button" class="chip is-active" style="background:#e0e0e0;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" aria-label="실버"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3_black.png" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#f4d03f;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3_yellow.png" aria-label="옐로우"></button>
+            </div>
+          </div>
+          <a href="#" class="featured_product_link">
+            <span class="featured_product_name">SPEED RUSH 3</span>
+            <span class="featured_product_arrow">→</span>
+          </a>
+          <ol class="featured_features">
+            <li><span class="feature_num">01</span><span class="feature_text">경량성·안정성 완벽 밸런스</span></li>
+            <li><span class="feature_num">02</span><span class="feature_text">전작 피드백 반영한 업그레이드</span></li>
+            <li><span class="feature_num">03</span><span class="feature_text">성장 과정에 최적</span></li>
+          </ol>
+          <div class="featured_specs">
+            <div class="spec_card">
+              <div class="spec_label">추천 거리</div>
+              <div class="spec_value">3K~21K</div>
+            </div>
+            <div class="spec_card">
+              <div class="spec_label">페이스</div>
+              <div class="spec_value spec_value_small">7:30~5:00</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 스피드/퍼포먼스 -->
+        <article class="featured_card">
+          <div class="featured_badge">스피드/퍼포먼스</div>
+          <div class="featured_image">
+            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" />
+            <div class="color_chips">
+              <button type="button" class="chip is-active" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" aria-label="레드"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_black.png" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_white.png" aria-label="화이트"></button>
+            </div>
+          </div>
+          <a href="#" class="featured_product_link">
+            <span class="featured_product_name">HYPER RUSH 2 템포</span>
+            <span class="featured_product_arrow">→</span>
+          </a>
+          <ol class="featured_features">
+            <li><span class="feature_num">01</span><span class="feature_text">카본 플레이트 + 슈퍼폼 조합</span></li>
+            <li><span class="feature_num">02</span><span class="feature_text">스피드 훈련 최적화</span></li>
+            <li><span class="feature_num">03</span><span class="feature_text">우수한 내마모 &amp; 그립력</span></li>
+          </ol>
+          <div class="featured_specs">
+            <div class="spec_card">
+              <div class="spec_label">추천 거리</div>
+              <div class="spec_value">10K~21K</div>
+            </div>
+            <div class="spec_card">
+              <div class="spec_label">페이스</div>
+              <div class="spec_value spec_value_small">7:00~4:00</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 장거리/레이스 -->
+        <article class="featured_card">
+          <div class="featured_badge">장거리/레이스</div>
+          <div class="featured_image">
+            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" alt="INFINITE RUSH" />
+            <div class="color_chips">
+              <button type="button" class="chip is-active" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" aria-label="화이트"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush_black.png" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush_red.png" aria-label="레드"></button>
+            </div>
+          </div>
+          <a href="#" class="featured_product_link">
+            <span class="featured_product_name">INFINITE RUSH</span>
+            <span class="featured_product_arrow">→</span>
+          </a>
+          <ol class="featured_features">
+            <li><span class="feature_num">01</span><span class="feature_text">세계육상연맹 공식 마라톤화</span></li>
+            <li><span class="feature_num">02</span><span class="feature_text">카본 플레이트의 폭발적 탄성</span></li>
+            <li><span class="feature_num">03</span><span class="feature_text">PEBAX 슈퍼폼 에너지 리턴</span></li>
+          </ol>
+          <div class="featured_specs">
+            <div class="spec_card">
+              <div class="spec_label">추천 거리</div>
+              <div class="spec_value">10K~42K</div>
+            </div>
+            <div class="spec_card">
+              <div class="spec_label">페이스</div>
+              <div class="spec_value spec_value_small">5:00~3:30</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- 컬러칩 인터랙션 -->
+      <script>
+        (function () {
+          var chips = document.querySelectorAll('.prospecs-running .color_chips');
+          chips.forEach(function (group) {
+            group.addEventListener('click', function (e) {
+              var chip = e.target.closest('.chip');
+              if (!chip) return;
+              e.preventDefault();
+              var card = chip.closest('.featured_card');
+              if (!card) return;
+              var newSrc = chip.getAttribute('data-src');
+              card.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('is-active'); });
+              chip.classList.add('is-active');
+              var img = card.querySelector('.product_main_img');
+              if (newSrc && img) img.src = newSrc;
+            });
+          });
+        })();
+      </script>
 
     </div>
   </div>
