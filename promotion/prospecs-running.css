@@ -124,7 +124,6 @@
   flex-wrap: wrap;
   width: 100%;
   padding-bottom: 10px;
-  padding-top: 30px;
   gap: 0;
 }
 .prospecs-running .col_item {
@@ -232,7 +231,8 @@
   transition: box-shadow 0.25s ease;
 }
 .prospecs-running .featured_card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+  transform: translateY(-4px);
 }
 
 /* 상단 카테고리 배너 */
