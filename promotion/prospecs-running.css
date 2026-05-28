@@ -90,7 +90,6 @@
 
 /* ───────── SECTION COMMON ───────── */
 .prospecs-running .full-section {
-  background-color: #f7f7f7;
   width: 100%;
   padding: 60px 20px 80px;
 }
@@ -114,7 +113,6 @@
 .prospecs-running .section_title_area p {
   font-family: "Pretendard Variable";
   font-size: 16px;
-  font-weight: 500;
   color: #555;
   text-transform: uppercase;
 }
@@ -171,7 +169,7 @@
 }
 .prospecs-running .col_img_subtitle {
   font-family: "Pretendard Variable";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.88);
   line-height: 1.45;
@@ -218,7 +216,6 @@
 
 /* ───────── FEATURED CARD GRID ───────── */
 .prospecs-running .silo_section {
-  background-color: #f7f7f7;
   padding: 60px 20px 100px;
 }
 .prospecs-running .featured_grid {
@@ -230,7 +227,6 @@
   display: flex;
   flex-direction: column;
   background: #fff;
-  border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
   transition: box-shadow 0.25s ease;
@@ -244,7 +240,7 @@
   background: #1d1d1d;
   color: #fff;
   font-family: "Pretendard Variable";
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500;
   text-align: center;
   padding: 12px;
@@ -376,8 +372,7 @@
   padding: 0 20px 20px;
 }
 .prospecs-running .spec_card {
-  background: #f5f5f5;
-  border-radius: 6px;
+  background: #f7f7f7;
   padding: 14px 14px 16px;
   display: flex;
   flex-direction: column;
@@ -401,7 +396,7 @@
   margin-top: 12px;
 }
 .prospecs-running .spec_value_small {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 /* ===========================================
