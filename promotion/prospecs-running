@@ -1,0 +1,217 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="./running.css">
+
+<div class="prospecs-running">
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero_section">
+    <img src="https://kor.mizuno.com/web/upload/kment/about/running_update_main_banner.jpg"
+         alt="MIZUNO RUNNING SHOES" />
+    <div class="hero_overlay_text">
+      <h1>MIZUNO<br>RUNNING<br>SHOES</h1>
+    </div>
+    <div class="hero_side_nav">
+      <div class="hero_side_nav_line"></div>
+      <div class="hero_side_nav_item">
+        <span>SPEED</span>
+        <div class="hero_side_nav_dot"></div>
+      </div>
+      <div class="hero_side_nav_item">
+        <span>BOUNCE</span>
+        <div class="hero_side_nav_dot"></div>
+      </div>
+      <div class="hero_side_nav_item">
+        <span>CRUISE</span>
+        <div class="hero_side_nav_dot"></div>
+      </div>
+      <div class="hero_side_nav_item">
+        <span>FLOAT</span>
+        <div class="hero_side_nav_dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FIND YOUR RUNNING SHOES ═══════════════════ -->
+  <div id="silotitile" class="full-section">
+    <div class="mz_container">
+      <div class="section_title_area">
+        <h2>FIND YOUR RUNNING SHOES</h2>
+        <p>MIZUNO RUNNING LINEUP</p>
+      </div>
+
+      <div class="four_col_grid">
+
+        <!-- SPEED -->
+        <div class="col_item">
+          <div class="col_img_wrap">
+            <img src="https://kor.mizuno.com/web/upload/running/SPEED_img.jpg" alt="SPEED" />
+          </div>
+          <div class="col_title_area">
+            <h3>SPEED</h3>
+            <div class="subtitle">기록에 도전하는 스피드</div>
+          </div>
+          <div class="lineup_label">LINEUP</div>
+          <ul class="btn_list">
+            <li><a href="#">HYPERWARP</a></li>
+            <li><a href="#">WAVE REBELLION FLASH 3</a></li>
+          </ul>
+        </div>
+
+        <!-- BOUNCE -->
+        <div class="col_item">
+          <div class="col_img_wrap">
+            <img src="https://kor.mizuno.com/web/upload/running/BOUNCE_img.jpg" alt="BOUNCE" />
+          </div>
+          <div class="col_title_area">
+            <h3>BOUNCE</h3>
+            <div class="subtitle">경쾌한 반발력의 쿠셔닝</div>
+          </div>
+          <div class="lineup_label">LINEUP</div>
+          <ul class="btn_list">
+            <li><a href="#">MIZUNO NEO VISTA 2</a></li>
+            <li><a href="#">MIZUNO NEO ZEN 2</a></li>
+            <li><a href="#">MIZUNO NEO COSMO</a></li>
+          </ul>
+        </div>
+
+        <!-- CRUISE -->
+        <div class="col_item">
+          <div class="col_img_wrap">
+            <img src="https://kor.mizuno.com/web/upload/running/CRUISE_img.jpg" alt="CRUISE" />
+          </div>
+          <div class="col_title_area">
+            <h3>CRUISE</h3>
+            <div class="subtitle">안정적인 쿠셔닝</div>
+          </div>
+          <div class="lineup_label">LINEUP</div>
+          <ul class="btn_list">
+            <li><a href="#">WAVE RIDER 29</a></li>
+            <li><a href="#">WAVE INSPIRE 22</a></li>
+          </ul>
+        </div>
+
+        <!-- FLOAT -->
+        <div class="col_item">
+          <div class="col_img_wrap">
+            <img src="https://kor.mizuno.com/web/upload/running/FLOAT_img.jpg" alt="FLOAT" />
+          </div>
+          <div class="col_title_area">
+            <h3>FLOAT</h3>
+            <div class="subtitle">부드러운 쿠셔닝</div>
+          </div>
+          <div class="lineup_label">LINEUP</div>
+          <ul class="btn_list">
+            <li><a href="#">WAVE SKY 9</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════ SILO CHART ═══════════════════════ -->
+  <div id="slio" class="silo_section">
+    <div class="mz_container">
+      <div class="section_title_area">
+        <h2 class="silo_title">SILO CHART</h2>
+        <p>MIZUNO RUNNING SHOES LINEUP</p>
+      </div>
+
+      <table class="silo-chart-table">
+        <thead>
+          <tr>
+            <th class="silo-th silo-th-label">구분</th>
+            <th class="silo-th">SPEED</th>
+            <th class="silo-th">BOUNCE</th>
+            <th class="silo-th">CRUISE</th>
+            <th class="silo-th">FLOAT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 추천 러너 -->
+          <tr>
+            <td class="silo-td silo-td-label">추천 러너</td>
+            <td class="silo-td silo-td-desc">단 1초라도 더 빠르게,<br>한계를 넘어서는 러너</td>
+            <td class="silo-td silo-td-desc">추진력에서 오는 러닝의 즐거움,<br>리듬 있게 가볍게 달리는 러너</td>
+            <td class="silo-td silo-td-desc">끝까지 무너지지 않는 안정적인 러닝,<br>매일 꾸준히 달리는 러너</td>
+            <td class="silo-td silo-td-desc">러닝 후에도 부담 없이,<br>몸과 마음을 리셋하는 러너</td>
+          </tr>
+          <!-- Sub 2.5 -->
+          <tr>
+            <td class="silo-td silo-td-label">
+              <span class="silo-main-label">Sub 2.5</span>
+              <span class="silo-sub-label">(2시간 30분 이내 완주)</span>
+            </td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">HYPERWARP PURE</a>
+            </td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+          </tr>
+          <!-- Sub 3 -->
+          <tr>
+            <td class="silo-td silo-td-label">
+              <span class="silo-main-label">Sub 3</span>
+              <span class="silo-sub-label">(3시간 이내 완주)</span>
+            </td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">HYPERWARP ELITE</a>
+              <a href="#" class="silo-btn silo-btn-yellow">HYPERWARP PRO</a>
+            </td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+          </tr>
+          <!-- Sub 3.5 -->
+          <tr>
+            <td class="silo-td silo-td-label">
+              <span class="silo-main-label">Sub 3.5</span>
+              <span class="silo-sub-label">(3시간 30분 이내 완주)</span>
+            </td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">WAVE REBELLION FLASH 3</a>
+            </td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">MIZUNO NEO VISTA 2</a>
+              <a href="#" class="silo-btn silo-btn-yellow">MIZUNO NEO ZEN 2</a>
+            </td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+          </tr>
+          <!-- Sub 4 -->
+          <tr>
+            <td class="silo-td silo-td-label">
+              <span class="silo-main-label">Sub 4</span>
+              <span class="silo-sub-label">(4시간 이내 완주)</span>
+            </td>
+            <td class="silo-td"></td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">MIZUNO NEO COSMO</a>
+            </td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+          </tr>
+          <!-- Sub (완주 목표) -->
+          <tr>
+            <td class="silo-td silo-td-label">
+              <span class="silo-main-label">Sub</span>
+              <span class="silo-sub-label">(완주 목표)</span>
+            </td>
+            <td class="silo-td"></td>
+            <td class="silo-td"></td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">WAVE RIDER 29</a>
+              <a href="#" class="silo-btn silo-btn-yellow">WAVE INSPIRE 22</a>
+            </td>
+            <td class="silo-td silo-td-products">
+              <a href="#" class="silo-btn silo-btn-yellow">WAVE SKY 9</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+</div>
