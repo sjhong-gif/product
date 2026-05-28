@@ -203,205 +203,192 @@
   color: #fff;
 }
 
-/* ───────── SILO CHART TABLE ───────── */
+/* ───────── FEATURED CARD GRID ───────── */
 .prospecs-running .silo_section {
   background-color: #f7f7f7;
-  padding: 50px 20px 80px;
+  padding: 60px 20px 100px;
 }
-.prospecs-running .silo-chart-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  table-layout: fixed;
-  font-family: "Pretendard Variable";
-  border-radius: 4px;
+.prospecs-running .featured_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.prospecs-running .featured_card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.25s ease;
 }
-.prospecs-running .silo-th {
-  background-color: #111;
-  border: none;
-  border-right: 1px solid #555;
-  padding: 16px 10px;
-  font-family: "Pretendard Variable";
-  font-size: 15px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.05em;
-}
-.prospecs-running .silo-th:last-child { border-right: none; }
-.prospecs-running .silo-th-label {
-  background-color: #222;
-  width: 160px;
-}
-.prospecs-running .silo-td {
-  border: none;
-  border-top: 1px solid #e8e8e8;
-  border-right: 1px solid #e8e8e8;
-  padding: 14px 12px;
-  vertical-align: middle;
-  text-align: center;
-  background-color: #fff;
-}
-.prospecs-running .silo-td:last-child { border-right: none; }
-.prospecs-running .silo-td-label {
-  background-color: #f7f7f7;
-  font-family: "Pretendard Variable";
-  font-size: 14px;
-  font-weight: 700;
-  color: #111;
-  text-align: center;
-}
-.prospecs-running .silo-main-label {
-  font-family: "Pretendard Variable";
-  font-size: 14px;
-  font-weight: 700;
-  color: #111;
-  display: block;
-  margin-bottom: 2px;
-}
-.prospecs-running .silo-sub-label {
-  font-family: "Pretendard Variable";
-  font-size: 11px;
-  color: #555;
-  font-weight: 400;
-  display: block;
-  line-height: 1.3;
-}
-.prospecs-running .silo-td-desc {
-  font-family: "Pretendard Variable";
-  font-size: 14px;
-  color: #555;
-  line-height: 1.7;
-}
-.prospecs-running .silo-td-products { vertical-align: middle; }
-.prospecs-running .silo-btn {
-  display: block;
-  width: 90%;
-  margin: 5px auto;
-  padding: 9px 10px;
-  font-family: "Pretendard Variable";
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 2px;
-  transition: all 0.2s ease;
-  letter-spacing: 0.03em;
-}
-.prospecs-running .silo-btn:hover {
-  filter: brightness(0.88);
-  transform: translateY(-1px);
-}
-.prospecs-running .silo-btn-yellow {
-  background-color: #e8f700;
-  color: #1d1d1d;
-  border: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+.prospecs-running .featured_card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
 }
 
-/* ───────── 대표 상품 셀 (이미지 + 제품명) ───────── */
-.prospecs-running .silo-td-product {
-  padding: 24px 16px 16px;
-  vertical-align: top;
+/* 상단 카테고리 배너 */
+.prospecs-running .featured_badge {
+  background: #1d1d1d;
+  color: #fff;
+  font-family: "Pretendard Variable";
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  padding: 12px;
+  letter-spacing: -0.01em;
 }
-.prospecs-running .product-img {
-  width: 100%;
+
+/* 제품 이미지 + 컬러칩 오버레이 */
+.prospecs-running .featured_image {
+  position: relative;
+  background: #f5f5f5;
   aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
-  background: #fff;
+  overflow: hidden;
 }
-.prospecs-running .product-img img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+.prospecs-running .featured_image .product_main_img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  padding: 16px;
+  transition: opacity 0.2s ease;
 }
-.prospecs-running .product-name {
+.prospecs-running .color_chips {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  gap: 6px;
+  padding: 6px 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 100px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.prospecs-running .color_chips .chip {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.15s ease;
+}
+.prospecs-running .color_chips .chip:hover {
+  transform: scale(1.12);
+}
+.prospecs-running .color_chips .chip.is-active::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 1.5px solid #1d1d1d;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* 제품명(PDP 링크) */
+.prospecs-running .featured_product_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 18px 20px 14px;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+.prospecs-running .featured_product_link:hover .featured_product_arrow {
+  transform: translateX(4px);
+}
+.prospecs-running .featured_product_name {
   font-family: "Pretendard Variable";
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+.prospecs-running .featured_product_arrow {
+  flex-shrink: 0;
+  font-size: 16px;
+  color: #999;
+  transition: transform 0.2s ease;
+}
+
+/* 넘버링 특징 리스트 */
+.prospecs-running .featured_features {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+}
+.prospecs-running .featured_features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.prospecs-running .featured_features li:last-child {
+  border-bottom: none;
+}
+.prospecs-running .feature_num {
+  flex-shrink: 0;
+  font-family: "General Sans", "Pretendard Variable";
+  font-size: 13px;
+  font-weight: 500;
+  color: #999;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+}
+.prospecs-running .feature_text {
+  flex: 1;
+  font-family: "Pretendard Variable";
+  font-size: 13px;
+  font-weight: 400;
   color: #1d1d1d;
-  text-align: center;
+  line-height: 1.45;
   letter-spacing: -0.01em;
 }
 
-/* ───────── 제품 특징 셀 (불릿 리스트) ───────── */
-.prospecs-running .silo-td-features {
-  padding: 20px 18px;
-  vertical-align: top;
-  text-align: left;
+/* 하단 스펙 카드 (가로 2개) */
+.prospecs-running .featured_specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 0 20px 20px;
 }
-.prospecs-running .silo-td-features ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.prospecs-running .spec_card {
+  background: #f5f5f5;
+  border-radius: 6px;
+  padding: 14px 14px 16px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  justify-content: space-between;
+  min-height: 88px;
 }
-.prospecs-running .silo-td-features li {
+.prospecs-running .spec_label {
   font-family: "Pretendard Variable";
-  font-size: 14px;
-  font-weight: 400;
-  color: #555;
-  line-height: 1.55;
-  padding-left: 12px;
-  position: relative;
-}
-.prospecs-running .silo-td-features li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 8px;
-  width: 4px;
-  height: 4px;
-  background: #1d1d1d;
-}
-
-/* ───────── 거리·페이스 셀 (수치) ───────── */
-.prospecs-running .silo-td-stat {
-  font-family: "Pretendard Variable";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
+  color: #777;
+  letter-spacing: -0.01em;
+}
+.prospecs-running .spec_value {
+  font-family: "General Sans", "Pretendard Variable";
+  font-size: 22px;
+  font-weight: 700;
   color: #1d1d1d;
-  letter-spacing: 0.01em;
-  padding: 18px 12px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin-top: 12px;
 }
-
-/* ───────── CTA 셀 ───────── */
-.prospecs-running .silo-td-cta {
-  padding: 20px 16px 24px;
-}
-.prospecs-running .silo-td-label-empty {
-  background-color: #f7f7f7;
-}
-.prospecs-running .silo-btn-outline {
-  display: inline-block;
-  width: 100%;
-  max-width: 200px;
-  padding: 12px 20px;
-  background: #fff;
-  border: 1px solid #1d1d1d;
-  color: #1d1d1d;
-  font-family: "Pretendard Variable";
-  font-size: 14px;
-  font-weight: 500;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  transition: all 0.2s ease;
-}
-.prospecs-running .silo-btn-outline:hover {
-  background: #1d1d1d;
-  color: #fff;
+.prospecs-running .spec_value_small {
+  font-size: 18px;
 }
 
 /* ===========================================
@@ -416,32 +403,18 @@
   .prospecs-running .col_item::after { display: none; }
   .prospecs-running .hero_overlay_text h1 { font-size: 36px; }
 
-  /* 테이블은 가로 스크롤로 전환 */
-  .prospecs-running .silo_section { padding: 40px 0 60px; }
-  .prospecs-running .silo_section .mz_container {
-    overflow-x: auto;
-    padding: 0 16px;
-    -webkit-overflow-scrolling: touch;
+  /* 카드 그리드는 모바일에서 세로 스택 */
+  .prospecs-running .silo_section { padding: 40px 16px 60px; }
+  .prospecs-running .featured_grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
-  .prospecs-running .silo-chart-table {
-    min-width: 720px;
-  }
-  .prospecs-running .silo-th {
-    font-size: 12px;
-    padding: 12px 8px;
-  }
-  .prospecs-running .silo-td-product { padding: 16px 10px 12px; }
-  .prospecs-running .product-name { font-size: 14px; }
-  .prospecs-running .silo-td-features { padding: 14px 12px; }
-  .prospecs-running .silo-td-features li { font-size: 12px; }
-  .prospecs-running .silo-td-stat { font-size: 13px; padding: 12px 8px; }
-  .prospecs-running .silo-btn-outline {
-    font-size: 12px;
-    padding: 10px 12px;
-  }
-  .prospecs-running .silo-btn {
-    font-size: 10px;
-    padding: 6px 4px;
-    width: 100%;
-  }
+  .prospecs-running .featured_badge { padding: 10px; font-size: 12px; }
+  .prospecs-running .featured_product_link { padding: 16px 16px 12px; }
+  .prospecs-running .featured_product_name { font-size: 16px; }
+  .prospecs-running .featured_features { padding: 0 16px; margin-bottom: 14px; }
+  .prospecs-running .featured_specs { padding: 0 16px 16px; }
+  .prospecs-running .spec_value { font-size: 20px; }
+  .prospecs-running .spec_value_small { font-size: 16px; }
+  .prospecs-running .color_chips { right: 10px; bottom: 10px; }
 }
