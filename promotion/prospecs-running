@@ -43,11 +43,11 @@
         <!-- SPEED -->
         <div class="col_item">
           <div class="col_img_wrap">
-            <img src="https://kor.mizuno.com/web/upload/running/SPEED_img.jpg" alt="SPEED" />
-          </div>
-          <div class="col_title_area">
-            <h3>입문/데일리</h3>
-            <div class="subtitle">러닝을 시작하고, 일상화로도 신고 싶은 러너</div>
+            <img src="https://kor.mizuno.com/web/upload/running/SPEED_img.jpg" alt="입문/데일리" />
+            <div class="col_img_overlay">
+              <h3>입문/데일리</h3>
+              <p class="col_img_subtitle">러닝을 시작하고, 일상화로도 신고 싶은 러너</p>
+            </div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
@@ -61,11 +61,11 @@
         <!-- BOUNCE -->
         <div class="col_item">
           <div class="col_img_wrap">
-            <img src="https://kor.mizuno.com/web/upload/running/BOUNCE_img.jpg" alt="BOUNCE" />
-          </div>
-          <div class="col_title_area">
-            <h3>성장/데일리</h3>
-            <div class="subtitle">러닝 입문 초기로, 더 안정적인 주행 실력을 갖추고 싶은 러너</div>
+            <img src="https://kor.mizuno.com/web/upload/running/BOUNCE_img.jpg" alt="성장/데일리" />
+            <div class="col_img_overlay">
+              <h3>성장/데일리</h3>
+              <p class="col_img_subtitle">러닝 입문 초기로, 더 안정적인 주행 실력을 갖추고 싶은 러너</p>
+            </div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
@@ -76,11 +76,11 @@
         <!-- CRUISE -->
         <div class="col_item">
           <div class="col_img_wrap">
-            <img src="https://kor.mizuno.com/web/upload/running/CRUISE_img.jpg" alt="CRUISE" />
-          </div>
-          <div class="col_title_area">
-            <h3>스피드/퍼포먼스</h3>
-            <div class="subtitle">기록 향상을 목표로 스피드 훈련을 하는 러너</div>
+            <img src="https://kor.mizuno.com/web/upload/running/CRUISE_img.jpg" alt="스피드/퍼포먼스" />
+            <div class="col_img_overlay">
+              <h3>스피드/퍼포먼스</h3>
+              <p class="col_img_subtitle">기록 향상을 목표로 스피드 훈련을 하는 러너</p>
+            </div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
@@ -91,11 +91,11 @@
         <!-- FLOAT -->
         <div class="col_item">
           <div class="col_img_wrap">
-            <img src="https://kor.mizuno.com/web/upload/running/FLOAT_img.jpg" alt="FLOAT" />
-          </div>
-          <div class="col_title_area">
-            <h3>장거리/레이스</h3>
-            <div class="subtitle">하프~풀마라톤 완주 및 장거리 러닝을 준비하는 러너</div>
+            <img src="https://kor.mizuno.com/web/upload/running/FLOAT_img.jpg" alt="장거리/레이스" />
+            <div class="col_img_overlay">
+              <h3>장거리/레이스</h3>
+              <p class="col_img_subtitle">하프~풀마라톤 완주 및 장거리 러닝을 준비하는 러너</p>
+            </div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
