@@ -259,7 +259,33 @@
           });
         })();
       </script>
-
+      <script>
+        (function () {
+          var KEY = 'prospecs_running_scroll';
+      
+          // 비동기 주입 페이지라 브라우저 기본 복원은 위치를 못 맞춤 → 수동 제어
+          if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+          }
+      
+          // 페이지 떠날 때 현재 스크롤 위치 저장 (pagehide = 뒤로가기 캐시 친화적)
+          window.addEventListener('pagehide', function () {
+            sessionStorage.setItem(KEY, String(window.scrollY));
+          });
+      
+          // 뒤로/앞으로 가기로 돌아온 경우에만 복원 (새로 진입·새로고침 땐 맨 위 유지)
+          var nav = performance.getEntriesByType('navigation')[0];
+          var isBack = nav && nav.type === 'back_forward';
+          var saved = sessionStorage.getItem(KEY);
+      
+          if (isBack && saved !== null) {
+            var y = parseInt(saved, 10) || 0;
+            requestAnimationFrame(function () { window.scrollTo(0, y); });
+            // 이미지 로딩으로 높이가 늦게 확정되는 경우 한 번 보정
+            setTimeout(function () { window.scrollTo(0, y); }, 300);
+          }
+        })();
+      </script>
     </div>
   </div>
 
