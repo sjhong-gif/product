@@ -227,13 +227,12 @@
   flex-direction: column;
   background: #fff;
   border: 1px solid #f7f7f7;
-  border-radius: 6px;
   overflow: hidden;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .prospecs-running .featured_card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
 }
 
 /* 상단 카테고리 배너 */
