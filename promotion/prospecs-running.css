@@ -312,6 +312,108 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
 }
 
+/* ───────── 대표 상품 셀 (이미지 + 제품명) ───────── */
+.prospecs-running .silo-td-product {
+  padding: 24px 16px 16px;
+  vertical-align: top;
+}
+.prospecs-running .product-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  background: #fff;
+}
+.prospecs-running .product-img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.prospecs-running .product-name {
+  font-family: "Pretendard Variable";
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d1d1d;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+/* ───────── 제품 특징 셀 (불릿 리스트) ───────── */
+.prospecs-running .silo-td-features {
+  padding: 20px 18px;
+  vertical-align: top;
+  text-align: left;
+}
+.prospecs-running .silo-td-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.prospecs-running .silo-td-features li {
+  font-family: "Pretendard Variable";
+  font-size: 13px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.55;
+  padding-left: 12px;
+  position: relative;
+}
+.prospecs-running .silo-td-features li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 4px;
+  height: 4px;
+  background: #1d1d1d;
+}
+
+/* ───────── 거리·페이스 셀 (수치) ───────── */
+.prospecs-running .silo-td-stat {
+  font-family: "Pretendard Variable";
+  font-size: 16px;
+  font-weight: 500;
+  color: #1d1d1d;
+  letter-spacing: 0.01em;
+  padding: 18px 12px;
+}
+
+/* ───────── CTA 셀 ───────── */
+.prospecs-running .silo-td-cta {
+  padding: 20px 16px 24px;
+}
+.prospecs-running .silo-td-label-empty {
+  background-color: #f7f7f7;
+}
+.prospecs-running .silo-btn-outline {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  padding: 12px 20px;
+  background: #fff;
+  border: 1px solid #1d1d1d;
+  border-radius: 4px;
+  color: #1d1d1d;
+  font-family: "Pretendard Variable";
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+}
+.prospecs-running .silo-btn-outline:hover {
+  background: #1d1d1d;
+  color: #fff;
+}
+
 /* ===========================================
    MOBILE ~768
    =========================================== */
@@ -323,9 +425,29 @@
   }
   .prospecs-running .col_item::after { display: none; }
   .prospecs-running .hero_overlay_text h1 { font-size: 36px; }
+
+  /* 테이블은 가로 스크롤로 전환 */
+  .prospecs-running .silo_section { padding: 40px 0 60px; }
+  .prospecs-running .silo_section .mz_container {
+    overflow-x: auto;
+    padding: 0 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .prospecs-running .silo-chart-table {
+    min-width: 720px;
+  }
   .prospecs-running .silo-th {
-    font-size: 11px;
-    padding: 10px 6px;
+    font-size: 12px;
+    padding: 12px 8px;
+  }
+  .prospecs-running .silo-td-product { padding: 16px 10px 12px; }
+  .prospecs-running .product-name { font-size: 14px; }
+  .prospecs-running .silo-td-features { padding: 14px 12px; }
+  .prospecs-running .silo-td-features li { font-size: 12px; }
+  .prospecs-running .silo-td-stat { font-size: 13px; padding: 12px 8px; }
+  .prospecs-running .silo-btn-outline {
+    font-size: 12px;
+    padding: 10px 12px;
   }
   .prospecs-running .silo-btn {
     font-size: 10px;
