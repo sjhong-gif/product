@@ -103,14 +103,14 @@
         <div class="featured_card">
           <div class="featured_badge">입문/데일리</div>
           <div class="featured_image">
-            <a href="https://www.prospecs.com/product/duplex_gf_01" class="featured_image_link"><img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" /></a>
+            <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR25F301" class="featured_image_link"><img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" /></a>
             <div class="color_chips">
-              <button type="button" class="chip is-active" style="background:#E23051; border-color:#ddd;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_01" aria-label="레드"></button>
-              <button type="button" class="chip" style="background:#525C6A;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F302/PR0UR25F302_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_02" aria-label="그레이"></button>
-              <button type="button" class="chip" style="background:#000;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F303/PR0UR25F303_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_03" aria-label="블랙"></button>
-              <button type="button" class="chip" style="background:#FFF09C;" data-src="https://img.prospecs.com/prod/PR0WR26/PR0WR26S203/PR0WR26S203_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_04" aria-label="옐로우"></button>
-              <button type="button" class="chip" style="background:#C7E0FF;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S202/PR0UR26S202_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_05" aria-label="블루"></button>
-              <button type="button" class="chip" style="background:#fafafa;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S201/PR0UR26S201_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_06" aria-label="올화이트"></button>
+              <button type="button" class="chip is-active" style="background:#E23051; border-color:#ddd;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR25F301" aria-label="레드"></button>
+              <button type="button" class="chip" style="background:#525C6A;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F302/PR0UR25F302_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR25F302" aria-label="그레이"></button>
+              <button type="button" class="chip" style="background:#000;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F303/PR0UR25F303_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR25F303" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#FFF09C;" data-src="https://img.prospecs.com/prod/PR0WR26/PR0WR26S203/PR0WR26S203_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0WR26S203" aria-label="옐로우"></button>
+              <button type="button" class="chip" style="background:#C7E0FF;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S202/PR0UR26S202_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S202" aria-label="블루"></button>
+              <button type="button" class="chip" style="background:#fafafa;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S201/PR0UR26S201_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S201" aria-label="올화이트"></button>
             </div>
           </div>
           <a href="https://www.prospecs.com/product/duplex_gf_01" class="featured_product_link">
