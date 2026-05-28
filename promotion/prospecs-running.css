@@ -471,5 +471,12 @@
   .prospecs-running .featured_specs { padding: 0 16px 16px; }
   .prospecs-running .spec_value { font-size: 20px; }
   .prospecs-running .spec_value_small { font-size: 18px; }
-  .prospecs-running .color_chips { right: 10px; bottom: 10px; }
+  .prospecs-running .color_chips { right: 10px; bottom: 10px; gap: 12px; padding: 10px 12px; }
+
+  /* 칩 시각 크기는 유지, 터치 영역만 사방 확장 (오터치 방지) */
+  .prospecs-running .color_chips .chip::before {
+    content: "";
+    position: absolute;
+    inset: -12px;
+  }
 }
