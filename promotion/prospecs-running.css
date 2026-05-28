@@ -91,7 +91,7 @@
 /* ───────── SECTION COMMON ───────── */
 .prospecs-running .full-section {
   width: 100%;
-  padding: 60px 20px 80px;
+  padding: 80px 20px 80px;
 }
 .prospecs-running .mz_container {
   max-width: 1700px;
@@ -215,7 +215,7 @@
 
 /* ───────── FEATURED CARD GRID ───────── */
 .prospecs-running .silo_section {
-  padding: 60px 20px 100px;
+  padding: 80px 20px 100px;
 }
 .prospecs-running .featured_grid {
   display: grid;
