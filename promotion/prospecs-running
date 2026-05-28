@@ -6,9 +6,9 @@
   <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
   <section class="hero_section">
     <img src="https://kor.mizuno.com/web/upload/kment/about/running_update_main_banner.jpg"
-         alt="MIZUNO RUNNING SHOES" />
+         alt="Pro-specs running shoes" />
     <div class="hero_overlay_text">
-      <h1>MIZUNO<br>RUNNING<br>SHOES</h1>
+      <h1>PRO-SPECS<br>RUNNING SHOES</h1>
     </div>
     <div class="hero_side_nav">
       <div class="hero_side_nav_line"></div>
@@ -35,8 +35,8 @@
   <div id="silotitile" class="full-section">
     <div class="mz_container">
       <div class="section_title_area">
-        <h2>FIND YOUR RUNNING SHOES</h2>
-        <p>MIZUNO RUNNING LINEUP</p>
+        <h2>Running shoes guide</h2>
+        <p>러닝 목적과 스타일에 맞춰 나에게 맞는 러닝화를 선택하세요.</p>
       </div>
 
       <div class="four_col_grid">
@@ -47,13 +47,15 @@
             <img src="https://kor.mizuno.com/web/upload/running/SPEED_img.jpg" alt="SPEED" />
           </div>
           <div class="col_title_area">
-            <h3>SPEED</h3>
-            <div class="subtitle">기록에 도전하는 스피드</div>
+            <h3>입문/데일리</h3>
+            <div class="subtitle">러닝을 시작하고, 일상화로도 신고 싶은 러너</div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
-            <li><a href="#">HYPERWARP</a></li>
-            <li><a href="#">WAVE REBELLION FLASH 3</a></li>
+            <li><a href="#">SWNA SEAM 26</a></li>
+            <li><a href="#">DUPLEX GF</a></li>
+            <li><a href="#">DUPLEX GD</a></li>
+            <li><a href="#">DUPLEX GD WIDE</a></li>
           </ul>
         </div>
 
@@ -63,14 +65,12 @@
             <img src="https://kor.mizuno.com/web/upload/running/BOUNCE_img.jpg" alt="BOUNCE" />
           </div>
           <div class="col_title_area">
-            <h3>BOUNCE</h3>
-            <div class="subtitle">경쾌한 반발력의 쿠셔닝</div>
+            <h3>성장/데일리</h3>
+            <div class="subtitle">러닝에 입문 초기로, 더 안정적인 주행 실력을 갖추고 싶은 러너</div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
-            <li><a href="#">MIZUNO NEO VISTA 2</a></li>
-            <li><a href="#">MIZUNO NEO ZEN 2</a></li>
-            <li><a href="#">MIZUNO NEO COSMO</a></li>
+            <li><a href="#">SPEED RUSH 3</a></li>
           </ul>
         </div>
 
@@ -80,13 +80,12 @@
             <img src="https://kor.mizuno.com/web/upload/running/CRUISE_img.jpg" alt="CRUISE" />
           </div>
           <div class="col_title_area">
-            <h3>CRUISE</h3>
-            <div class="subtitle">안정적인 쿠셔닝</div>
+            <h3>스피드/퍼포먼스</h3>
+            <div class="subtitle">기록 향상을 목표로 스피드 훈련을 하는 러너</div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
-            <li><a href="#">WAVE RIDER 29</a></li>
-            <li><a href="#">WAVE INSPIRE 22</a></li>
+            <li><a href="#">HYPER RUSH 2 템포</a></li>
           </ul>
         </div>
 
@@ -96,12 +95,13 @@
             <img src="https://kor.mizuno.com/web/upload/running/FLOAT_img.jpg" alt="FLOAT" />
           </div>
           <div class="col_title_area">
-            <h3>FLOAT</h3>
-            <div class="subtitle">부드러운 쿠셔닝</div>
+            <h3>장거리/레이스</h3>
+            <div class="subtitle">하프~풀마라톤 완주 및 장거리 러닝을 준비하는 러너</div>
           </div>
           <div class="lineup_label">LINEUP</div>
           <ul class="btn_list">
-            <li><a href="#">WAVE SKY 9</a></li>
+            <li><a href="#">INFINITE RUSH</a></li>
+            <li><a href="#">HYPER RUSH 2</a></li>
           </ul>
         </div>
 
