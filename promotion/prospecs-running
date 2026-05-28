@@ -121,20 +121,20 @@
         <thead>
           <tr>
             <th class="silo-th silo-th-label">구분</th>
-            <th class="silo-th">SPEED</th>
-            <th class="silo-th">BOUNCE</th>
-            <th class="silo-th">CRUISE</th>
-            <th class="silo-th">FLOAT</th>
+            <th class="silo-th">입문/데일리</th>
+            <th class="silo-th">성장/데일리</th>
+            <th class="silo-th">스피드/퍼포먼스</th>
+            <th class="silo-th">장거리/레이스</th>
           </tr>
         </thead>
         <tbody>
           <!-- 추천 러너 -->
           <tr>
-            <td class="silo-td silo-td-label">추천 러너</td>
-            <td class="silo-td silo-td-desc">단 1초라도 더 빠르게,<br>한계를 넘어서는 러너</td>
-            <td class="silo-td silo-td-desc">추진력에서 오는 러닝의 즐거움,<br>리듬 있게 가볍게 달리는 러너</td>
-            <td class="silo-td silo-td-desc">끝까지 무너지지 않는 안정적인 러닝,<br>매일 꾸준히 달리는 러너</td>
-            <td class="silo-td silo-td-desc">러닝 후에도 부담 없이,<br>몸과 마음을 리셋하는 러너</td>
+            <td class="silo-td silo-td-label">대표 상품</td>
+            <td class="silo-td silo-td-desc">DUPLEX GF</td>
+            <td class="silo-td silo-td-desc">SPEED RUSH 3</td>
+            <td class="silo-td silo-td-desc">HYPER RUSH 2 템포</td>
+            <td class="silo-td silo-td-desc">INFINITE RUSH</td>
           </tr>
           <!-- Sub 2.5 -->
           <tr>
