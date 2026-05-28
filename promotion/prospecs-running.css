@@ -1,0 +1,337 @@
+/* ===========================================
+   MIZUNO RUNNING SHOES - Landing
+   =========================================== */
+
+/* RESET (wrapper 내부로 한정) */
+.prospecs-running,
+.prospecs-running *,
+.prospecs-running *::before,
+.prospecs-running *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.prospecs-running {
+  font-family: "Noto Sans JP", "Roboto", sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.prospecs-running img { display: block; max-width: 100%; }
+.prospecs-running a { color: inherit; text-decoration: none; }
+.prospecs-running ul { list-style: none; }
+
+/* ───────── HERO BANNER ───────── */
+.prospecs-running .hero_section {
+  position: relative;
+  width: 100%;
+  max-height: 680px;
+  overflow: hidden;
+}
+.prospecs-running .hero_section img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.prospecs-running .hero_overlay_text {
+  position: absolute;
+  bottom: 80px;
+  left: 60px;
+}
+.prospecs-running .hero_overlay_text h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+.prospecs-running .hero_side_nav {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-end;
+}
+.prospecs-running .hero_side_nav_item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.prospecs-running .hero_side_nav_item span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.prospecs-running .hero_side_nav_dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+  flex-shrink: 0;
+}
+.prospecs-running .hero_side_nav_line {
+  position: absolute;
+  right: 35px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+/* ───────── SECTION COMMON ───────── */
+.prospecs-running .full-section {
+  background-color: #efefef;
+  width: 100%;
+  padding: 60px 20px 80px;
+}
+.prospecs-running .mz_container {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.prospecs-running .section_title_area {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.prospecs-running .section_title_area h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.prospecs-running .section_title_area p {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.prospecs-running .silo_title { font-weight: 900; }
+
+/* ───────── FOUR COLUMN LINEUP ───────── */
+.prospecs-running .four_col_grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  gap: 0;
+}
+.prospecs-running .col_item {
+  width: 25%;
+  padding: 0 15px;
+  position: relative;
+}
+.prospecs-running .col_item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #ccc;
+}
+.prospecs-running .col_img_wrap {
+  margin-bottom: 20px;
+}
+.prospecs-running .col_img_wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.prospecs-running .col_title_area {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.prospecs-running .col_title_area h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.prospecs-running .col_title_area .subtitle {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 13px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.prospecs-running .lineup_label {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+}
+.prospecs-running .btn_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.prospecs-running .btn_list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: all 0.2s ease;
+}
+.prospecs-running .btn_list li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ───────── SILO CHART TABLE ───────── */
+.prospecs-running .silo_section {
+  background-color: #efefef;
+  padding: 50px 20px 80px;
+}
+.prospecs-running .silo-chart-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.prospecs-running .silo-th {
+  background-color: #111;
+  border: none;
+  border-right: 1px solid #333;
+  padding: 16px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.05em;
+}
+.prospecs-running .silo-th:last-child { border-right: none; }
+.prospecs-running .silo-th-label {
+  background-color: #222;
+  width: 160px;
+}
+.prospecs-running .silo-td {
+  border: none;
+  border-top: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  padding: 14px 12px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #fff;
+}
+.prospecs-running .silo-td:last-child { border-right: none; }
+.prospecs-running .silo-td-label {
+  background-color: #f7f7f7;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+}
+.prospecs-running .silo-main-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111;
+  display: block;
+  margin-bottom: 2px;
+}
+.prospecs-running .silo-sub-label {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 11px;
+  color: #555;
+  font-weight: 400;
+  display: block;
+  line-height: 1.3;
+}
+.prospecs-running .silo-td-desc {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.7;
+}
+.prospecs-running .silo-td-products { vertical-align: middle; }
+.prospecs-running .silo-btn {
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  padding: 9px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.03em;
+}
+.prospecs-running .silo-btn:hover {
+  filter: brightness(0.88);
+  transform: translateY(-1px);
+}
+.prospecs-running .silo-btn-yellow {
+  background-color: #e8f700;
+  color: #000;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+/* ===========================================
+   MOBILE ~768
+   =========================================== */
+@media (max-width: 768px) {
+  .prospecs-running .four_col_grid { flex-direction: column; }
+  .prospecs-running .col_item {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .prospecs-running .col_item::after { display: none; }
+  .prospecs-running .hero_overlay_text h1 { font-size: 36px; }
+  .prospecs-running .silo-th {
+    font-size: 11px;
+    padding: 10px 6px;
+  }
+  .prospecs-running .silo-btn {
+    font-size: 10px;
+    padding: 6px 4px;
+    width: 100%;
+  }
+}
