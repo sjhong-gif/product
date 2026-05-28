@@ -170,14 +170,13 @@
         <div class="featured_card">
           <div class="featured_badge">스피드/퍼포먼스</div>
           <div class="featured_image">
-            <a href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" /></a>
+            <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S801" class="featured_image_link"><img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S801/PR0UR26S801_01.jpg" alt="HYPER RUSH 2 템포" /></a>
             <div class="color_chips">
-              <button type="button" class="chip is-active" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" data-href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" aria-label="레드"></button>
-              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_black.png" data-href="https://www.prospecs.com/product/hyper_rush_2_tempo_02" aria-label="블랙"></button>
-              <button type="button" class="chip" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_white.png" data-href="https://www.prospecs.com/product/hyper_rush_2_tempo_03" aria-label="화이트"></button>
+              <button type="button" class="chip is-active" style="background:#000;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S801/PR0UR26S801_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S801" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#dc2626;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S802/PR0UR26S802_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S802" aria-label="레드"></button>
             </div>
           </div>
-          <a href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" class="featured_product_link">
+          <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S801" class="featured_product_link">
             <span class="featured_product_name">HYPER RUSH 2 템포</span>
             <span class="featured_product_arrow">→</span>
           </a>
