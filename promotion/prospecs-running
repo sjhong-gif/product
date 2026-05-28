@@ -113,7 +113,7 @@
               <button type="button" class="chip" style="background:#fafafa;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S201/PR0UR26S201_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S201" aria-label="올화이트"></button>
             </div>
           </div>
-          <a href="https://www.prospecs.com/product/duplex_gf_01" class="featured_product_link">
+          <a href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR25F301" class="featured_product_link">
             <span class="featured_product_name">DUPLEX GF</span>
             <span class="featured_product_arrow">→</span>
           </a>
