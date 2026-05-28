@@ -100,7 +100,7 @@
       <div class="featured_grid">
 
         <!-- 입문/데일리 -->
-        
+        <div class="featured_card">
           <div class="featured_badge">입문/데일리</div>
           <div class="featured_image">
             <a href="https://www.prospecs.com/product/duplex_gf_01" class="featured_image_link"><img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" /></a>
@@ -132,10 +132,10 @@
               <div class="spec_value spec_value_small">8:00~6:00</div>
             </div>
           </div>
-        </article>
+        </div>
 
         <!-- 성장/데일리 -->
-        
+        <div class="featured_card">
           <div class="featured_badge">성장/데일리</div>
           <div class="featured_image">
             <a href="https://www.prospecs.com/product/speed_rush_3_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" alt="SPEED RUSH 3" /></a>
@@ -164,10 +164,10 @@
               <div class="spec_value spec_value_small">7:30~5:00</div>
             </div>
           </div>
-        </article>
+        </div>
 
         <!-- 스피드/퍼포먼스 -->
-        <article class="featured_card">
+        <div class="featured_card">
           <div class="featured_badge">스피드/퍼포먼스</div>
           <div class="featured_image">
             <a href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" /></a>
@@ -196,10 +196,10 @@
               <div class="spec_value spec_value_small">7:00~4:00</div>
             </div>
           </div>
-        </article>
+        </div>
 
         <!-- 장거리/레이스 -->
-        <article class="featured_card">
+        <div class="featured_card">
           <div class="featured_badge">장거리/레이스</div>
           <div class="featured_image">
             <a href="https://www.prospecs.com/product/infinite_rush_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" alt="INFINITE RUSH" /></a>
@@ -228,7 +228,7 @@
               <div class="spec_value spec_value_small">5:00~3:30</div>
             </div>
           </div>
-        </article>
+        </div>
 
       </div>
 
