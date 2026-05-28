@@ -135,35 +135,48 @@
   position: relative;
 }
 .prospecs-running .col_img_wrap {
+  position: relative;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .prospecs-running .col_img_wrap img {
   width: 100%;
   height: auto;
   display: block;
 }
-.prospecs-running .col_title_area {
-  text-align: center;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+/* 텍스트 가독성용 하단 dim 그라데이션 */
+.prospecs-running .col_img_wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.65) 100%);
+  pointer-events: none;
+  z-index: 1;
 }
-.prospecs-running .col_title_area h3 {
+.prospecs-running .col_img_overlay {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  z-index: 2;
+}
+.prospecs-running .col_img_overlay h3 {
   font-family: "Pretendard Variable";
   font-size: 24px;
   font-weight: 700;
-  color: #1d1d1d;
-  text-transform: uppercase;
-  text-align: center;
+  color: #fff;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
   margin-bottom: 8px;
 }
-.prospecs-running .col_title_area .subtitle {
+.prospecs-running .col_img_subtitle {
   font-family: "Pretendard Variable";
-  font-size: 16px;
-  color: #555;
+  font-size: 14px;
   font-weight: 400;
-  text-align: center;
-  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  margin: 0;
 }
 .prospecs-running .lineup_label {
   font-family: "Pretendard Variable";
@@ -388,7 +401,7 @@
   margin-top: 12px;
 }
 .prospecs-running .spec_value_small {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 /* ===========================================
