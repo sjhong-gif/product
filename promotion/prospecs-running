@@ -103,7 +103,7 @@
         <article class="featured_card">
           <div class="featured_badge">입문/데일리</div>
           <div class="featured_image">
-            <a href="#" class="featured_image_link"><img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" />
+            <img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" />
             <div class="color_chips">
               <button type="button" class="chip is-active" style="background:#E23051; border-color:#ddd;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" aria-label="레드"></button>
               <button type="button" class="chip" style="background:#525C6A;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F302/PR0UR25F302_01.jpg" aria-label="그레이"></button>
