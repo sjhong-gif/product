@@ -100,20 +100,20 @@
       <div class="featured_grid">
 
         <!-- 입문/데일리 -->
-        <article class="featured_card">
+        
           <div class="featured_badge">입문/데일리</div>
           <div class="featured_image">
-            <img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" />
+            <a href="https://www.prospecs.com/product/duplex_gf_01" class="featured_image_link"><img class="product_main_img" src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" alt="DUPLEX GF" /></a>
             <div class="color_chips">
-              <button type="button" class="chip is-active" style="background:#E23051; border-color:#ddd;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" aria-label="레드"></button>
-              <button type="button" class="chip" style="background:#525C6A;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F302/PR0UR25F302_01.jpg" aria-label="그레이"></button>
-              <button type="button" class="chip" style="background:#000;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F303/PR0UR25F303_01.jpg" aria-label="블랙"></button>
-              <button type="button" class="chip" style="background:#FFF09C;" data-src="https://img.prospecs.com/prod/PR0WR26/PR0WR26S203/PR0WR26S203_01.jpg" aria-label="옐로우"></button>
-              <button type="button" class="chip" style="background:#C7E0FF;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S202/PR0UR26S202_01.jpg" aria-label="블루"></button>
-              <button type="button" class="chip" style="background:#fafafa;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S201/PR0UR26S201_01.jpg" aria-label="올화이트"></button>
+              <button type="button" class="chip is-active" style="background:#E23051; border-color:#ddd;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F301/PR0UR25F301_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_01" aria-label="레드"></button>
+              <button type="button" class="chip" style="background:#525C6A;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F302/PR0UR25F302_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_02" aria-label="그레이"></button>
+              <button type="button" class="chip" style="background:#000;" data-src="https://img.prospecs.com/prod/PR0UR25/PR0UR25F303/PR0UR25F303_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_03" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#FFF09C;" data-src="https://img.prospecs.com/prod/PR0WR26/PR0WR26S203/PR0WR26S203_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_04" aria-label="옐로우"></button>
+              <button type="button" class="chip" style="background:#C7E0FF;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S202/PR0UR26S202_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_05" aria-label="블루"></button>
+              <button type="button" class="chip" style="background:#fafafa;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S201/PR0UR26S201_01.jpg" data-href="https://www.prospecs.com/product/duplex_gf_06" aria-label="올화이트"></button>
             </div>
           </div>
-          <a href="#" class="featured_product_link">
+          <a href="https://www.prospecs.com/product/duplex_gf_01" class="featured_product_link">
             <span class="featured_product_name">DUPLEX GF</span>
             <span class="featured_product_arrow">→</span>
           </a>
@@ -135,17 +135,17 @@
         </article>
 
         <!-- 성장/데일리 -->
-        <article class="featured_card">
+        
           <div class="featured_badge">성장/데일리</div>
           <div class="featured_image">
-            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" alt="SPEED RUSH 3" />
+            <a href="https://www.prospecs.com/product/speed_rush_3_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" alt="SPEED RUSH 3" /></a>
             <div class="color_chips">
-              <button type="button" class="chip is-active" style="background:#e0e0e0;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" aria-label="실버"></button>
-              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3_black.png" aria-label="블랙"></button>
-              <button type="button" class="chip" style="background:#f4d03f;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3_yellow.png" aria-label="옐로우"></button>
+              <button type="button" class="chip is-active" style="background:#e0e0e0;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" data-href="https://www.prospecs.com/product/speed_rush_3_01" aria-label="실버"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3_black.png" data-href="https://www.prospecs.com/product/speed_rush_3_02" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#f4d03f;" data-src="https://image.prospecs.com/front/images/planning/running/speed_rush_3_yellow.png" data-href="https://www.prospecs.com/product/speed_rush_3_03" aria-label="옐로우"></button>
             </div>
           </div>
-          <a href="#" class="featured_product_link">
+          <a href="https://www.prospecs.com/product/speed_rush_3_01" class="featured_product_link">
             <span class="featured_product_name">SPEED RUSH 3</span>
             <span class="featured_product_arrow">→</span>
           </a>
@@ -170,14 +170,14 @@
         <article class="featured_card">
           <div class="featured_badge">스피드/퍼포먼스</div>
           <div class="featured_image">
-            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" />
+            <a href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" /></a>
             <div class="color_chips">
-              <button type="button" class="chip is-active" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" aria-label="레드"></button>
-              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_black.png" aria-label="블랙"></button>
-              <button type="button" class="chip" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_white.png" aria-label="화이트"></button>
+              <button type="button" class="chip is-active" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" data-href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" aria-label="레드"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_black.png" data-href="https://www.prospecs.com/product/hyper_rush_2_tempo_02" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo_white.png" data-href="https://www.prospecs.com/product/hyper_rush_2_tempo_03" aria-label="화이트"></button>
             </div>
           </div>
-          <a href="#" class="featured_product_link">
+          <a href="https://www.prospecs.com/product/hyper_rush_2_tempo_01" class="featured_product_link">
             <span class="featured_product_name">HYPER RUSH 2 템포</span>
             <span class="featured_product_arrow">→</span>
           </a>
@@ -202,14 +202,14 @@
         <article class="featured_card">
           <div class="featured_badge">장거리/레이스</div>
           <div class="featured_image">
-            <img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" alt="INFINITE RUSH" />
+            <a href="https://www.prospecs.com/product/infinite_rush_01" class="featured_image_link"><img class="product_main_img" src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" alt="INFINITE RUSH" /></a>
             <div class="color_chips">
-              <button type="button" class="chip is-active" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" aria-label="화이트"></button>
-              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush_black.png" aria-label="블랙"></button>
-              <button type="button" class="chip" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush_red.png" aria-label="레드"></button>
+              <button type="button" class="chip is-active" style="background:#fafafa; border-color:#ddd;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" data-href="https://www.prospecs.com/product/infinite_rush_01" aria-label="화이트"></button>
+              <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush_black.png" data-href="https://www.prospecs.com/product/infinite_rush_02" aria-label="블랙"></button>
+              <button type="button" class="chip" style="background:#dc2626;" data-src="https://image.prospecs.com/front/images/planning/running/infinite_rush_red.png" data-href="https://www.prospecs.com/product/infinite_rush_03" aria-label="레드"></button>
             </div>
           </div>
-          <a href="#" class="featured_product_link">
+          <a href="https://www.prospecs.com/product/infinite_rush_01" class="featured_product_link">
             <span class="featured_product_name">INFINITE RUSH</span>
             <span class="featured_product_arrow">→</span>
           </a>
@@ -244,10 +244,17 @@
               var card = chip.closest('.featured_card');
               if (!card) return;
               var newSrc = chip.getAttribute('data-src');
+              var newHref = chip.getAttribute('data-href');
               card.querySelectorAll('.chip').forEach(function (c) { c.classList.remove('is-active'); });
               chip.classList.add('is-active');
               var img = card.querySelector('.product_main_img');
               if (newSrc && img) img.src = newSrc;
+              if (newHref) {
+                var imgLink = card.querySelector('.featured_image_link');
+                var nameLink = card.querySelector('.featured_product_link');
+                if (imgLink) imgLink.setAttribute('href', newHref);
+                if (nameLink) nameLink.setAttribute('href', newHref);
+              }
             });
           });
         })();
