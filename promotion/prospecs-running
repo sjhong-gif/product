@@ -142,7 +142,7 @@
             <div class="color_chips">
               <button type="button" class="chip is-active" style="background:#e0e0e0;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S111/PR0UR26S111_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S111" aria-label="블랙"></button>
               <button type="button" class="chip" style="background:#1a1a1a;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S112/PR0UR26S112_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S112" aria-label="그레이"></button>
-              <button type="button" class="chip" style="background:#f4d03f;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S113/PR0UR26S112_03.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S113" aria-label="옐로우"></button>
+              <button type="button" class="chip" style="background:#f4d03f;" data-src="https://img.prospecs.com/prod/PR0UR26/PR0UR26S113/PR0UR26S113_01.jpg" data-href="https://www.prospecs.com/product.do?cmd=getProductDetail&PROD_CD=PR0UR26S113" aria-label="옐로우"></button>
             </div>
           </div>
           <a href="https://www.prospecs.com/product/speed_rush_3_01" class="featured_product_link">
