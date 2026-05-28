@@ -408,29 +408,68 @@
 }
 
 /* ===========================================
+   TABLET ~1024
+   =========================================== */
+@media (max-width: 1024px) {
+  .prospecs-running .hero_overlay_text { left: 40px; bottom: 56px; }
+  .prospecs-running .hero_overlay_text h1 { font-size: 52px; }
+
+  .prospecs-running .full-section { padding: 60px 20px; }
+  .prospecs-running .section_title_area h2 { font-size: 34px; }
+
+  /* 가이드 4열 → 2열 */
+  .prospecs-running .four_col_grid { flex-wrap: wrap; }
+  .prospecs-running .col_item {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  /* FEATURED 4열 → 2열 */
+  .prospecs-running .silo_section { padding: 48px 20px 72px; }
+  .prospecs-running .featured_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+/* ===========================================
    MOBILE ~768
    =========================================== */
 @media (max-width: 768px) {
+  /* HERO */
+  .prospecs-running .hero_overlay_text { left: 20px; bottom: 32px; }
+  .prospecs-running .hero_overlay_text h1 { font-size: 32px; }
+
+  /* 섹션 공통 */
+  .prospecs-running .full-section { padding: 48px 16px; }
+  .prospecs-running .mz_container { padding: 0 16px; }
+  .prospecs-running .section_title_area { margin-bottom: 28px; }
+  .prospecs-running .section_title_area h2 { font-size: 28px; }
+  .prospecs-running .section_title_area p { font-size: 14px; }
+
+  /* 가이드 2열 → 1열 */
   .prospecs-running .four_col_grid { flex-direction: column; }
   .prospecs-running .col_item {
     width: 100%;
-    margin-bottom: 40px;
+    padding: 0;
+    margin-bottom: 32px;
   }
-  .prospecs-running .col_item::after { display: none; }
-  .prospecs-running .hero_overlay_text h1 { font-size: 36px; }
+  .prospecs-running .col_img_overlay { left: 20px; right: 20px; bottom: 20px; }
+  .prospecs-running .col_img_overlay h3 { font-size: 22px; }
+  .prospecs-running .col_img_subtitle { font-size: 14px; }
 
-  /* 카드 그리드는 모바일에서 세로 스택 */
+  /* FEATURED 2열 → 1열 */
   .prospecs-running .silo_section { padding: 40px 16px 60px; }
   .prospecs-running .featured_grid {
     grid-template-columns: 1fr;
     gap: 14px;
   }
-  .prospecs-running .featured_badge { padding: 10px; font-size: 12px; }
+  .prospecs-running .featured_badge { padding: 11px; font-size: 14px; }
   .prospecs-running .featured_product_link { padding: 16px 16px 12px; }
-  .prospecs-running .featured_product_name { font-size: 16px; }
+  .prospecs-running .featured_product_name { font-size: 17px; }
   .prospecs-running .featured_features { padding: 0 16px; margin-bottom: 14px; }
   .prospecs-running .featured_specs { padding: 0 16px 16px; }
   .prospecs-running .spec_value { font-size: 20px; }
-  .prospecs-running .spec_value_small { font-size: 16px; }
+  .prospecs-running .spec_value_small { font-size: 18px; }
   .prospecs-running .color_chips { right: 10px; bottom: 10px; }
 }
