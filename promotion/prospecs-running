@@ -128,84 +128,98 @@
           </tr>
         </thead>
         <tbody>
-          <!-- 추천 러너 -->
+          <!-- 대표 상품 (이미지 + 제품명) -->
           <tr>
             <td class="silo-td silo-td-label">대표 상품</td>
-            <td class="silo-td silo-td-desc">DUPLEX GF</td>
-            <td class="silo-td silo-td-desc">SPEED RUSH 3</td>
-            <td class="silo-td silo-td-desc">HYPER RUSH 2 템포</td>
-            <td class="silo-td silo-td-desc">INFINITE RUSH</td>
+            <td class="silo-td silo-td-product">
+              <div class="product-img">
+                <img src="https://image.prospecs.com/front/images/planning/running/duplex_gf.png" alt="DUPLEX GF" />
+              </div>
+              <div class="product-name">DUPLEX GF</div>
+            </td>
+            <td class="silo-td silo-td-product">
+              <div class="product-img">
+                <img src="https://image.prospecs.com/front/images/planning/running/speed_rush_3.png" alt="SPEED RUSH 3" />
+              </div>
+              <div class="product-name">SPEED RUSH 3</div>
+            </td>
+            <td class="silo-td silo-td-product">
+              <div class="product-img">
+                <img src="https://image.prospecs.com/front/images/planning/running/hyper_rush_2_tempo.png" alt="HYPER RUSH 2 템포" />
+              </div>
+              <div class="product-name">HYPER RUSH 2 템포</div>
+            </td>
+            <td class="silo-td silo-td-product">
+              <div class="product-img">
+                <img src="https://image.prospecs.com/front/images/planning/running/infinite_rush.png" alt="INFINITE RUSH" />
+              </div>
+              <div class="product-name">INFINITE RUSH</div>
+            </td>
           </tr>
-          <!-- Sub 2.5 -->
+          <!-- 제품 특징 -->
           <tr>
-            <td class="silo-td silo-td-label">
-              <span class="silo-main-label">Sub 2.5</span>
-              <span class="silo-sub-label">(2시간 30분 이내 완주)</span>
+            <td class="silo-td silo-td-label">제품 특징</td>
+            <td class="silo-td silo-td-features">
+              <ul>
+                <li>프로-스펙스 오리지널 기술력 G-FRAME 구조의 안정화</li>
+                <li>우수한 아치 지지</li>
+                <li>이중 물성 미드솔의 안정적 쿠셔닝</li>
+              </ul>
             </td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">HYPERWARP PURE</a>
+            <td class="silo-td silo-td-features">
+              <ul>
+                <li>경량성과 안정성 완벽 밸런스</li>
+                <li>전작 피드백을 반영한 업그레이드</li>
+                <li>속도와 거리 높여가는 성장 과정에 적합</li>
+              </ul>
             </td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
+            <td class="silo-td silo-td-features">
+              <ul>
+                <li>카본 플레이트와 슈퍼폼의 조합</li>
+                <li>러너들 스피드 훈련에 최적화</li>
+                <li>통기성 좋은 초극세사 메쉬어퍼</li>
+                <li>아웃솔의 우수한 내마모 &amp; 그립력</li>
+              </ul>
+            </td>
+            <td class="silo-td silo-td-features">
+              <ul>
+                <li>최상급 레이싱화</li>
+                <li>세계육상연맹 공식 마라톤화</li>
+                <li>카본 플레이트의 폭발적 탄성</li>
+                <li>PEBAX 슈퍼폼의 뛰어난 에너지 리턴</li>
+              </ul>
+            </td>
           </tr>
-          <!-- Sub 3 -->
+          <!-- 추천 거리 -->
           <tr>
-            <td class="silo-td silo-td-label">
-              <span class="silo-main-label">Sub 3</span>
-              <span class="silo-sub-label">(3시간 이내 완주)</span>
-            </td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">HYPERWARP ELITE</a>
-              <a href="#" class="silo-btn silo-btn-yellow">HYPERWARP PRO</a>
-            </td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
+            <td class="silo-td silo-td-label">추천 거리</td>
+            <td class="silo-td silo-td-stat">3K ~ 21K</td>
+            <td class="silo-td silo-td-stat">3K ~ 21K</td>
+            <td class="silo-td silo-td-stat">10K ~ 21K</td>
+            <td class="silo-td silo-td-stat">10K ~ 42K</td>
           </tr>
-          <!-- Sub 3.5 -->
+          <!-- 페이스 -->
           <tr>
-            <td class="silo-td silo-td-label">
-              <span class="silo-main-label">Sub 3.5</span>
-              <span class="silo-sub-label">(3시간 30분 이내 완주)</span>
-            </td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">WAVE REBELLION FLASH 3</a>
-            </td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">MIZUNO NEO VISTA 2</a>
-              <a href="#" class="silo-btn silo-btn-yellow">MIZUNO NEO ZEN 2</a>
-            </td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
+            <td class="silo-td silo-td-label">페이스</td>
+            <td class="silo-td silo-td-stat">8:00 ~ 6:00</td>
+            <td class="silo-td silo-td-stat">7:30 ~ 5:00</td>
+            <td class="silo-td silo-td-stat">7:00 ~ 4:00</td>
+            <td class="silo-td silo-td-stat">5:00 ~ 3:30</td>
           </tr>
-          <!-- Sub 4 -->
+          <!-- CTA -->
           <tr>
-            <td class="silo-td silo-td-label">
-              <span class="silo-main-label">Sub 4</span>
-              <span class="silo-sub-label">(4시간 이내 완주)</span>
+            <td class="silo-td silo-td-label silo-td-label-empty"></td>
+            <td class="silo-td silo-td-cta">
+              <a href="#" class="silo-btn-outline">더 알아보기</a>
             </td>
-            <td class="silo-td"></td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">MIZUNO NEO COSMO</a>
+            <td class="silo-td silo-td-cta">
+              <a href="#" class="silo-btn-outline">더 알아보기</a>
             </td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
-          </tr>
-          <!-- Sub (완주 목표) -->
-          <tr>
-            <td class="silo-td silo-td-label">
-              <span class="silo-main-label">Sub</span>
-              <span class="silo-sub-label">(완주 목표)</span>
+            <td class="silo-td silo-td-cta">
+              <a href="#" class="silo-btn-outline">더 알아보기</a>
             </td>
-            <td class="silo-td"></td>
-            <td class="silo-td"></td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">WAVE RIDER 29</a>
-              <a href="#" class="silo-btn silo-btn-yellow">WAVE INSPIRE 22</a>
-            </td>
-            <td class="silo-td silo-td-products">
-              <a href="#" class="silo-btn silo-btn-yellow">WAVE SKY 9</a>
+            <td class="silo-td silo-td-cta">
+              <a href="#" class="silo-btn-outline">더 알아보기</a>
             </td>
           </tr>
         </tbody>
