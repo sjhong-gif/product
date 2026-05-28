@@ -337,7 +337,7 @@
 }
 .prospecs-running .featured_features li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 14px;
   padding: 12px 0;
   border-bottom: 1px solid #e8e8e8;
