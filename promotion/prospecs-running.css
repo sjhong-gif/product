@@ -134,15 +134,6 @@
   padding: 0 15px;
   position: relative;
 }
-.prospecs-running .col_item:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 1px;
-  background-color: #ccc;
-}
 .prospecs-running .col_img_wrap {
   margin-bottom: 20px;
 }
