@@ -9,25 +9,6 @@
     <div class="hero_overlay_text">
       <h1>PRO-SPECS<br>RUNNING SHOES</h1>
     </div>
-    <div class="hero_side_nav">
-      <div class="hero_side_nav_line"></div>
-      <div class="hero_side_nav_item">
-        <span>SPEED</span>
-        <div class="hero_side_nav_dot"></div>
-      </div>
-      <div class="hero_side_nav_item">
-        <span>BOUNCE</span>
-        <div class="hero_side_nav_dot"></div>
-      </div>
-      <div class="hero_side_nav_item">
-        <span>CRUISE</span>
-        <div class="hero_side_nav_dot"></div>
-      </div>
-      <div class="hero_side_nav_item">
-        <span>FLOAT</span>
-        <div class="hero_side_nav_dot"></div>
-      </div>
-    </div>
   </section>
 
   <!-- ═══════════════════ FIND YOUR RUNNING SHOES ═══════════════════ -->
