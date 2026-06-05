@@ -14086,7 +14086,7 @@ html.msie [data-aos="ps-paint-in"].aos-init .img-wrap {
 /* 2206 장바구니[e] */
 
 /* 스폰서쉽 */
-.sponsor-inner{padding-top:75px; padding-left: 100px; padding-right: 100px; margin: auto;}
+.sponsor-inner{padding-top:75px; padding-left: 100px; padding-right: 100px; margin: auto;text-align: center;}
 .sponsor-inner .sp-title-box{font-family: 'Pretendard'; font-weight:700; margin-bottom:64px; font-size:80px;}
 .sponsor-inner .sp-img-box{font-family: 'Pretendard'; width:100%;display:flex;justify-content:space-between;}
 .sponsor-inner .sp-img-box > div{/*width:50%;*/float:left;overflow:hidden;}
