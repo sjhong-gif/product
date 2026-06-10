@@ -633,9 +633,12 @@ body {
   margin-bottom: 0 !important;
 }
 
-.ps-new .ps-prd-item .desc {
-  padding-top: 24px;
+.ps-new .ps-prd-item .desc,
+.ps-new .banner-item .desc {
+    padding-top: 24px;
 }
+
+
 
 /* 20240514 */
 .ps-new .ps-prd-item .desc .cate {
