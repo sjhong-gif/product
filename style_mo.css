@@ -3370,6 +3370,18 @@ body {
   padding-top: 0.8125rem;
 }
 
+
+/* 배너 아이템 타이틀 스타일 (ps-prd-item과 동일하게) */
+.banner-item .desc {
+  padding-top: 0.8125rem;
+}
+
+.banner-item .desc .name {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+}
+
 .ps-prd-item .desc .cate {
   font-size: 0.65rem; /* 20240619 */
   line-height: 1.5;
@@ -7686,7 +7698,7 @@ body {
       -ms-transform: translateY(0);
           transform: translateY(0);
   width: 100%;
-  padding: 0.5rem 1.25rem;
+  padding: 1.3rem 1.25rem;
 }
 
 .up .select-wrap .ps-sticky.fixed {
