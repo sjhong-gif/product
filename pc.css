@@ -561,6 +561,12 @@ header.show-sub-menus .gnb-area .logo-img {
     white-space: nowrap;
 }
 
+.prd-detail-page .detail-img-sec ul li {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+
 .main-page .sec2 .tabs>li.active,
 .main-page .sec2 .tabs>li:hover {
     color: #1d1d1d;
@@ -761,9 +767,9 @@ header.show-sub-menus .gnb-area .logo-img {
     margin-top: 16px;
     color: var(--Identity-Color-Text---body, #555);
     font-family: Pretendard;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
     letter-spacing: -0.14px;
     text-transform: uppercase;
@@ -772,7 +778,7 @@ header.show-sub-menus .gnb-area .logo-img {
 .main-page .sec4 #sec4-swiper .swiper-slide .title {
     margin-top: 12px;
     color: var(--Identity-Color-Text---title, #1d1d1d);
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

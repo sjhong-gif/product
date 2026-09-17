@@ -1,0 +1,105 @@
+/***************************** ê³µí†µ ì‚¬ìš© *****************************/
+* {
+  overflow-wrap: break-word; 
+  word-break: keep-all;  
+}
+ 
+/* btn-group */
+.btn-group {display: flex; gap: 10px;}
+.btn-group.full {flex:1;}
+.btn-group.full .btn {flex: 1;}
+
+.btn-group.grid {display: grid; width: 100%;}
+.btn-group.col2 {grid-template-columns: repeat(2, 1fr);}
+.btn-group.col3 {grid-template-columns: repeat(3, 1fr);}
+
+/* btn */
+.btn {display: inline-flex; justify-content: center; align-items: center; min-height: 44px; padding: 9px 20px; font-size: 16px; font-weight: 400; color: #1D1D1D; background-color: #fff; border: 1px solid #000;}
+.btn.black {background-color: #1D1D1D; border-color: #1D1D1D; color: #fff;}
+
+.btn.md {min-width: 148px; font-size: 14px; font-weight: 700;}
+.btn.lg {min-width: 160px; min-height: 56px; font-size: 14px; font-weight: 700;}
+.btn.w-md {min-width: 124px;}
+
+.btn-delete {display: block; width: 24px; height: 24px; background: #000 url(../../../images/onespec/icon-delete.svg) no-repeat center / 16px;}
+.btn-text.lg {color: #000; font-size: 18px; font-weight: 500; line-height: 150%;}
+
+/* etc */
+.align-end {align-items: flex-end !important;}
+.color-black {color: #000 !important;}
+.color-red5 {color: var(--red-50);}
+.color-grey7 {color: var(--color-70);}
+.font-14 {font-size: 14px; font-weight: 400;}
+.text-md {font-size: 14px; font-weight: 400; line-height: 150%; color: #555;}
+.w-124 {width: 124px !important;}
+
+/* text-list */
+.text-list.bullet {display: flex; flex-direction: column; gap: 4px;}
+.text-list.bullet li {position: relative; padding-left: 11px; font-size: 14px; font-weight: 400; line-height: 150%; color: #555; margin: 0;}
+.text-list.bullet li::before {position: absolute; left: 0px; top: 9px; content: ''; display: block; width: 3px; height: 3px; background: #E4E4E4; border-radius: 100%;}
+
+
+/***************************** Main ê³µí†µ ì‚¬ìš© *****************************/
+/*-- 260610 ìˆ˜ì • --*/
+.btn-toggle-wish {display: block; width: 32px; height: 32px; background: url(../../../images/main/ico_wishlist.svg) no-repeat center; cursor: pointer; filter: invert(89%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(89%) contrast(89%);}
+.btn-toggle-wish.is-active {background: url(../../../images/main/ico_wishlist_on.svg) no-repeat center; filter: invert(11%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);}
+/*-- //260610 ìˆ˜ì • --*/
+
+/* main-module-wrap */
+.main-module-wrap {display: flex; flex-direction: column; gap: 160px; padding-bottom: 80px;}
+.main-module-wrap > .main-module:first-child:not(.type1):not(.type2) .module-inner {margin-top: 112px;}
+
+
+/***************************** main-module - type1 *****************************/
+/* .main-module.type1 .item-module {min-width: 1600px;} */
+
+.main-module.type1 .item-img {width: 100%;}
+.main-module.type1 .item-img video,
+.main-module.type1 .item-img img {width: 100%; max-width: 100%;}
+
+.main-module.type1 .item-content {display: flex;flex-direction: column;margin-top: 40px;padding: 0 80px;}
+.main-module.type1 .item-content.left {align-items: flex-start; text-align: left;}
+.main-module.type1 .item-content.center {align-items: center; text-align: center;}
+.main-module.type1 .item-content.right {align-items: flex-end; text-align: right;}
+
+.main-module.type1 .text-group {display: flex; flex-direction: column;}
+.main-module.type1 .text-group .title {font-size: 48px;font-weight: 700;line-height: 130%;color: #1D1D1D;}
+.main-module.type1 .text-group .text1 {font-size: 20px;font-weight: 500;line-height: 150%;color: #3A424E;margin-bottom: 4px;}
+.main-module.type1 .text-group .text2 {font-size: 20px;line-height: 150%;font-weight: 400;color: #7E8591;margin-top: 6px;}
+
+.main-module.type1 .btn-group {margin-top: 40px;}
+
+.main-module1-swiper .swiper-control {position: absolute; bottom: 40px; left: 0; right: 0; padding: 0 80px; display: flex; align-items: center;pointer-events: none; z-index: 10;}
+.main-module1-swiper .swiper-control > * {pointer-events: auto;}
+.main-module1-swiper .swiper-control .main-module-progress {flex:1; margin-right: 20px; height: 2px; background: rgba(255, 255, 255, 0.7);}
+.main-module1-swiper .swiper-control .main-module-progress .progress-bar {display: block; height: 100%; width: 0%; background: #fff; transition: width 400ms ease;}
+.main-module1-swiper .swiper-control .swiper-button-prev,
+.main-module1-swiper .swiper-control .swiper-button-next {flex:none; position: relative; top: auto; left: auto; right: 0; margin: 0; min-width: 42px; width: 42px; height: 42px; background: none; transform: translateY(2px);}
+.main-module1-swiper .swiper-control .swiper-button-next svg, 
+.main-module1-swiper .swiper-control .swiper-button-prev svg {width: 100%; height: 50%; color: #f7f7f7; pointer-events: none; object-fit: contain; transform-origin: center;}
+
+/***************************** main-module - type1 full *****************************/
+.main-module.type1.full .module-inner {position: relative;}
+.main-module.type1.full .item-img {width: 100%; height: 100vh; height: 100dvh; min-height: 100vh; min-height: 100dvh;}
+.main-module.type1.full .item-img video,
+.main-module.type1.full .item-img img {width: 100%; max-width: 100%; height: 100%; object-fit: cover; object-position: center top;}
+
+.main-module.type1.full .item-content {position: absolute; margin: 0; padding: 0;}
+.main-module.type1.full .item-content.top {top: 120px;}
+.main-module.type1.full .item-content.middle {top: 50%; transform: translateY(-50%);}
+.main-module.type1.full .item-content.bottom {bottom: calc(60px + 82px);}
+
+.main-module.type1.full .item-content.left {left: 80px;}
+.main-module.type1.full .item-content.right {right: 80px;}
+.main-module.type1.full .item-content.center {left: 50%; transform: translateX(-50%);}
+
+.main-module.type1.full .text-group * {color: #fff;}
+
+.main-module1-full-swiper .swiper-control {position: absolute; bottom: 40px; left: 0; right: 0; padding: 0 80px; display: flex; align-items: center;pointer-events: none; z-index: 10;}
+.main-module1-full-swiper .swiper-control > * {pointer-events: auto;}
+.main-module1-full-swiper .swiper-control .main-module-progress {flex:1; margin-right: 20px; height: 2px; background: rgba(255, 255, 255, 0.7);}
+.main-module1-full-swiper .swiper-control .main-module-progress .progress-bar {display: block; height: 100%; width: 0%; background: #fff; transition: width 400ms ease;}
+.main-module1-full-swiper .swiper-control .swiper-button-prev,
+.main-module1-full-swiper .swiper-control .swiper-button-next {flex:none; position: relative; top: auto; left: auto; right: 0; margin: 0; min-width: 42px; width: 42px; height: 42px; background: none; transform: translateY(2px);}
+.main-module1-full-swiper .swiper-control .swiper-button-next svg, 
+.main-module1-full-swiper .swiper-control .swiper-button-prev svg {width: 100%; height: 50%; color: #f7f7f7; pointer-events: none; object-fit: contain; transform-origin: center;}
