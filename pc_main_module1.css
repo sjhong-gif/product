@@ -1,4 +1,4 @@
-/***************************** ê³µí†µ ì‚¬ìš© *****************************/
+/***************************** 공통 사용 *****************************/
 * {
   overflow-wrap: break-word; 
   word-break: keep-all;  
@@ -39,11 +39,11 @@
 .text-list.bullet li::before {position: absolute; left: 0px; top: 9px; content: ''; display: block; width: 3px; height: 3px; background: #E4E4E4; border-radius: 100%;}
 
 
-/***************************** Main ê³µí†µ ì‚¬ìš© *****************************/
-/*-- 260610 ìˆ˜ì • --*/
+/***************************** Main 공통 사용 *****************************/
+/*-- 260610 수정 --*/
 .btn-toggle-wish {display: block; width: 32px; height: 32px; background: url(../../../images/main/ico_wishlist.svg) no-repeat center; cursor: pointer; filter: invert(89%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(89%) contrast(89%);}
 .btn-toggle-wish.is-active {background: url(../../../images/main/ico_wishlist_on.svg) no-repeat center; filter: invert(11%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);}
-/*-- //260610 ìˆ˜ì • --*/
+/*-- //260610 수정 --*/
 
 /* main-module-wrap */
 .main-module-wrap {display: flex; flex-direction: column; gap: 160px; padding-bottom: 80px;}
@@ -57,15 +57,15 @@
 .main-module.type1 .item-img video,
 .main-module.type1 .item-img img {width: 100%; max-width: 100%;}
 
-.main-module.type1 .item-content {display: flex;flex-direction: column;margin-top: 40px;padding: 0 80px;}
+.main-module.type1 .item-content {display: flex; flex-direction: column; margin-top: 36px; padding: 0 80px;}
 .main-module.type1 .item-content.left {align-items: flex-start; text-align: left;}
 .main-module.type1 .item-content.center {align-items: center; text-align: center;}
 .main-module.type1 .item-content.right {align-items: flex-end; text-align: right;}
 
 .main-module.type1 .text-group {display: flex; flex-direction: column;}
-.main-module.type1 .text-group .title {font-size: 48px;font-weight: 700;line-height: 130%;color: #1D1D1D;}
-.main-module.type1 .text-group .text1 {font-size: 20px;font-weight: 500;line-height: 150%;color: #3A424E;margin-bottom: 4px;}
-.main-module.type1 .text-group .text2 {font-size: 20px;line-height: 150%;font-weight: 400;color: #7E8591;margin-top: 6px;}
+.main-module.type1 .text-group .title {font-size: 48px; font-weight: 700; line-height: 150%; color: #1D1D1D;}
+.main-module.type1 .text-group .text1 {font-size: 20px; font-weight: 700; line-height: 150%; color: #3A424E; margin-bottom: 0px;}
+.main-module.type1 .text-group .text2 {font-size: 20px; line-height: 150%; font-weight: 500; color: #7E8591; margin-top: 4px;}
 
 .main-module.type1 .btn-group {margin-top: 40px;}
 
